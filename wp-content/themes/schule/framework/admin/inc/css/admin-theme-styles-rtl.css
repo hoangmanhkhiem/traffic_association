@@ -1,0 +1,36 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Schule
+ * @version		1.0.0
+ * 
+ * Styles for Admin Panel in a Right To Left (RTL) direction
+ * Created by CMSMasters
+ * 
+ */
+
+
+.cmsmasters_upload .cmsmasters_upload_cancel {
+	left: auto;
+	right: 4px;
+	-webkit-border-radius: 0 0 3px 0;
+	-moz-border-radius: 0 0 3px 0;
+	border-radius: 0 0 3px 0;
+}
+
+span[data-class=cmsmasters_new_icon_img] {
+	margin: -11px 0 -1px 15px;
+	float: right;
+}
+
+a.cmsmasters_remove_icon {
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+.cmsmasters-media-select-frame .media-frame-title, 
+.cmsmasters-media-select-frame .media-frame-router, 
+.cmsmasters-media-select-frame .media-frame-content, 
+.cmsmasters-media-select-frame .media-frame-toolbar {
+	right: 0;
+}
+

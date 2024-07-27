@@ -1,0 +1,46 @@
+/**
+ * @package 	WordPress Plugin
+ * @subpackage 	CMSMasters Donations
+ * @version 	1.0.0
+ * 
+ * CMSMasters Donations Submit Donation Form RTL (Right-to-Left) Styles
+ * Created by CMSMasters
+ * 
+ */
+
+
+.cmsmasters_donation_field > label {
+	padding:0 0 0 20px;
+	float:right;
+}
+
+.cmsmasters_donation_field .field_inner > label {
+	float:right;
+}
+
+.cmsmasters_donation_field .field_inner > label > input[type=radio] {
+	margin:0 0 0 5px;
+}
+
+.cmsmasters_donation_field .field_inner > input[type=checkbox] + small.description {
+	margin:0 15px 0 0;
+}
+
+.cmsmasters_donator_field {
+	float:right;
+}
+
+
+/* ---------- Contact Form Validation Error Styles ---------- */
+
+.inputContainer {
+	float:right;
+}
+
+.formError {
+	margin-left:0;
+	margin-right:-40px;
+	left:auto;
+	right:300px;
+}
+

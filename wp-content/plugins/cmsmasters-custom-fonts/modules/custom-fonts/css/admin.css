@@ -1,0 +1,314 @@
+/**
+ * @package 	WordPress Plugin
+ * @subpackage 	CMSMasters Custom Fonts
+ * @version 	1.0.1
+ * 
+ * Fonts Admin Styles
+ * Created by CMSMasters
+ * 
+ */
+
+
+#normal-sortables.meta-box-sortables .postbox[id^="mymetabox_revslider_"], 
+#normal-sortables.meta-box-sortables .postbox[id*=" mymetabox_revslider_"] {
+	display:none;
+}
+
+.post-type-cmsmasters_font #minor-publishing-actions, 
+.post-type-cmsmasters_font #misc-publishing-actions, 
+.post-type-cmsmasters_font #tagsdiv-elementor_font_type {
+	display:none;
+}
+
+.column-font_preview {
+	width:60%;
+}
+
+td.column-font_preview {
+	font-size:16px;
+}
+
+.column-font_vars {
+	width:20%;
+}
+
+td.column-font_vars {
+	font-size:14px;
+}
+
+.cmsmasters_font_listing_var {
+	display:block;
+}
+
+.cmsmasters_font_listing_var + .cmsmasters_font_listing_var {
+	margin-top:5px;
+}
+
+.cmsmasters_custom_fonts_info {
+	background:#fff;
+	border-left:4px solid #fff;
+	box-shadow:0 1px 1px 0 rgba(0,0,0,.1);
+	margin:20px 0 0;
+	padding:1px 12px;
+}
+
+#cmsmasters-custom-font-metabox {
+	background-color:transparent;
+	border:0;
+	opacity:1;
+	visibility:visible;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	-webkit-transition:opacity .3s ease-in-out, visibility .3s ease-in-out;
+	-moz-transition:opacity .3s ease-in-out, visibility .3s ease-in-out;
+	-ms-transition:opacity .3s ease-in-out, visibility .3s ease-in-out;
+	-o-transition:opacity .3s ease-in-out, visibility .3s ease-in-out;
+	transition:opacity .3s ease-in-out, visibility .3s ease-in-out;
+}
+
+#cmsmasters-custom-font-metabox.postbox {
+	opacity:0;
+	visibility:hidden;
+}
+
+#cmsmasters-custom-font-metabox .hndle {
+	padding:0;
+	margin-bottom:20px;
+	pointer-events:none;
+}
+
+#cmsmasters-custom-font-metabox .inside {
+	margin:0;
+	padding:0;
+}
+
+.cmsmasters-custom-font-metabox-content * {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block {
+	background:#ffffff;
+	color:#444444;
+	margin-bottom:5px;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .repeater-title {
+	padding:20px;
+	display:block !important;
+	cursor:pointer;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block.block-visible .repeater-title {
+	display:none !important;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .row-font-label {
+	text-transform:capitalize;
+	padding:0;
+	margin:0;
+	display:-webkit-flex;
+	display:-moz-flex;
+	display:-ms-flex;
+	display:flex;
+	-webkit-align-items:center;
+	-moz-align-items:center;
+	-ms-align-items:center;
+	align-items:center;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .row-font-label li {
+	width:100%;
+	margin:0;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .row-font-label li.row-font-weight, 
+.cmsmasters-custom-font-metabox-content .repeater-block .row-font-label li.row-font-style {
+	max-width:180px;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .row-font-label li.row-font-actions {
+	max-width:200px;
+	text-align:right;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .row-font-label li span.label {
+	font-weight:600;
+	padding-right:10px;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .cmsmasters-repeater-tool-btn {
+	color:#82878c;
+	cursor:pointer;
+	padding:0 10px;
+	margin:0 10px;
+	font-size:20px;
+	line-height:1em;
+	-webkit-transition:all 0.5s;
+	-o-transition:all 0.5s;
+	transition:all 0.5s;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .cmsmasters-repeater-tool-btn:hover {
+	color:#0073aa;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .cmsmasters-repeater-tool-btn:before {
+	font-family:dashicons;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block.block-visible .toggle-repeater-row {
+	display:none;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .close-repeater-row {
+	display:none;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block.block-visible .close-repeater-row {
+	display:inline-block;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .cmsmasters-repeater-tool-btn.remove-repeater-row {
+	padding-right:0;
+	margin-right:0;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .cmsmasters-repeater-tool-btn.remove-repeater-row:hover {
+	color:#dc3232;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .repeater-content {
+	display:none;
+	margin:0;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block.block-visible .repeater-content {
+	display:block;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .repeater-content-top {
+	text-transform:capitalize;
+	margin:0;
+	padding:20px;
+	display:-webkit-flex;
+	display:-moz-flex;
+	display:-ms-flex;
+	display:flex;
+	-webkit-align-items:center;
+	-moz-align-items:center;
+	-ms-align-items:center;
+	align-items:center;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .repeater-content-top > div {
+	width:100%;
+	margin:0;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .repeater-content-top p {
+	margin:0;
+	display:inline-block;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .repeater-content-top p label {
+	font-weight:600;
+	padding-right:10px;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .repeater-content-top .cmsmasters-field-select {
+	max-width:180px;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .repeater-content-top .cmsmasters-field-toolbar {
+	max-width:200px;
+	text-align:right;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .repeater-content-bottom {
+	border-top:1px solid #dddddd;
+	background-color:#f5f5f5;
+	margin:0;
+	padding:20px 40px;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .repeater-content-bottom .cmsmasters-field {
+	background-color:#ffffff;
+	padding:10px 20px;
+	display:-webkit-flex;
+	display:-moz-flex;
+	display:-ms-flex;
+	display:flex;
+	-webkit-align-items:center;
+	-moz-align-items:center;
+	-ms-align-items:center;
+	align-items:center;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .repeater-content-bottom .cmsmasters-field + .cmsmasters-field {
+	margin-top:10px;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .repeater-content-bottom .cmsmasters-field p,
+.cmsmasters-custom-font-metabox-content .repeater-block .repeater-content-bottom .cmsmasters-field input {
+	width:100%;
+	margin:0;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .repeater-content-bottom .cmsmasters-field .cmsmasters-field-label {
+	font-weight:500;
+	max-width:120px;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .repeater-content-bottom .cmsmasters-field .cmsmasters-field-label label {
+	display:block;
+}
+
+.cmsmasters-custom-font-metabox-content .repeater-block .repeater-content-bottom .cmsmasters-field .cmsmasters-field-input {
+	padding:5px 8px;
+	margin:0 15px;
+}
+
+.cmsmasters-custom-font-metabox-content .cmsmasters-custom-fonts-button {
+	background:#0085ba;
+	color:#ffffff;
+	border:0;
+	height:auto;
+	padding:5px 20px;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	-webkit-transition:background-color .3s ease-in-out;
+	-moz-transition:background-color .3s ease-in-out;
+	-ms-transition:background-color .3s ease-in-out;
+	-o-transition:background-color .3s ease-in-out;
+	transition:background-color .3s ease-in-out;
+}
+
+.cmsmasters-custom-font-metabox-content .cmsmasters-custom-fonts-button:hover,
+.cmsmasters-custom-font-metabox-content .cmsmasters-custom-fonts-button:focus {
+	color:#ffffff;
+	background:#02afef;
+}
+
+.cmsmasters-custom-font-metabox-content .cmsmasters-custom-fonts-button.cmsmasters-upload-btn,
+.cmsmasters-custom-font-metabox-content .cmsmasters-custom-fonts-button.cmsmasters-upload-clear-btn {
+	max-width:100px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.cmsmasters-custom-font-metabox-content .cmsmasters-custom-fonts-button.cmsmasters-upload-clear-btn {
+	background:#aa0000;
+	color:#ffffff;
+}
+
+.cmsmasters-custom-font-metabox-content .cmsmasters-custom-fonts-button.cmsmasters-upload-clear-btn:hover {
+	background:#dc3232
+}
+
+.cmsmasters-custom-font-metabox-content .cmsmasters-custom-fonts-button.add-repeater-row {
+	margin-top:20px;
+}

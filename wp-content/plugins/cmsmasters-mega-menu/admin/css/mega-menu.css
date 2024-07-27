@@ -1,0 +1,181 @@
+/**
+ * @package 	WordPress Plugin
+ * @subpackage 	CMSMasters Mega Menu
+ * @version 	1.2.6
+ * 
+ * Mega Menu Builder Styles
+ * Created by CMSMasters
+ * 
+ */
+
+
+.is-mega-menu, 
+.is-column, 
+.is-mega-descr-text {
+	color: #999999;
+	font-style: italic;
+	font-weight: 400;
+	display: none;
+	margin-left: 4px;
+}
+
+.is-drop-side-right {
+	color: #aaaaaa;
+	font-size: 14px;
+	display: none;
+	margin-left: 6px;
+	position: relative;
+	vertical-align: middle;
+}
+
+.cmsmasters_hide_text {
+	text-decoration: line-through;
+}
+
+.cmsmasters_highlight {
+	color: #0074a2;
+}
+
+.item-title .menu-item-title:before {
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.field-mega_cols, 
+.field-mega_cols_full, 
+.field-mega_descr_text, 
+.field-mega_bg_img, 
+.field-mega_bg_pos, 
+.field-mega_bg_rep, 
+.field-mega_bg_att, 
+.field-mega_bg_size, 
+.menu-item.menu-item-depth-1 .field-drop_side, 
+.menu-item.menu-item-depth-2 .field-drop_side, 
+.menu-item.menu-item-depth-3 .field-drop_side, 
+.menu-item.menu-item-depth-4 .field-drop_side, 
+.menu-item.menu-item-depth-5 .field-drop_side, 
+.menu-item.menu-item-depth-6 .field-drop_side, 
+.menu-item.menu-item-depth-7 .field-drop_side, 
+.menu-item.menu-item-depth-8 .field-drop_side, 
+.menu-item.menu-item-depth-9 .field-drop_side, 
+.menu-item.menu-item-depth-10 .field-drop_side, 
+.menu-item.menu-item-depth-11 .field-drop_side, 
+.menu-item.menu-item-depth-1 .field-mega, 
+.menu-item.menu-item-depth-2 .field-mega, 
+.menu-item.menu-item-depth-3 .field-mega, 
+.menu-item.menu-item-depth-4 .field-mega, 
+.menu-item.menu-item-depth-5 .field-mega, 
+.menu-item.menu-item-depth-6 .field-mega, 
+.menu-item.menu-item-depth-7 .field-mega, 
+.menu-item.menu-item-depth-8 .field-mega, 
+.menu-item.menu-item-depth-9 .field-mega, 
+.menu-item.menu-item-depth-10 .field-mega, 
+.menu-item.menu-item-depth-11 .field-mega, 
+.menu-item.menu-item-depth-1 .field-hide_text, 
+.menu-item.menu-item-depth-2 .field-hide_text, 
+.menu-item.menu-item-depth-3 .field-hide_text, 
+.menu-item.menu-item-depth-4 .field-hide_text, 
+.menu-item.menu-item-depth-5 .field-hide_text, 
+.menu-item.menu-item-depth-6 .field-hide_text, 
+.menu-item.menu-item-depth-7 .field-hide_text, 
+.menu-item.menu-item-depth-8 .field-hide_text, 
+.menu-item.menu-item-depth-9 .field-hide_text, 
+.menu-item.menu-item-depth-10 .field-hide_text, 
+.menu-item.menu-item-depth-11 .field-hide_text, 
+.menu-item.menu-item-depth-1 .field-subtitle, 
+.menu-item.menu-item-depth-2 .field-subtitle, 
+.menu-item.menu-item-depth-3 .field-subtitle, 
+.menu-item.menu-item-depth-4 .field-subtitle, 
+.menu-item.menu-item-depth-5 .field-subtitle, 
+.menu-item.menu-item-depth-6 .field-subtitle, 
+.menu-item.menu-item-depth-7 .field-subtitle, 
+.menu-item.menu-item-depth-8 .field-subtitle, 
+.menu-item.menu-item-depth-9 .field-subtitle, 
+.menu-item.menu-item-depth-10 .field-subtitle, 
+.menu-item.menu-item-depth-11 .field-subtitle {
+	display: none;
+}
+
+.menu-item span[data-class=cmsmasters_new_icon_img] {
+	font-size: 14px;
+	line-height: 22px;
+	width: 24px;
+	height: 24px;
+	margin: 0 10px 0 0;
+}
+
+.menu-item span[data-class=cmsmasters_new_icon_img]:before {
+	line-height: 22px;
+}
+
+.menu-item a.cmsmasters_remove_icon {
+	font-size: 16px;
+	text-align: center;
+	margin-left: 5px;
+	overflow: visible;
+}
+
+.menu-item-settings:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	overflow: hidden;
+}
+
+.menu-item-settings input[type=checkbox], 
+.menu-item-settings input[type=radio] {
+	width: 25px;
+}
+
+.menu-item-settings input[type=button], 
+.menu-item-settings button {
+	width: auto;
+}
+
+.description-tall {
+	height: 20px;
+	padding-top: 20px;
+}
+
+.description-wafer-thin {
+	height: 20px;
+}
+
+.description-narrow {
+	width: 123px;
+}
+
+.menu-item .wp-picker-open + .wp-picker-input-wrap {
+	position: relative;
+}
+
+.menu-item-settings .field-color .wp-picker-holder .iris-picker {
+	z-index: 1;
+}
+
+
+@media only screen and (max-width: 782px) {
+	
+	.menu-item span[data-class=cmsmasters_new_icon_img] {
+		font-size: 20px;
+		line-height: 34px;
+		width: 36px;
+		height: 36px;
+	}
+	
+	.menu-item span[data-class=cmsmasters_new_icon_img]:before {
+		line-height: 34px;
+	}
+	
+	.menu-item a.cmsmasters_remove_icon {
+		font-size: 20px;
+	}
+	
+	.description-tall {
+		padding-top: 0;
+	}
+	
+}
+

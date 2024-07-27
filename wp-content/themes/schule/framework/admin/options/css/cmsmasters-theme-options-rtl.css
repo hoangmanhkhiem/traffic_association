@@ -1,0 +1,256 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Schule
+ * @version 	1.0.1
+ * 
+ * Post, Page, Project & Profile Options RTL Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+body {
+	unicode-bidi: embed;
+	direction: rtl;
+}
+
+input[type=number] {
+	padding: 2px 6px 2px 0;
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+input[type=range] {
+	float: right;
+}
+
+input[type=range] + input[type=text] {
+	float: right;
+}
+
+.ui-helper-zfix {
+	left: auto;
+	right: 0;
+}
+
+.ui-widget-overlay {
+	left: auto;
+	right: 0;
+}
+
+.fl {
+	float: right;
+}
+
+.fr {
+	float: left;
+}
+
+#poststuff h2.nav-tab-wrapper {
+	padding-right: 10px;
+}
+
+.nav-tab {
+	margin-left: 7px;
+}
+
+.form-table table td {
+	padding-left: 20px;
+	padding-right: 0;
+}
+
+.cmsmasters_tr_radio_img input[type="radio"], 
+.cmsmasters_tr_radio_img_pj input[type="radio"] {
+	margin-left: 5px;
+	margin-right: 0;
+}
+
+.cmsmasters_tr_images_list .cmsmasters_gallery .cmsmasters_gallery_cancel {
+	text-align: center;
+	left: auto;
+	right: 4px;
+	-webkit-border-radius: 3px 0 0 0;
+	-moz-border-radius: 3px 0 0 0;
+	border-radius: 3px 0 0 0;
+}
+
+.cmsmasters_tr_images_list .cmsmasters_gallery li {
+	float: right;
+	margin-left: 7px;
+	margin-right: 0;
+}
+
+.cmsmasters_tr_images_list .cmsmasters_gallery li.ui-sortable-placeholder {
+	margin-left: 8px;
+	margin-right: 1px;
+}
+
+.pickcolor_example {
+	margin-left: 7px;
+	margin-right: 3px;
+}
+
+.cmsmasters_heading_icons_list .cmsmasters_heading_icon {
+	padding-left: 15px;
+	padding-right: 0;
+}
+
+tr.cmsmasters_tr_repeatable_link .ovh .fl, 
+tr.cmsmasters_tr_repeatable_multiple .ovh .fl {
+	padding-left: 0;
+	padding-right: 5px;
+}
+
+tr.cmsmasters_tr_repeatable_link .ovh .fl:first-child, 
+tr.cmsmasters_tr_repeatable_multiple .ovh .fl:first-child {
+	padding-right: 30px;
+}
+
+tr.cmsmasters_tr_repeatable .custom_repeatable li span.hndle, 
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li span.hndle, 
+tr.cmsmasters_tr_repeatable_link .custom_repeatable li span.hndle {
+	float: right;
+	padding-left: 5px;
+	padding-right: 0;
+}
+
+tr.cmsmasters_tr_repeatable .custom_repeatable li input[type="text"], 
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li input[type="text"], 
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li textarea, 
+tr.cmsmasters_tr_repeatable_media .custom_repeatable li input[type="text"], 
+tr.cmsmasters_tr_repeatable_link .custom_repeatable li input[type="text"] {
+	float: right;
+	margin-left: 5px;
+}
+
+tr.cmsmasters_tr_repeatable .custom_repeatable li a.repeatable-remove, 
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li a.repeatable-copy, 
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li a.repeatable-remove, 
+tr.cmsmasters_tr_repeatable_media .custom_repeatable li a.repeatable-remove, 
+tr.cmsmasters_tr_repeatable_link .custom_repeatable li a.repeatable-remove {
+	float: right;
+}
+
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li a.repeatable-copy {
+	margin-left: 5px;
+}
+
+.wp-color-result:after {
+	-webkit-border-radius: 1px 0 0 1px;
+	-moz-border-radius: 1px 0 0 1px;
+	border-radius: 1px 0 0 1px;
+}
+
+.form-table .icon_management .icon_del, 
+.form-table .icon_management .icon_move {
+	text-align: center;
+	left: auto;
+	right: 4px;
+	-webkit-border-radius: 3px 0 0 0;
+	-moz-border-radius: 3px 0 0 0;
+	border-radius: 3px 0 0 0;
+}
+
+.form-table .icon_management .icon_del {
+	left: auto;
+	right: 3px;
+}
+
+.form-table .icon_management .icon_move {
+	left: 3px;
+	right: auto;
+	-webkit-border-radius: 0 0 3px 0;
+	-moz-border-radius: 0 0 3px 0;
+	border-radius: 0 0 3px 0;
+}
+
+.form-table td .icon_management small {
+	left: auto;
+	right: 0;
+}
+
+.icon_management ul li {
+	float: right;
+	margin-left: 25px;
+	margin-right: 0;
+}
+
+.icon_management ul li div {
+	text-align: center;
+}
+
+.form-table .contact_info_management .icon_del, 
+.form-table .contact_info_management .icon_move {
+	text-align: center;
+	left: auto;
+	right: 4px;
+	-webkit-border-radius: 3px 0 0 0;
+	-moz-border-radius: 3px 0 0 0;
+	border-radius: 3px 0 0 0;
+}
+
+.form-table .contact_info_management .icon_del {
+	left: 0;
+	right: auto;
+}
+
+.form-table .contact_info_management .icon_move {
+	left: auto;
+	right: 0;
+	-webkit-border-radius: 0 0 3px 0;
+	-moz-border-radius: 0 0 3px 0;
+	border-radius: 0 0 3px 0;
+}
+
+.form-table td .contact_info_management small {
+	left: auto;
+	right: 0;
+}
+
+.contact_info_management ul li {
+	float: right;
+	margin-left: 25px;
+	margin-right: 0;
+}
+
+.contact_info_management ul li div {
+	text-align: right;
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+.contact_info_management ul li div:before {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+#new_icon_icon {
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 0;
+	float: right;
+}
+
+#cancel_icon {
+	margin-right: 20px;
+}
+
+.icon_upload_link label input[type="text"] {
+	margin-left: 10px;
+}
+
+.contact_info_upload_link label input[type="text"] {
+	margin-left: 10px;
+}
+
+span[data-class=cmsmasters_new_icon_img] {
+	margin-left: 15px;
+	margin-right: 0;
+	float: left;
+}
+
+.button.cmsmasters_remove_icon {
+	margin-left: 0;
+	margin-right: 15px;
+}
+

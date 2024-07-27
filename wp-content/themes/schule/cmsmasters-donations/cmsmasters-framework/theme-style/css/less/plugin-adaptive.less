@@ -1,0 +1,211 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Schule
+ * @version 	1.0.0
+ * 
+ * CMSMasters Donations Responsive CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+
+@import "../../../../../theme-framework/theme-style/css/less/general.less";
+
+
+@media only screen {
+/*-------------------------------------------------------------------------*/
+/* Tablet Monitor
+/*-------------------------------------------------------------------------*/
+@media @monitor_tablet {
+	#page {
+		.donations.opened-article {
+			> .donation {
+				.cmsmasters_donation_info {
+					.tac;
+					padding-bottom: 18px;
+				}
+				
+				.cmsmasters_donation_info_img {
+					width:40%;
+					padding:0 0 30px;
+				}
+				
+				.cmsmasters_donation_info_cont {
+					display:block;
+					width:100%;
+					margin: 0;
+					.tac;
+				}
+				.cmsmasters_donation_content {
+					.tac;
+				}
+			}
+		}
+		
+		.header_top_donation_but {
+			margin:10px 0 0;
+			padding:5px 20px;
+		}
+	}
+	
+	.cmsmasters_featured_campaign .campaign {
+		.tac; 
+		
+		.cmsmasters_campaign_wrap_img, 
+		.cmsmasters_campaign_donated_percent {
+			float:none;
+			display:inline-block;
+			vertical-align:middle;
+		}
+		
+		.cmsmasters_campaign_wrap_img + .cmsmasters_campaign_donated_percent {
+			margin:0 0 0 100px;
+		}
+		
+		.cmsmasters_campaign_cont {
+			float:none;
+			width:100%;
+			padding:50px 0 0;
+			.cl;
+			
+			* {
+				.tac;
+			}
+		}
+	}
+}
+
+
+/*-------------------------------------------------------------------------*/
+/* Small Tablet Monitor
+/*-------------------------------------------------------------------------*/
+@media @monitor_tablet_small {
+	#page {
+		.header_donation_but_wrap {
+			width:100%;
+			float:none;
+			margin:0;
+			padding:15px 5% 20px;
+			.cl;
+			
+			.header_donation_but_wrap_inner {
+				display:block;
+				height:auto !important;
+				width:100%;
+				
+				.header_donation_but {
+					display:block;
+					.tac;
+				}
+			}
+		}
+		
+		.donations.opened-article {
+			> .donation {
+				.cmsmasters_donation_info_img {
+					width:60%;
+				}
+			}
+		}
+		
+		.cmsmasters_featured_campaign {
+			.campaign {
+				.cmsmasters_campaign_wrap_img {
+					width:200px;
+				}
+				
+				.cmsmasters_campaign_donated_percent {
+					.cmsmasters_stat_wrap .cmsmasters_stat_container {
+						height:200px;
+						width:150px;
+					}
+				}
+				
+				.cmsmasters_campaign_wrap_img + .cmsmasters_campaign_donated_percent {
+					margin:0 0 0 60px;
+				}
+			}
+		}
+		
+		.opened-article > .campaign {
+			.campaign_meta_wrap {
+				display:block;
+				
+				> div {
+					display:block;
+					width:100%;
+					.bdl(0);
+					
+					&:not(:first-of-type) {
+						.bdt;
+					}
+				}
+	
+				.cmsmasters_campaign_donate_button .button {
+					padding:0 42px;
+				}
+				
+				.cmsmasters_stat_wrap {
+					padding:0;
+				}
+			}
+		}
+	}
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/* Phone Monitor
+/*-------------------------------------------------------------------------*/
+@media @monitor_phone {
+	#page {
+		.cmsmasters_donation_field > label, 
+		.cmsmasters_donation_field .field_inner {
+			width:100%;
+			padding:0;
+			margin:0 0 15px;
+		}
+		
+		.donations.opened-article {
+			> .donation {
+				.cmsmasters_donation_info {
+					padding:20px;
+				}
+			}
+		}
+		
+		.cmsmasters_featured_campaign {
+			.campaign {
+				padding:38px 28px;
+				
+				.cmsmasters_campaign_wrap_img {
+					margin:0 auto;
+					display:block;
+				}
+				
+				
+				.cmsmasters_campaign_donated_percent,
+				.cmsmasters_campaign_wrap_img + .cmsmasters_campaign_donated_percent {
+					margin:40px 0 0;
+				}
+			}
+		}
+	}
+
+	.cmsmasters_featured_campaign .campaign .cmsmasters_campaign_cont {
+		padding: 10px 0 0 0;
+	}
+	
+	.donations.opened-article > .donation {
+		.cmsmasters_donation_details_item_title {
+			width:35%;
+		}
+		.cmsmasters_donation_details_item_value {
+			width:65%;
+		}
+	}
+}
+}
+

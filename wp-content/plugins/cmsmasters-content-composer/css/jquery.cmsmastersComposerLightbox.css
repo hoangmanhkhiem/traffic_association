@@ -1,0 +1,881 @@
+/**
+ * @package 	WordPress Plugin
+ * @subpackage 	CMSMasters Content Composer
+ * @version		2.1.2
+ * 
+ * Responsive Lightbox Styles
+ * Created by CMSMasters
+ * 
+ */
+
+
+.cmsmastersBoxOut {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 50000;
+}
+
+.cmsmastersBoxBack {
+	background-color: rgba(0, 0, 0, .6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.cmsmastersBoxOut[data-editor] .cmsmastersBoxBack, 
+.cmsmastersBoxOut[data-multiple] .cmsmastersBoxBack, 
+.cmsmastersBoxOut[data-link] .cmsmastersBoxBack {
+	background-color: rgba(0, 0, 0, .05);
+}
+
+.cmsmastersBoxOut[data-shortcode="cmsmasters_shortcodes"] .cmsmastersBoxBack {
+	background-color: rgba(0, 0, 0, .3);
+}
+
+.cmsmastersBoxCont {
+	background-color: #fdfdfd;
+	width: 70%;
+	height: 90%;
+	position: absolute;
+	top: 5%;
+	left: 15%;
+	-webkit-box-shadow: 0 0 50px #333333;
+	-moz-box-shadow: 0 0 50px #333333;
+	box-shadow: 0 0 50px #333333;
+}
+
+.cmsmastersBoxOut[data-editor] .cmsmastersBoxCont, 
+.cmsmastersBoxOut[data-multiple] .cmsmastersBoxCont, 
+.cmsmastersBoxOut[data-shortcode="cmsmasters_shortcodes"] .cmsmastersBoxCont {
+	width: 66%;
+	height: 86%;
+	top: 7%;
+	left: 17%;
+}
+
+.cmsmastersBoxOut[data-link] .cmsmastersBoxCont {
+	width: 60%;
+	height: 80%;
+	top: 10%;
+	left: 20%;
+}
+
+.cmsmastersBoxOut[data-shortcode="cmsmasters_table"] .cmsmastersBoxCont, 
+.cmsmastersBoxCont.resp {
+	width: 90%;
+	left: 5%;
+}
+
+.cmsmastersBoxOut[data-editor] .cmsmastersBoxCont.resp, 
+.cmsmastersBoxOut[data-multiple] .cmsmastersBoxCont.resp, 
+.cmsmastersBoxOut[data-shortcode="cmsmasters_shortcodes"] .cmsmastersBoxCont.resp {
+	width: 88%;
+	height: 88%;
+	top: 6%;
+	left: 6%;
+}
+
+.cmsmastersBoxOut[data-link] .cmsmastersBoxCont.resp {
+	width: 84%;
+	height: 84%;
+	top: 8%;
+	left: 18%;
+}
+
+.cmsmastersBoxBack, 
+.cmsmastersBoxCont {
+	opacity: 0;
+}
+
+.showBox .cmsmastersBoxBack, 
+.showBox .cmsmastersBoxCont {
+	opacity: 1;
+}
+
+.cmsmastersBoxContIn {
+	height: 100%;
+	padding: 0 30px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.cmsmastersBoxContIn:before {
+	font-size: 24px;
+	margin-top: 100px;
+	opacity: 0;
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+	-ms-transition: opacity .2s ease-in-out;
+	-o-transition: opacity .2s ease-in-out;
+	transition: opacity .2s ease-in-out;
+}
+
+.preloadBox .cmsmastersBoxContIn:before {
+	opacity: 1;
+}
+
+.cmsmastersBoxContIn > div {
+	text-align: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.cmsmastersBoxContInTop {
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #cccccc;
+	padding: 2px 20px 0;
+	margin: 0;
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.cmsmastersBoxContInMid {
+	position: absolute;
+	top: 50px;
+	bottom: 50px;
+	left: 0;
+	right: 0;
+	overflow: auto;
+	opacity: 1;
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-ms-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
+}
+
+.preloadBox  .cmsmastersBoxContInMid {
+	opacity: 0;
+}
+
+.cmsmastersBoxContInBot {
+	background-color: #e9e9e9;
+	border-top: 1px solid #cccccc;
+	padding: 10px 20px;
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.cmsmastersBoxClose {
+	color: #cccccc;
+	display: block;
+	float: right;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	margin-top: 12px;
+	text-decoration: none;
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+.cmsmastersBoxClose:hover {
+	color: #e75e5a;
+}
+
+.cmsmasters_content_box {
+	border-bottom: 1px dashed #dddddd;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+.cmsmasters_content_box[data-type="hidden"] {
+	display:none;
+}
+
+.cmsmasters_caption {
+	width: 50%;
+	float: right;
+	padding-left: 30px;
+	position: relative;
+	overflow: hidden;
+}
+
+.cmsmasters_content_box.full_width .cmsmasters_caption {
+	width: 100%;
+	float: none;
+	padding-left: 0;
+}
+
+.cmsmasters_caption label {
+	font-weight: bold;
+	display: block;
+	margin: 0;
+}
+
+.cmsmasters_content_box.half_width .cmsmasters_caption label, 
+.cmsmasters_content_box.small_width .cmsmasters_caption label {
+	margin: 5px 0;
+}
+
+.cmsmasters_caption.help label {
+	margin: 2px 0 3px;
+}
+
+.cmsmasters_caption label > abbr {
+	font-weight: normal;
+	padding-left: 3px;
+}
+
+.cmsmasters_caption p {
+	margin: 5px 0 0;
+}
+
+.cmsmasters_caption p span {
+	color: #21759b;
+	font-style: italic;
+}
+
+.cmsmasters_field {
+	position: relative;
+	overflow: hidden;
+}
+
+.cmsmasters_field input[type=text], 
+.cmsmasters_field textarea, 
+.cmsmasters_field select {
+	line-height: 16px;
+}
+
+.cmsmasters_content_box.full_width .cmsmasters_field {
+	margin-top: 15px;
+}
+
+.cmsmasters_content_box.small_width .cmsmasters_field input[type=text], 
+.cmsmasters_content_box.small_width .cmsmasters_field textarea, 
+.cmsmasters_content_box.small_width .cmsmasters_field select {
+	width: 45%;
+}
+
+.cmsmasters_content_box.number_width .cmsmasters_field input[type=text], 
+.cmsmasters_content_box .cmsmasters_field input[type=range] + input[type=text] {
+	width: 80px;
+}
+
+.cmsmasters_content_box .cmsmasters_field input[type=range] {
+	margin-top: 5px;
+}
+
+.cmsmasters_content_box .cmsmasters_field input[type=range] + input[type=text] {
+	margin-top: 0;
+}
+
+.cmsmasters_content_box .cmsmasters_field span.range_descr {
+	display: inline-block;
+	margin-top: 4px;
+}
+
+.cmsmasters_content_box .cmsmasters_field .wp-picker-container {
+	float: left;
+	margin-top: 2px;
+}
+
+.cmsmasters_field td.mceIframeContainer {
+	background-color: #ffffff;
+}
+
+.cmsmasters_field input[type=text], 
+.cmsmasters_field textarea, 
+.cmsmasters_field select, 
+.cmsmasters_field .cmsmasters_multiple_fields, 
+.cmsmasters_field .cmsmasters_link_fields {
+	width: 95%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.cmsmasters_field .cmsmasters_multiple_fields, 
+.cmsmasters_field .cmsmasters_link_fields {
+	min-height: 42px;
+}
+
+.cmsmasters_field textarea {
+	min-height: 100px;
+	resize: vertical;
+}
+
+.cmsmasters_field select {
+	height: 30px;
+	padding: 5px;
+}
+
+.cmsmasters_field select[multiple] {
+	height: auto;
+	padding: 0;
+}
+
+.cmsmasters_field input[type=text], 
+.cmsmasters_field textarea {
+	padding: 5px;
+}
+
+.cmsmasters_field select option {
+	padding: 3px 5px;
+}
+
+.cmsmasters_field select[multiple] option {
+	padding: 5px 10px;
+}
+
+.cmsmasters_field .cmsmasters_cat_cancel {
+	border-bottom: 1px solid #dd0000;
+	color: #dd0000;
+	display: inline-block;
+	text-decoration: none;
+	padding: 2px 5px 0 0;
+	margin: 15px 0 5px;
+	-webkit-transition: color .2s ease-in-out, background-color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out, background-color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out, background-color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out, background-color .2s ease-in-out;
+	transition: color .2s ease-in-out, background-color .2s ease-in-out;
+}
+
+.cmsmasters_field .cmsmasters_cat_cancel:hover {
+	color: #ffffff;
+	background-color: #dd0000;
+}
+
+.cmsmasters_field .cmsmasters_check {
+	padding: 3px;
+}
+
+.cmsmasters_field .cmsmasters_check label {
+	padding-left: 5px;
+}
+
+.cmsmasters_field input.cmsmasters_color_field {
+	width: 80px;
+	padding: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.cmsmasters_field .cmsmasters_upload {
+	display: none;
+	position: relative;
+	overflow: hidden;
+}
+
+.cmsmasters_field .cmsmasters_upload img, 
+.cmsmasters_field .cmsmasters_gallery img {
+	border: 1px solid #dfdfdf;
+	background-color: #ffffff;
+	display: block;
+	padding: 3px;
+	margin-top: 10px;
+	min-width: 50px;
+	min-height: 50px;
+	max-width: 100%;
+	cursor: pointer;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.cmsmasters_field .cmsmasters_upload .cmsmasters_upload_cancel, 
+.cmsmasters_field .cmsmasters_gallery .cmsmasters_gallery_cancel {
+	background-color: #ffffff;
+	color: #bbbbbb;
+	display: block;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	bottom: 4px;
+	left: 4px;
+	-webkit-border-radius: 0 3px 0 0;
+	-moz-border-radius: 0 3px 0 0;
+	border-radius: 0 3px 0 0;
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}
+
+.cmsmasters_field .cmsmasters_upload .cmsmasters_upload_cancel:hover, 
+.cmsmasters_field .cmsmasters_gallery .cmsmasters_gallery_cancel:hover {
+	color: #dd0000;
+}
+
+.cmsmasters_field .cmsmasters_upload_parent input[type="text"] {
+	margin-top: 10px;
+}
+
+.cmsmasters_field .cmsmasters_gallery {
+	display: block;
+	position: relative;
+}
+
+.cmsmasters_field .cmsmasters_gallery li {
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0 7px 7px 0;
+	position: relative;
+}
+
+.cmsmasters_field .cmsmasters_gallery li.ui-sortable-placeholder {
+	width: 98px;
+	height: 98px;
+	margin: 1px 8px 8px 1px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.cmsmasters_field .cmsmasters_gallery li img {
+	width: 100px;
+	height: 100px;
+	margin: 0;
+	cursor: move;
+}
+
+.cmsmasters_multiple_fields, 
+.cmsmasters_link_fields {
+	border: 1px solid #dddddd;
+	position: relative;
+}
+
+.cmsmasters_link_fields {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.cmsmasters_multiple_fields > div, 
+.cmsmasters_link_fields > li {
+	border-top: 1px dashed #dddddd;
+	background-color: #fbfbfb;
+	position: relative;
+}
+
+.cmsmasters_link_fields > li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.cmsmasters_multiple_fields > div:after, 
+.cmsmasters_link_fields > li:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.cmsmasters_multiple_fields > div:first-child, 
+.cmsmasters_link_fields > li:first-child {
+	border: 0;
+}
+
+.cmsmasters_multiple_fields > div .innerContent, 
+.cmsmasters_link_fields > li .cmsmasters_link_wrap {
+	line-height: 20px;
+	text-align: left;
+	display: block;
+	padding: 10px;
+	cursor: pointer;
+	-webkit-transition: background-color .3s ease-in-out;
+	-moz-transition: background-color .3s ease-in-out;
+	-ms-transition: background-color .3s ease-in-out;
+	-o-transition: background-color .3s ease-in-out;
+	transition: background-color .3s ease-in-out;
+}
+
+.cmsmasters_multiple_fields > div .innerContent:hover, 
+.cmsmasters_link_fields > li .cmsmasters_link_wrap:hover {
+	background-color: #ffffff;
+}
+
+.cmsmasters_multiple_fields > div .innerContent .cmsmasters_multiple_text, 
+.cmsmasters_link_fields > li .cmsmasters_link_wrap .cmsmasters_link_text {
+	display: inline-block;
+	min-height: 1em;
+}
+
+.cmsmasters_multiple_fields > div .innerContent .cmsmasters_multiple_text[class*=" cmsmasters-icon-"], 
+.cmsmasters_link_fields > li .cmsmasters_link_wrap .cmsmasters_link_text[class*=" cmsmasters-icon-"] {
+	padding-left: 34px;
+}
+
+.cmsmasters_multiple_fields > div .innerContent .cmsmasters_multiple_text:before, 
+.cmsmasters_link_fields > li .cmsmasters_link_wrap .cmsmasters_link_text:before {
+	font-size: 24px;
+	line-height: 24px;
+	display: block;
+	position: absolute;
+	top: 8px;
+	left: 35px;
+}
+
+.cmsmasters_multiple_fields > div .innerContent .cmsmasters_multiple_text sup.cmsmasters_multiple_hide_empty {
+	font-size: .8em;
+	font-style: italic;
+	padding-left: 2px;
+	margin-top: 2px;
+	position: absolute;
+}
+
+.cmsmasters_link_fields > li .cmsmasters_link_wrap .cmsmasters_link_text .cmsmasters_link_hide_empty {
+	font-style: italic;
+	padding-left: 10px;
+}
+
+.cmsmasters_multiple_fields > div .innerContent .cmsmasters_multiple_text .cmsmasters_multiple_hide_empty:empty, 
+.cmsmasters_link_fields > li .cmsmasters_link_wrap .cmsmasters_link_text .cmsmasters_link_hide_empty:empty {
+	display: none;
+}
+
+.cmsmasters_multiple_fields > div.ui-sortable-placeholder, 
+.cmsmasters_multiple_fields > div.ui-sortable-placeholder:first-child, 
+.cmsmasters_link_fields > li.ui-sortable-placeholder, 
+.cmsmasters_link_fields > li.ui-sortable-placeholder:first-child {
+	border-top: 0;
+	background-color: #ffffe0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.cmsmasters_multiple_fields > div .cmsmasters_multi_handle, 
+.cmsmasters_link_fields > li .cmsmasters_link_handle {
+	border-right: 1px dotted #dddddd;
+	background-color: #f0f0f0;
+	color: #666666;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	display: block;
+	width: 30px;
+	float: left;
+	margin: 0 10px 0 0 ;
+	cursor: move;
+}
+
+.cmsmasters_multiple_fields > div .cmsmasters_multi_del, 
+.cmsmasters_link_fields > li .cmsmasters_link_del, 
+.cmsmasters_multiple_fields > div .cmsmasters_multi_copy, 
+.cmsmasters_link_fields > li .cmsmasters_link_copy {
+	color: #bbbbbb;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 5px;
+}
+
+.cmsmasters_multiple_fields > div .cmsmasters_multi_del, 
+.cmsmasters_link_fields > li .cmsmasters_link_del {
+	right: 5px;
+}
+
+.cmsmasters_multiple_fields > div .cmsmasters_multi_copy, 
+.cmsmasters_link_fields > li .cmsmasters_link_copy {
+	right: 30px;
+}
+
+.cmsmasters_multiple_fields > div .cmsmasters_multi_del:hover, 
+.cmsmasters_link_fields > li .cmsmasters_link_de:hover {
+	color: #dd0000;
+}
+
+.cmsmasters_multiple_fields > div .cmsmasters_multi_copy:hover, 
+.cmsmasters_link_fields > li .cmsmasters_link_copy:hover {
+	color: #21759b;
+}
+
+.cmsmasters_multi_add, 
+.cmsmasters_link_add {
+	border: 1px solid #dddddd;
+	border-top: 0;
+	color: #999999;
+	background-color: #fbfbfb;
+	font-size: 15px;
+	line-height: 34px;
+	text-align: center;
+	display: block;
+	width: 30px;
+	height: 30px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+}
+
+.cmsmasters_multi_add:hover, 
+.cmsmasters_link_add:hover {
+	color: #00cc00;
+}
+
+.cmsmasters_multiple_fields > div .cmsmasters_multi_del, 
+.cmsmasters_mlink_fields > li .cmsmasters_link_del, 
+.cmsmasters_multiple_fields > div .cmsmasters_multi_copy, 
+.cmsmasters_mlink_fields > li .cmsmasters_link_copy, 
+.cmsmasters_multi_add, 
+.cmsmasters_link_add {
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+.cmsmasters_field .cmsmasters_table_row_button, 
+.cmsmasters_field .cmsmasters_table_column_button {
+	float: right;
+	margin: 0 10px 20px 10px;
+}
+
+.cmsmasters_field .cmsmasters_table_parent .cmsmasters_table {
+	display: table;
+	width: 100%;
+	position: relative;
+	clear: both;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row {
+	background-color: #ffffff;
+	display: table-row;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row.cmsmasters_table_row_header {
+	background-color: #f0f0f0;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row.cmsmasters_table_row_footer {
+	background-color: #fafafa;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell {
+	border-top: 1px solid #dddddd;
+	border-left: 1px solid #dddddd;
+	display: table-cell;
+	padding: 10px;
+	vertical-align: middle;
+	cursor: text;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell:first-child, 
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell:last-child, 
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell.cmsmasters_table_cell_top, 
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell.cmsmasters_table_cell_bot {
+	background-color: #fdfdfd;
+	cursor: default;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell:first-child {
+	border-top: 0;
+	border-left: 0;
+	width: 150px;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell:last-child {
+	border-top: 0;
+	font-size: 18px;
+	text-align: center;
+	width: 50px;
+	padding: 0;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell.cmsmasters_table_cell_top {
+	border-top: 0;
+	border-left: 0;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell.cmsmasters_table_cell_bot {
+	border-left: 0;
+	font-size: 18px;
+	text-align: center;
+	padding: 0;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell.cmsmasters_table_cell_aligncenter {
+	text-align: center;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell.cmsmasters_table_cell_alignright {
+	text-align: right;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell select {
+	width: 100%;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell textarea {
+	width: 100%;
+	min-width: 100px;
+	min-height: 100px;
+	resize: vertical;
+}
+
+.cmsmasters_field .cmsmasters_table_value {
+	display: none;
+}
+
+.cmsmasters_field .cmsmasters_row_remove, 
+.cmsmasters_field .cmsmasters_column_remove {
+	color: #bbbbbb;
+	display: block;
+	width: 100%;
+	height: 29px;
+	padding-top: 11px;
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}
+
+.cmsmasters_field .cmsmasters_row_remove:hover, 
+.cmsmasters_field .cmsmasters_column_remove:hover {
+	color: #dd0000;
+}
+
+.cmsmastersBoxSave.button, 
+.cmsmastersBoxCancel.button {
+	margin-top: -1px;
+}
+
+.cmsmastersBoxSave {
+	float: right;
+}
+
+.cmsmastersBoxCancel {
+	float: left;
+}
+
+.cmsmasters_shortcodes {
+	border: 0;
+	padding: 15px 15px 0;
+	margin: 0;
+	position: relative;
+}
+
+.cmsmasters_shortcodes .cmsmasters_field {
+	margin: 0;
+}
+
+.cmsmasters_shortcodes ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+	
+.cmsmasters_shortcodes li {
+	display: inline-block;
+	padding: 0 10px 10px 0;
+	margin: 0;
+}
+
+.cmsmasters_shortcodes a {
+	border: 1px solid #e2e2e2;
+	background-color: #f0f0f0;
+	color: #777777;
+	font-size: 11px;
+	line-height: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	width: 60px;
+	height: 55px;
+	padding: 5px;
+	position: relative;
+	overflow: hidden;
+	outline: none;
+	-webkit-transition: color .3s ease-in-out, border-color .3s ease-in-out, background-color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out, border-color .3s ease-in-out, background-color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out, border-color .3s ease-in-out, background-color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out, border-color .3s ease-in-out, background-color .3s ease-in-out;
+	transition: color .3s ease-in-out, border-color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+.cmsmasters_shortcodes a.cmsmasters_row {
+	border: 1px solid #c2c2c2;
+	background-color: #e8e8e8;
+	color: #333333;
+}
+
+.cmsmasters_shortcodes a:hover {
+	border: 1px solid #dddddd;
+	background-color: #fcfcfc;
+}
+
+.cmsmasters_shortcodes a:hover {
+	color: #21759b;
+}
+
+.cmsmasters_shortcodes a.cmsmasters_row:hover {
+	color: #d54e21;
+}
+
+.cmsmasters_shortcodes a:before {
+	font-size: 20px;
+	margin-top: 1px;
+}
+
+.cmsmasters_shortcodes a span {
+	display: block;
+	width: 100%;
+	padding: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 630px) {
+	.cmsmasters_caption {
+		width: 100%;
+		float: none;
+		padding-left: 0;
+	}
+	
+	.cmsmasters_field {
+		margin-top: 15px;
+	}
+	
+	.cmsmasters_field .icons_list_parent .cmsmasters_icon_search {
+		width: 100%;
+	}
+}
+

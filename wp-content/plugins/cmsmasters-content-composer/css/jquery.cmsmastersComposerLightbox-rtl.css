@@ -1,0 +1,280 @@
+/**
+ * @package 	WordPress Plugin
+ * @subpackage 	CMSMasters Content Composer
+ * @version		2.0.0
+ * 
+ * Responsive Lightbox RTL Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+body {
+	unicode-bidi: embed;
+	direction: rtl;
+}
+
+.cmsmastersBoxOut {
+	left: auto;
+	right: 0;
+}
+
+.cmsmastersBoxBack {
+	left: auto;
+	right: 0;
+}
+
+.cmsmastersBoxCont {
+	left: auto;
+	right: 15%;
+	-webkit-box-shadow: 0 0 50px #333333;
+	-moz-box-shadow: 0 0 50px #333333;
+	box-shadow: 0 0 50px #333333;
+}
+
+.cmsmastersBoxOut[data-editor] .cmsmastersBoxCont, 
+.cmsmastersBoxOut[data-multiple] .cmsmastersBoxCont, 
+.cmsmastersBoxOut[data-shortcode="cmsmasters_shortcodes"] .cmsmastersBoxCont {
+	left: auto;
+	right: 17%;
+}
+
+.cmsmastersBoxOut[data-link] .cmsmastersBoxCont {
+	left: auto;
+	right: 20%;
+}
+
+.cmsmastersBoxOut[data-shortcode="cmsmasters_table"] .cmsmastersBoxCont, 
+.cmsmastersBoxCont.resp {
+	left: auto;
+	right: 5%;
+}
+
+.cmsmastersBoxOut[data-editor] .cmsmastersBoxCont.resp, 
+.cmsmastersBoxOut[data-multiple] .cmsmastersBoxCont.resp, 
+.cmsmastersBoxOut[data-shortcode="cmsmasters_shortcodes"] .cmsmastersBoxCont.resp {
+	left: auto;
+	right: 6%;
+}
+
+.cmsmastersBoxOut[data-link] .cmsmastersBoxCont.resp {
+	left: auto;
+	right: 18%;
+}
+
+.cmsmastersBoxContIn {
+	text-align: center;
+}
+
+.cmsmastersBoxContIn > div {
+	text-align: right;
+}
+
+.cmsmastersBoxContInTop {
+	left: auto;
+	right: 0;
+}
+
+.cmsmastersBoxContInMid {
+	left: 0;
+	right: 0;
+}
+
+.cmsmastersBoxContInBot {
+	left: auto;
+	right: 0;
+}
+
+.cmsmastersBoxClose {
+	float: left;
+}
+
+.cmsmasters_caption {
+	float: left;
+	padding-right: 30px;
+}
+
+.cmsmasters_content_box.full_width .cmsmasters_caption {
+	float: none;
+	padding-right: 0;
+}
+
+.cmsmasters_caption label > abbr {
+	padding-right: 3px;
+}
+
+.cmsmasters_content_box.number_width .ui-spinner input {
+	margin-left: 10px;
+}
+
+.cmsmasters_content_box.number_width .ui-spinner .ui-spinner-button {
+	text-align: center;
+}
+
+.cmsmasters_content_box.number_width .ui-spinner .ui-spinner-button.ui-spinner-up {
+	float: left;
+}
+
+.cmsmasters_field .cmsmasters_cat_cancel {
+	padding-left: 5px;
+	padding-right: 0;
+}
+
+.cmsmasters_field .cmsmasters_check label {
+	padding-right: 5px;
+}
+
+.cmsmasters_field .cmsmasters_upload .cmsmasters_upload_cancel, 
+.cmsmasters_field .cmsmasters_gallery .cmsmasters_gallery_cancel {
+	text-align: center;
+	left: auto;
+	right: 4px;
+	-webkit-border-radius: 3px 0 0 0;
+	-moz-border-radius: 3px 0 0 0;
+	border-radius: 3px 0 0 0;
+}
+
+.cmsmasters_field .cmsmasters_gallery li {
+	float: right;
+	margin-left: 7px;
+	margin-right: 0;
+}
+
+.cmsmasters_field .cmsmasters_gallery li.ui-sortable-placeholder {
+	margin-left: 8px;
+	margin-right: 1px;
+}
+
+.icons_list_parent {
+	padding-left: 21px;
+	padding-right: 20px;
+}
+
+.icons_list_parent .cmsmasters_icon_cancel {
+	padding-left: 5px;
+	padding-right: 0;
+}
+
+.cmsmasters_field .icons_list_parent .cmsmasters_icon_search {
+	float: left;
+}
+
+.icons_list_parent > ul > li {
+	border-left: 1px solid #dddddd;
+	text-align: center;
+	float: right;
+}
+
+.cmsmasters_multiple_fields > div .innerContent, 
+.cmsmasters_link_fields > li .cmsmasters_link_wrap {
+	text-align: right;
+}
+
+.cmsmasters_multiple_fields > div .innerContent .cmsmasters_multiple_text[class*=" cmsmasters-icon-"], 
+.cmsmasters_link_fields > li .cmsmasters_link_wrap .cmsmasters_link_text[class*=" cmsmasters-icon-"] {
+	padding-right: 34px;
+}
+
+.cmsmasters_multiple_fields > div .innerContent .cmsmasters_multiple_text:before, 
+.cmsmasters_link_fields > li .cmsmasters_link_wrap .cmsmasters_link_text:before {
+	left: auto;
+	right: 35px;
+}
+
+.cmsmasters_multiple_fields > div .innerContent .cmsmasters_multiple_text sup.cmsmasters_multiple_hide_empty {
+	padding-right: 2px;
+}
+
+.cmsmasters_link_fields > li .cmsmasters_link_wrap .cmsmasters_link_text .cmsmasters_link_hide_empty {
+	padding-right: 10px;
+}
+
+.cmsmasters_multiple_fields > div .cmsmasters_multi_handle, 
+.cmsmasters_link_fields > li .cmsmasters_link_handle {
+	border-left: 1px dotted #dddddd;
+	text-align: center;
+	float: right;
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+.cmsmasters_multiple_fields > div .cmsmasters_multi_del, 
+.cmsmasters_link_fields > li .cmsmasters_link_del, 
+.cmsmasters_multiple_fields > div .cmsmasters_multi_copy, 
+.cmsmasters_link_fields > li .cmsmasters_link_copy {
+	text-align: center;
+}
+
+.cmsmasters_multiple_fields > div .cmsmasters_multi_del, 
+.cmsmasters_link_fields > li .cmsmasters_link_del {
+	right: auto;
+	left: 5px;
+}
+
+.cmsmasters_multiple_fields > div .cmsmasters_multi_copy, 
+.cmsmasters_link_fields > li .cmsmasters_link_copy {
+	right: auto;
+	left: 30px;
+}
+
+.cmsmasters_multi_add, 
+.cmsmasters_link_add {
+	text-align: center;
+}
+
+.cmsmasters_field .cmsmasters_table_row_button, 
+.cmsmasters_field .cmsmasters_table_column_button {
+	float: left;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell {
+	border-right: 1px solid #dddddd;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell:first-child {
+	border-right: 0;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell:last-child {
+	text-align: center;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell.cmsmasters_table_cell_top {
+	border-right: 0;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell.cmsmasters_table_cell_bot {
+	border-right: 0;
+	text-align: center;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell.cmsmasters_table_cell_aligncenter {
+	text-align: center;
+}
+
+.cmsmasters_field .cmsmasters_table .cmsmasters_table_row .cmsmasters_table_cell.cmsmasters_table_cell_alignright {
+	text-align: left;
+}
+
+.cmsmastersBoxSave {
+	float: left;
+}
+
+.cmsmastersBoxCancel {
+	float: right;
+}
+
+.cmsmasters_shortcodes li {
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+.cmsmasters_shortcodes a {
+	text-align: center;
+}
+
+.cmsmasters_shortcodes a span {
+	left: auto;
+	right: 0;
+}
+

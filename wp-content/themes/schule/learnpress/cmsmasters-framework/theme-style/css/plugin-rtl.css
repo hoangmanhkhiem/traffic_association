@@ -1,0 +1,289 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	schule
+ * @version 	1.0.0
+ * 
+ * LearnPress RTL Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+.learn-press .lp-message:before,
+.learn-press .message:before {
+	left: auto;
+	right: -1px;
+}
+
+.review-stars-rated .review-stars.filled > li:nth-child(2) {
+	left: auto;
+	right: 15px;
+}
+
+.review-stars-rated .review-stars.filled > li:nth-child(3) {
+	left: auto;
+	right: 30px;
+}
+
+.review-stars-rated .review-stars.filled > li:nth-child(4) {
+	left: auto;
+	right: 45px;
+}
+
+.review-stars-rated .review-stars.filled > li:nth-child(5) {
+	left: auto;
+	right: 60px;
+}
+
+.cmsmasters_lpr_course.opened-article .post_comments,
+.cmsmasters_lpr_course.opened-article #respond {
+	padding-left: 40px;
+	padding-right: 0;
+}
+
+.cmsmasters_course_content {
+	float: right;
+	padding-left: 40px;
+	padding-right:0;
+}
+
+.cmsmasters_course_content .cmsmasters_course_title:before {
+	left: auto;
+	right: 0;
+}
+
+.cmsmasters_course_sidebar {
+	float: left;
+}
+
+.cmsmasters_course_sidebar:before {
+	left: -1px;
+	right: -1px;
+}
+
+.cmsmasters_course_sidebar .cmsmasters_course_meta_title {
+	float: right;
+}
+
+.cmsmasters_course_sidebar .cmsmasters_course_meta_title [class^="cmsmasters_theme_icon_"]:before,
+.cmsmasters_course_sidebar .cmsmasters_course_meta_title [class*=" cmsmasters_theme_icon_"]:before {
+	margin-left: 13px;
+	margin-right:0;
+}
+
+.cmsmasters_course_sidebar .cmsmasters_course_meta_info {
+	text-align:left;
+}
+
+.curriculum-sections .section-content > li {
+	padding-left: 20px;
+	padding-right: 10px;
+}
+.curriculum-sections .section-content > li.course-item .lesson-icon + a, 
+.curriculum-sections .section-content > li.course-item .quiz-icon + a, 
+.curriculum-sections .section-content > li.course-item .lesson-icon + span, 
+.curriculum-sections .section-content > li.course-item .quiz-icon + span {
+	padding-left:0;
+	padding-right:15px;
+}
+
+.curriculum-sections .section-content > li.course-lesson {
+	padding-left: 35px;
+	padding-right:10px;
+}
+
+.curriculum-sections .section-content > li [class^="cmsmasters_theme_icon_"],
+.curriculum-sections .section-content > li [class*=" cmsmasters_theme_icon_"] {
+	right: auto;
+	left: 10px;
+}
+
+.course-curriculum-title:before,
+.course-review-head:before {
+	left: auto;
+	right: 0;
+}
+
+.course-reviews-list .cmsmasters_review_content .user-name {
+	float: right;
+}
+
+.course-reviews-list .cmsmasters_review_content .review-stars-rated {
+	float: left;
+}
+
+.course-reviews-list .cmsmasters_review_content .review-stars-rated .review-stars.filled > li:nth-child(2) {
+	left: auto;
+	right: 13px;
+}
+
+.course-reviews-list .cmsmasters_review_content .review-stars-rated .review-stars.filled > li:nth-child(3) {
+	left: auto;
+	right: 26px;
+}
+
+.course-reviews-list .cmsmasters_review_content .review-stars-rated .review-stars.filled > li:nth-child(4) {
+	left: auto;
+	right: 39px;
+}
+
+.course-reviews-list .cmsmasters_review_content .review-stars-rated .review-stars.filled > li:nth-child(5) {
+	left: auto;
+	right: 52px;
+}
+
+.course-reviews-list .avatar_wrap {
+	float: right;
+	margin-left: 30px;
+	margin-right:0;
+}
+
+.course-reviews-list .avatar_wrap img {
+	float: none;
+}
+
+.single-quiz .quiz-summary .entry-title:before {
+	left: auto;
+	right: 0;
+}
+
+.single-quiz .quiz-result {
+	float: none;
+	text-align: center;
+}
+
+.single-quiz .quiz-result .quiz-result-mark {
+	float: none;
+}
+
+.single-quiz .quiz-result .quiz-result-summary {
+	float: none;
+}
+
+.single-quiz .quiz-result .quiz-result-summary .quiz-result-field {
+	text-align: left;
+}
+
+.single-quiz .quiz-result .quiz-result-summary .quiz-result-field > label {
+	float: right;
+}
+
+.single-quiz .quiz-result .quiz-result-summary .quiz-result-field > label:before {
+	margin-left: 13px;
+	margin-right:0;
+}
+
+.single-quiz .quiz-questions > h3:before {
+	left: auto;
+	right: 0;
+}
+
+.single-quiz .quiz-question-nav {
+	float: none;
+}
+
+.single-quiz .quiz-question-nav .quiz-question-answer {
+	float: right;
+}
+
+.single-quiz .quiz-question-nav .quiz-question-nav-buttons {
+	float: left;
+}
+
+.single-quiz .quiz-sidebar {
+	float: none;
+}
+
+.archive .lpr_course .cmsmasters_img_wrap {
+	float: right;
+	margin-left: 30px;
+	margin-right:0;
+}
+
+.archive .lpr_course .entry-title {
+	float: right;
+}
+
+.archive .lpr_course .cmsmasters_lrp_archive_content .cmsmasters_lrp_archive_item_title {
+	float: right;
+}
+
+.archive .lpr_course .cmsmasters_lrp_archive_content .cmsmasters_lrp_archive_item_meta {
+	float: left;
+}
+
+.cmsmasters_learnpress_shortcode.cmsmasters_1 .lpr_course_post {
+	float: none;
+}
+
+.cmsmasters_learnpress_shortcode .lpr_course_post {
+	float: right;
+}
+
+#page .cmsmasters_learnpress_shortcode .lpr_course_post .review-stars-rated {
+	margin-left: 10px;
+	margin-right:0;
+	float:right;
+}
+
+.cmsmasters_learnpress_shortcode .lpr_course_post .review-stars-rated + .cmsmasters_course_price, 
+.cmsmasters_learnpress_shortcode .lpr_course_post .review-stars-rated + .cmsmasters_course_free {
+	float:left;
+}
+
+.cmsmasters_learnpress_shortcode .lpr_course_post .cmsmasters_course_price,
+.cmsmasters_learnpress_shortcode .lpr_course_post .cmsmasters_course_free {
+	float: left;
+}
+
+#page .review-stars-rated .review-stars,
+#page .review-stars-rated .review-stars:before {
+	right:0;
+	left:auto;
+}
+
+.cmsmasters_learnpress_shortcode .lpr_course_post .cmsmasters_cource_duration {
+	float: left;
+	margin-right: 10px;
+	margin-left:0;
+}
+
+#profile-tabs .ui-tabs-nav li {
+	float: none;
+}
+
+#profile-tabs .ui-tabs-nav li:before {
+	left: auto;
+	right: 0;
+}
+
+.cmsmasters_lpr_profile_avatar {
+	float: right;
+	margin-left: 30px;
+}
+
+#user_courses > h3:before {
+	left: auto;
+	right: 0;
+}
+
+#user_quizzes .quiz-result-mark:before {
+	left: auto;
+	right: -1px;
+}
+
+#user_quizzes .quiz-result-summary .quiz-result-field {
+	text-align: left;
+}
+
+#user_quizzes .quiz-result-summary .quiz-result-field > label {
+	float: right;
+}
+
+#user_quizzes .quiz-result-summary .quiz-result-field > label:before {
+	margin-left: 13px;
+}
+
+.become-teacher-form ul li label {
+	padding-left: 10px;
+}

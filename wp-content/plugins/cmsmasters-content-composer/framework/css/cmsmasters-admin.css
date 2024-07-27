@@ -1,0 +1,50 @@
+/**
+ * @package 	WordPress Plugin
+ * @subpackage 	CMSMasters Content Composer
+ * @version		2.0.0
+ * 
+ * Styles for Widgets in Admin Panel
+ * Created by CMSMasters
+ * 
+ */
+
+
+.fixed .column-menu_order {
+	width: 4em;
+}
+
+.fixed .column-menu_order .sorting-indicator {
+	top: -3px;
+}
+
+.fixed .column-pj_thumb, 
+.fixed .column-pl_avatar {
+	width: 10%;
+}
+
+.fixed .column-pj_categs, 
+.fixed .column-pl_categs, 
+.fixed .column-pj_tags {
+	width: 15%;
+}
+
+.fixed .column-menu_order .vers div {
+	font-size: 18px;
+	margin-left: -2px;
+}
+
+
+@media screen and (max-width: 782px) {
+	.fixed .column-pj_thumb, 
+	.fixed .column-pl_avatar, 
+	.fixed .column-pj_categs, 
+	.fixed .column-pl_categs, 
+	.fixed .column-pj_tags {
+		display: none;
+	}
+	
+	.fixed .column-menu_order {
+		width: 55px;
+	}
+}
+

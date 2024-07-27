@@ -1,0 +1,430 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Schule
+ * @version 	1.0.1
+ * 
+ * Admin Panel Styles
+ * Created by CMSMasters
+ * 
+ */
+
+
+body.wp-admin a, 
+body.wp-admin input, 
+body.wp-admin textarea, 
+body.wp-admin select {outline:none;}
+
+input[type=number] {
+	padding: 2px 0 2px 6px;
+	margin-right: 10px;
+}
+
+input[type=range] {
+	width: 150px;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+input[type=range] + input[type=text] {
+	float: left;
+	margin: -3px 10px 0;
+}
+
+.wrap div.updated {margin:15px 0 20px;}
+
+.wrap h2 .nav-tab {margin-right:7px;}
+
+.nav-tab.cmsmasters_recaptcha_nav_tab {
+	background-color:#fdffc6;
+}
+
+.nav-tab.nav-tab-active.cmsmasters_recaptcha_nav_tab {
+	border-bottom-color:#fdffc6;
+}
+
+.error {color:#cc0000;}
+
+.fl {float:left;}
+
+.fr {float:right;}
+
+.cl {
+	display:block;
+	clear:both;
+}
+
+.cmsmasters_admin_page .cmsmasters_dn {
+	display:none;
+}
+
+.cmsmasters_admin_page .cmsmasters_db {
+	display:block;
+}
+
+.cmsmasters_admin_page .cmsmasters_dib {
+	display:inline-block;
+}
+
+.pickcolor_example {
+	border:1px solid #dfdfdf;
+	padding:4px 14px;
+	margin:0 7px 0 3px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+
+p.cmsmasters_message {
+	border:1px solid #ffe7d5;
+	background:#fffbc9;
+	display:block;
+	width:100%;
+	padding:20px 30px;
+	margin-bottom:20px;
+	max-width:500px;
+}
+
+.cmsmasters_admin_page.cmsmasters_admin_page_recaptcha {
+	background-color:#fdffc6;
+	margin:0;
+	padding:35px 25px 15px;
+}
+
+#wpwrap .cmsmasters_settings_page_header {
+	padding-top:12px;
+}
+
+.cmsmasters_admin_page h3 {z-index:10;}
+
+.cmsmasters_admin_page .submit-top {
+	float:right;
+	margin-top:-5px;
+	z-index:20;
+}
+
+.cmsmasters_admin_page textarea {width:25em;}
+
+.cmsmasters_admin_page {margin:35px 0 0 25px;}
+
+.cmsmasters_admin_page table {margin-left:-10px;}
+
+.cmsmasters_admin_page table th {
+	font-weight:bold;
+	padding:27px 10px;
+}
+
+.cmsmasters_admin_page table td {padding:25px 10px;}
+
+.cmsmasters_admin_page .descr_note {
+	display:block;
+	margin-top:10px;
+	color:#cc0000;
+}
+
+.cmsmasters_admin_page input[type="radio"], 
+.cmsmasters_admin_page input[type="checkbox"] {margin:0;}
+
+.cmsmasters_admin_page .cmsmasters_admin_block {
+	padding:25px 0;
+}
+
+.cmsmasters_admin_page .cmsmasters_admin_block:first-child {
+	padding-top:0;
+}
+
+.cmsmasters_admin_page .cmsmasters_admin_block select {width:15em;}
+
+.cmsmasters_admin_page .cmsmasters_admin_block select.short_select {width:5em;}
+
+.cmsmasters_admin_page .cmsmasters-reset-settings {
+	margin-left:30px;
+	margin-right:0;
+}
+
+.cmsmasters_settings_item_radio_img {
+	text-align:center;
+	float:left;
+	margin-left:0;
+	margin-right:20px;
+}
+
+.icon_upload_link .wp-picker-input-wrap > label, 
+.cmsmasters_admin_page .wp-picker-input-wrap > label {
+	display:inline-block;
+}
+
+.icon_upload_link .wp-picker-container, 
+.cmsmasters_admin_page .wp-picker-container {
+	width:280px;
+	max-width:100%;
+	overflow:hidden;
+}
+
+.sidebar_management .sidebar_del {
+	color:#707070;
+	font-size:15px;
+}
+
+.sidebar_management .sidebar_del:hover {
+	color:#dd0000;
+}
+
+.form-table .cmsmasters_upload img {
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	max-width: 1000px;
+	max-height: 300px;
+}
+
+.form-table .cmsmasters_upload .cmsmasters_upload_cancel, 
+.form-table .icon_management .icon_del, 
+.form-table .icon_management .icon_move {
+	background-color: #ffffff;
+	color: #707070;
+	display: block;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	bottom: 4px;
+	left: 4px;
+	-webkit-border-radius: 0 3px 0 0;
+	-moz-border-radius: 0 3px 0 0;
+	border-radius: 0 3px 0 0;
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}
+
+.form-table .icon_management .icon_del {
+	bottom: 3px;
+	left: 3px;
+}
+
+.form-table .icon_management .icon_move {
+	font-size: 15px;
+	line-height: 24px;
+	width: 24px;
+	height: 24px;
+	bottom: auto;
+	left: auto;
+	top: 3px;
+	right: 3px;
+	cursor: move;
+	-webkit-border-radius: 0 0 0 3px;
+	-moz-border-radius: 0 0 0 3px;
+	border-radius: 0 0 0 3px;
+}
+
+.form-table .icon_management .icon_move:before {
+	margin-top: 4px;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.form-table .icon_management .icon_del:hover {
+	color: #dd0000;
+}
+
+.form-table td .icon_management p, 
+.form-table td .sidebar_management p {
+	margin-top:0;
+	position:relative;
+}
+
+.form-table td .icon_management p:after, 
+.form-table td .sidebar_management p:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.form-table td .icon_management small {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.form-table td .icon_management small a {
+	display:block;
+	width:20px;
+	height:20px;
+}
+
+.sidebar_management ul {
+	border-top:1px solid #dddddd;
+	display:block;
+	width:26.5em;
+	padding-top:25px;
+	margin-top:30px;
+	position:relative;
+}
+
+.icon_management ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.sidebar_management ul li {
+	width:24em;
+	padding:5px 0;
+	position:relative;
+	overflow:hidden;
+}
+
+.sidebar_management ul li a {float:right;}
+
+.sidebar_management input[type=button] {margin-left: 5px;}
+
+.cmsmasters_google_web_fonts_instruction {
+	padding:20px 0 10px;
+	overflow:hidden;
+}
+
+.cmsmasters_google_web_fonts_instruction h4 {
+	margin:0 0 10px;
+}
+
+.cmsmasters_google_web_fonts_instruction p {
+	margin:0;
+	padding:0;
+}
+
+.cmsmasters_google_web_fonts_instruction p + p {
+	margin-top:10px;
+}
+
+.google_web_fonts_manager {
+	overflow:hidden;
+	position:relative;
+}
+
+.google_web_fonts_manager_items {
+	margin-bottom:20px;
+	overflow:hidden;
+	position:relative;
+}
+
+.google_web_fonts_manager_items:empty {
+	margin:0;
+}
+
+.google_web_fonts_manager_item {
+	overflow:hidden;
+	position:relative;
+}
+
+.google_web_fonts_manager_item + .google_web_fonts_manager_item {
+	margin-top:5px;
+}
+
+.google_web_fonts_manager_item > * {
+	vertical-align:middle;
+}
+
+.google_web_fonts_manager_item .remove_google_web_font {
+	color:#82878c;
+	font-size:20px;
+	line-height:1em;
+	display:inline-block;
+	margin-left:5px;
+	position:relative;
+	cursor:pointer;
+	-webkit-transition:color .3s ease-in-out;
+	-moz-transition:color .3s ease-in-out;
+	-ms-transition:color .3s ease-in-out;
+	-o-transition:color .3s ease-in-out;
+	transition:color .3s ease-in-out;
+}
+
+.google_web_fonts_manager_item .remove_google_web_font:hover {
+	color:#dc3232;
+}
+
+.google_web_fonts_manager_item .remove_google_web_font:before {
+	font-family:dashicons;
+	
+}
+
+.icon_management ul {
+	border-top: 1px solid #dddddd;
+	display: block;
+	padding-top: 10px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.icon_management ul li {
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	display: block;
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding: 3px;
+	margin: 25px 25px 0 0;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.icon_management ul li.ui-sortable-highlight {
+	border: 1px solid #e6db55;
+	background-color: #ffffe0;
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+
+.icon_management ul li div {
+	background-color: #f9f9f9;
+	font-size: 24px;
+	line-height: 92px;
+	text-align: center;
+	height: 92px;
+}
+
+#add_icon, 
+#edit_icon {
+	display: none;
+}
+
+.icon_upload_link {
+	display:block;
+	padding-bottom:10px;
+}
+
+.icon_upload_link label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.icon_upload_link label input[type="text"] {
+	margin-right: 10px;
+}
+
+.icon_choose_container {
+	display: none;
+}
+
+.cmsmasters_col_label {
+	display:block;
+	margin:0 0 5px;
+}
+
+.wp-color-result:after {
+	-webkit-border-radius:0 1px 1px 0;
+	-moz-border-radius:0 1px 1px 0;
+	border-radius:0 1px 1px 0;
+}
+

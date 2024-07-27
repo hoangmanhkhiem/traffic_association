@@ -1,0 +1,2243 @@
+# Translation of Plugins - Loco Translate - Stable (latest release) in Vietnamese
+# This file is distributed under the same license as the Plugins - Loco Translate - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-07-21 06:25:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - Loco Translate - Stable (latest release)\n"
+
+#. translators: %s will be replaced with a PO file name
+#: src/admin/init/InitPoController.php:385
+msgid "Copy %s instead"
+msgstr "Sao chép %s thay thế"
+
+#: tpl/admin/init/init-copy.php:18
+msgid "You can copy an existing PO file (recommended), or extract directly from source (advanced)"
+msgstr "Bạn có thể sao chép một tệp PO hiện có (được khuyến nghị), hoặc trích xuất trực tiếp từ nguồn (nâng cao)"
+
+#: src/admin/init/InitPoController.php:396
+msgid "You're creating translations from a POT file"
+msgstr "Bạn đang tạo bản dịch từ một tệp POT"
+
+#: src/admin/init/InitPoController.php:237
+msgid "Copy PO file"
+msgstr "Sao chép tệp PO"
+
+#: src/admin/DebugController.php:903
+msgid "String debugger"
+msgstr "Trình gỡ lỗi chuỗi"
+
+#: src/admin/config/BaseController.php:22
+msgid "System"
+msgstr "Hệ thống"
+
+#: src/admin/bundle/ViewController.php:152
+msgid "Custom translations may not work without System translations installed"
+msgstr "Bản dịch tùy chỉnh có thể không hoạt động nếu không cài đặt bản dịch hệ thống"
+
+#: tpl/admin/help/side-bar.php:6
+msgid "Useful links:"
+msgstr "Liên kết hữu ích"
+
+#: tpl/admin/bundle/setup.php:27
+msgid "Current configuration as XML"
+msgstr "Cấu hình hiện tại dưới dạng XML"
+
+#: tpl/admin/bundle/inc-po-table.php:19
+msgid "Strings"
+msgstr "Chuỗi"
+
+#. translators: Author credit: (1) Product name (2) version number, (3) author
+#. name.
+#: src/package/Header.php:89
+msgid "\"%1$s\" %2$s by %3$s"
+msgstr "%1$s %2$s bởi %3$s"
+
+#: src/js/Strings.php:54
+msgid "Check the translations marked with a warning sign"
+msgstr "Kiểm tra các bản dịch được đánh dấu bằng dấu hiệu cảnh báo"
+
+#. translators: %s refers to a non-zero amount of errors detected. xgettext:
+#. javascript-format
+#: src/js/Strings.php:51
+msgid "%s possible error detected"
+msgid_plural "%s possible errors detected"
+msgstr[0] "%s khả năng phát hiện lỗi"
+
+#. translators: Result of validation when all strings pass validation
+#: src/js/Strings.php:47
+msgid "No formatting errors detected"
+msgstr "Không có định dạng lỗi được phát hiện"
+
+#. Translators: Button that validates current translation formatting
+#: src/admin/file/EditController.php:211
+msgctxt "Editor"
+msgid "Check"
+msgstr "Kiểm tra"
+
+#. translators: %u is a number of files which were successfully deleted
+#: src/admin/file/DeleteController.php:59
+msgid "%u file deleted"
+msgid_plural "%u files deleted"
+msgstr[0] "%u tập tin đã xóa"
+
+#: src/admin/bundle/SetupController.php:253
+msgid "This bundle doesn't declare a domain path. Add one via the Advanced tab if needed"
+msgstr "Gói này không khai báo đường dẫn tên miền. Thêm một qua Advanced tab nếu cần thiết"
+
+#: src/admin/bundle/SetupController.php:250
+msgid "The default \"languages\" domain path has been detected"
+msgstr "Đường dẫn tên miền \"ngôn ngữ\" mặc định đã được phát hiện"
+
+#. Translators: %s will be replaced with a relative path like "/languages"
+#: src/admin/bundle/SetupController.php:245
+msgid "The domain path is declared by the author as \"%s\""
+msgstr "Đường dẫn tên miền được tác giả khai báo là \"%s\""
+
+#: src/admin/bundle/SetupController.php:239
+msgid "This bundle does't declare a text domain; try configuring it in the Advanced tab"
+msgstr "Gói này không khai báo miền văn bản; hãy thử định cấu hình nó trong Advanced tab"
+
+#: src/admin/bundle/SetupController.php:235
+msgid "This text domain is not in Loco Translate's bundle configuration"
+msgstr "Miền văn bản này không có trong cấu hình gói của Loco dịch"
+
+#. Translators: This warning is shown when a text domain has defaulted to same
+#. as the folder name (or slug)
+#: src/admin/bundle/SetupController.php:229
+msgid "This plugin doesn't declare a text domain. It's assumed to be the same as the slug, but this could be wrong"
+msgstr "Plugin này không khai báo miền văn bản. Nó được cho là giống với slug, nhưng điều này có thể sai"
+
+#. Translators: %s will be replaced with a text domain, e.g. "loco-translate"
+#: src/admin/bundle/SetupController.php:222
+msgid "WordPress says the primary text domain is \"%s\""
+msgstr "WordPress cho biết tên miền văn bản chính là \"%s\""
+
+#. Translators: Shown when a PO file's Plural-Forms header has a different
+#. formula from the Unicode CLDR rules
+#: src/Locale.php:528
+msgid "Plural forms differ from Loco Translate's built in rules for this language"
+msgstr "Được hiển thị khi tiêu đề dạng số nhiều của tệp PO có công thức khác với quy tắc Unicode CLDR"
+
+#: src/js/Strings.php:194
+msgid "Mismatching placeholder type; check against source text formatting"
+msgstr "Loại giữ chỗ không khớp; kiểm tra định dạng văn bản nguồn"
+
+#: src/js/Strings.php:183
+msgid "Possible syntax error in string formatting"
+msgstr "Có thể có lỗi cú pháp trong định dạng chuỗi"
+
+#. translators: %s is the number of formatting arguments accepted by the source
+#. text of a translation xgettext: javascript-format
+#: src/js/Strings.php:191
+msgid "Missing placeholders; source text formatting suggests at least %s"
+msgstr "Thiếu phần giữ chỗ; định dạng văn bản nguồn gợi ý ít nhất %s"
+
+#. translators: %s is the number of formatting arguments accepted by the source
+#. text of a translation xgettext: javascript-format
+#: src/js/Strings.php:187
+msgid "Too many placeholders; source text formatting suggests a maximum of %s"
+msgstr "Quá nhiều phần giữ chỗ; định dạng văn bản nguồn gợi ý tối đa %s"
+
+#: tpl/admin/file/head.php:10
+msgid "Edit file headers"
+msgstr "Sửa tiêu đề tệp"
+
+#: tpl/admin/file/conf.php:23
+msgid "Relative path to template file"
+msgstr "Đường dẫn tương đối đến tệp mẫu"
+
+#: tpl/admin/file/conf.php:57 tpl/admin/file/head.php:34
+msgid "Save"
+msgstr "Lưu"
+
+#: tpl/admin/file/conf.php:48 tpl/admin/init/init-po.php:149
+msgid "Merge strings from related JSON files"
+msgstr "Phối chuỗi từ các tệp JSON liên quan"
+
+#. translators: Summary of translations copied from a PO file during Sync
+#. xgettext: javascript-format
+#: src/js/Strings.php:37
+msgid "%s translation copied"
+msgid_plural "%s translations copied"
+msgstr[0] "bản dịch %s được sao chép"
+
+#: src/admin/config/ApisController.php:66
+msgid "API URL"
+msgstr "URL API"
+
+#. translators: Where %s is any number of strings
+#. translators: Shows total string count at top of editor xgettext:
+#. javascript-format
+#: src/gettext/Metadata.php:191 src/js/Strings.php:106
+msgid "%s string"
+msgid_plural "%s strings"
+msgstr[0] "%s chuỗi"
+
+#. translators: %s is the quantity of files which were successfully moved
+#: src/admin/file/MoveController.php:87
+msgid "%s file moved"
+msgid_plural "%s files moved"
+msgstr[0] "%s tệp di chuyển"
+
+#: tpl/admin/file/info-pot.php:31
+msgid "%s word"
+msgid_plural "%s words"
+msgstr[0] "%s từ"
+
+#: src/gettext/Compiler.php:284
+msgid "PO file saved and MO/JSON files compiled"
+msgstr "Tệp PO đã lưu và tệp MO/JSON được biên dịch"
+
+#. translators: %s refers to a JSON file which could not be compiled due to an
+#. error
+#: src/gettext/Compiler.php:149 src/gettext/Compiler.php:214
+msgid "JSON compilation failed for %s"
+msgstr "JSON tổng hợp thất bại trong %s"
+
+#: tpl/admin/config/version.php:74
+msgid "Update Now"
+msgstr "Cập nhật ngay"
+
+#. translators: Where %s is the full version number of WordPress
+#: tpl/admin/config/version.php:68
+msgid "WordPress %s"
+msgstr "%s WordPress"
+
+#. translators: (1) Name of software, e.g. "WordPress" (2) Version number, e.g.
+#. "5.6"
+#: tpl/admin/config/version.php:53 tpl/admin/config/version.php:71
+msgid "Your version of %1$s is out of date. We recommend you upgrade to at least v%2$s, but preferably to the latest stable version."
+msgstr "Phiên bản %1$s của bạn đã lỗi thời. Chúng tôi khuyên bạn nên nâng cấp lên ít nhất v%2$s, nhưng tốt nhất là lên phiên bản ổn định mới nhất."
+
+#. translators: Where %s is the full version number of PHP
+#: tpl/admin/config/version.php:49
+msgid "PHP %s"
+msgstr "php %s"
+
+#: tpl/admin/config/settings.php:162
+msgid "Delete redundant files"
+msgstr "Xóa các tệp dư thừa"
+
+#: tpl/admin/config/settings.php:156
+msgid "Pretty formatting"
+msgstr "Định dạng đẹp"
+
+#: tpl/admin/config/settings.php:145 tpl/admin/config/settings.php:151
+msgid "Compiling JSON files"
+msgstr "Biên soạn tệp JSON"
+
+#. translators: This is HTML formatted. (1) placeholder for language code, (2)
+#. Example language code
+#: tpl/admin/init/upload.php:50
+msgid "Your file must be named as shown above where %1$s is the language code, e.g. %2$s"
+msgstr "Tệp của bạn phải được đặt tên như được hiển thị ở trên trong đó %1$s là mã ngôn ngữ, ví dụ: %2$s"
+
+#: tpl/admin/init/upload.php:45
+msgid "Upload PO file"
+msgstr "Tải lên tệp PO"
+
+#. translators: Indicates that POT files are optional, which is not recommended
+#: tpl/admin/config/settings.php:107
+msgid "Sync with source when template missing"
+msgstr "Đồng bộ với nguồn khi thiếu mẫu"
+
+#: tpl/admin/config/settings.php:99
+msgid "Fuzzy matching tolerance"
+msgstr "Dung sai khớp mờ"
+
+#: tpl/admin/config/settings.php:89 tpl/admin/config/settings.php:95
+msgid "Syncing PO files"
+msgstr "Đồng bộ tệp PO"
+
+#: tpl/admin/help/side-bar.php:15
+msgid "Info and tutorials"
+msgstr "Thông tin và hướng dẫn"
+
+#: src/ajax/ApisController.php:30
+msgid "Need a human?"
+msgstr "Cần một human?"
+
+#: src/ajax/UploadController.php:70
+msgid "Your file is identical to the existing one"
+msgstr "Tệp của bạn giống hệt với tệp hiện có"
+
+#: src/admin/init/UploadController.php:52
+msgid "Upload a translation file"
+msgstr "Tải lên tệp dịch"
+
+#: src/admin/init/UploadController.php:29 tpl/admin/init/upload.php:58
+msgid "Upload"
+msgstr "Tải lên"
+
+#: src/admin/bundle/ViewController.php:107
+msgid "Upload PO"
+msgstr "Tải lên PO"
+
+#. Translators: %s will be replaced with the name of a missing POT file
+#: src/ajax/SyncController.php:55
+msgid "Falling back to source extraction because %s is missing"
+msgstr "Quay trở lại khai thác nguồn vì %s mất tích"
+
+#: tpl/admin/bundle/inc-po-table.php:63
+msgid "Move"
+msgstr "Di chuyển"
+
+#: tpl/admin/config/prefs.php:29 tpl/admin/config/prefs.php:33
+msgid "Restrict locales"
+msgstr "Hạn chế ngôn ngữ"
+
+#. Translators: Button that opens window for auto-translating
+#: src/admin/file/EditController.php:209
+msgctxt "Editor"
+msgid "Auto"
+msgstr "Tự động"
+
+#: src/js/Strings.php:168
+msgctxt "Editor"
+msgid "Suggest translation"
+msgstr "Đề nghị dịch thuật"
+
+#: src/js/Strings.php:165
+msgctxt "Editor"
+msgid "Toggle Fuzzy"
+msgstr "Chuyển đổi mờ"
+
+#: src/js/Strings.php:99
+msgid "Keep this translation"
+msgstr "Giữ bản dịch này"
+
+#: src/js/Strings.php:96
+msgid "Loading suggestions"
+msgstr "Đang tải đề xuất"
+
+#: src/js/Strings.php:87
+msgid "Suggested translations"
+msgstr "Bản dịch được đề xuất"
+
+#: src/js/Strings.php:84
+msgid "Use this translation"
+msgstr "Sử dụng bản dịch này"
+
+#: src/js/Strings.php:81
+msgid "Nothing needed updating"
+msgstr "Không cần cập nhật gì"
+
+#. translators: %s is the quantity of strings modified during a batch process
+#. xgettext: javascript-format
+#: src/js/Strings.php:78
+msgid "%s string updated"
+msgid_plural "%s strings updated"
+msgstr[0] "%s chuỗi đã cập nhật"
+
+#. translators: 1: Number of strings; 2: Service provider; e.g. "50 strings
+#. translated via Google Translate" xgettext: javascript-format
+#: src/js/Strings.php:74
+msgid "%1$s string translated via %2$s"
+msgid_plural "%1$s strings translated via %2$s"
+msgstr[0] "%1$s chuỗi được dịch qua %2$s"
+
+#. translators: %s is the quantity of strings left unprocessed after a job was
+#. stopped prematurely xgettext: javascript-format
+#: src/js/Strings.php:70
+msgid "Translation job aborted with %s string remaining"
+msgid_plural "Translation job aborted with %s strings remaining"
+msgstr[0] "Công việc dịch thuật bị hủy bỏ với chuỗi %s còn lại"
+
+#. translators: %s%% is a percentage, e.g. 50% xgettext: javascript-format
+#: src/js/Strings.php:66
+msgid "Translation progress %s%%"
+msgstr "Tiến độ dịch %s%%"
+
+#. translators: characters meaning individual unicode characters of source text
+#. xgettext: javascript-format
+#: src/js/Strings.php:62
+msgid "%s characters will be sent for translation."
+msgstr "%s ký tự sẽ được gửi để dịch."
+
+#. translators: %s: the number of strings to be sent for translation xgettext:
+#. javascript-format
+#: src/js/Strings.php:58
+msgid "%s unique source strings."
+msgstr "%s chuỗi nguồn duy nhất."
+
+#. translators: Message appears after sync operation, where %s refers to a POT
+#. file. xgettext: javascript-format
+#: src/js/Strings.php:41
+msgid "Strings up to date with %s"
+msgstr "Chuỗi cập nhật với %s"
+
+#. translators: Summary of existing translations where the source text has
+#. changed slightly xgettext: javascript-format
+#: src/js/Strings.php:33
+msgid "%s string marked Fuzzy"
+msgid_plural "%s strings marked Fuzzy"
+msgstr[0] "Chuỗi %s được đánh dấu mờ"
+
+#: tpl/admin/config/apis.php:115
+msgid "See full disclaimer"
+msgstr "Xem tuyên bố miễn trừ trách nhiệm đầy đủ"
+
+#: tpl/admin/config/apis.php:114
+msgid "Third party services are subject to their own terms of use and may incur costs from the provider"
+msgstr "Các dịch vụ của bên thứ ba phải tuân theo các điều khoản sử dụng của riêng họ và có thể phát sinh chi phí từ nhà cung cấp"
+
+#: tpl/admin/config/apis.php:112
+msgid "Important"
+msgstr "Quan trọng"
+
+#: src/admin/config/ApisController.php:67
+msgid "API region"
+msgstr "Vùng API"
+
+#: src/admin/config/ApisController.php:65
+msgid "API key"
+msgstr "Mã API"
+
+#: src/admin/config/ApisController.php:12
+#: src/admin/config/BaseController.php:20
+#: src/admin/config/BaseController.php:40 tpl/admin/help/tab-config-apis.php:2
+msgid "API keys"
+msgstr "Mã API tích hợp"
+
+#: tpl/ajax/modal-apis-empty.php:11
+msgid "Add automatic translation services in the plugin settings."
+msgstr "Thêm dịch vụ dịch tự động trong cài đặt plugin."
+
+#: tpl/ajax/modal-apis-empty.php:9
+msgid "No translation APIs configured"
+msgstr "Không có API dịch nào được cấu hình"
+
+#: tpl/ajax/modal-apis-batch.php:29
+msgid "Mark new translations as Fuzzy"
+msgstr "Đánh dấu bản dịch mới là Mờ"
+
+#: tpl/ajax/modal-apis-batch.php:23
+msgid "Overwrite existing translations"
+msgstr "Chép đè bản dịch đã có"
+
+#: tpl/ajax/modal-apis-batch.php:10
+msgid "Auto-translate this file"
+msgstr "Tự động dịch tệp này"
+
+#. translators: Warning when POT file is opened in the file editor. It can be
+#. disabled in settings.
+#: src/admin/file/EditController.php:168
+msgid "This is NOT a translation file. Manual editing of source strings is not recommended."
+msgstr "Đây không phải là một tập tin dịch thuật. Hướng dẫn sử dụng chỉnh sửa các chuỗi nguồn không được khuyến khích."
+
+#: src/fs/FileWriter.php:325
+msgid "Modification of POT (template) files is disallowed by the plugin settings"
+msgstr "Sửa đổi pot (mẫu) tập tin không được phép bởi các thiết lập plugin"
+
+#: tpl/admin/file/move-pot.php:14
+msgid "Enter a new location for this file"
+msgstr "Nhập vị trí mới cho tệp này"
+
+#: tpl/admin/file/move.php:17
+msgid "The following file will be moved/renamed to the new location:"
+msgid_plural "The following files will be moved/renamed to the new location:"
+msgstr[0] "Tệp sau đây sẽ được di chuyển/đổi tên thành vị trí mới:"
+
+#: tpl/admin/file/move.php:14
+msgid "Confirm relocation"
+msgstr "Xác nhận di dời"
+
+#: tpl/admin/file/move-po.php:14
+msgid "Choose a new location for these translations"
+msgstr "Chọn một vị trí mới cho các bản dịch này"
+
+#: tpl/admin/bundle/alias.php:14
+msgid "This plugin doesn't have its own translation files, but can be translated in the default text domain"
+msgstr "Plugin này không có các tệp dịch riêng, nhưng có thể được dịch trong miền văn bản mặc định"
+
+#: tpl/admin/config/settings.php:197
+msgid "Editing of POT (template) files"
+msgstr "Chỉnh sửa tệp POT (mẫu)"
+
+#: tpl/admin/config/settings.php:81
+msgid "Recommended"
+msgstr "Được đề xuất"
+
+#: tpl/admin/config/settings.php:81
+msgid "Enable Ajax file uploads"
+msgstr "Bật tải tệp Ajax lên"
+
+#: src/fs/FileWriter.php:249
+msgid "Parent directory isn't writable"
+msgstr "Thư mục mẹ không thể ghi được"
+
+#: src/ajax/FsConnectController.php:160
+msgid "This move operation requires permission"
+msgstr "Thao tác di chuyển này yêu cầu quyền"
+
+#: src/ajax/FsConnectController.php:127
+msgid "This directory is managed by WordPress. Removed files may be restored during updates"
+msgstr "Thư mục này được quản lý bởi WordPress. Các tệp đã loại bỏ có thể được khôi phục trong khi cập nhật"
+
+#. translators: Page title where %s is the name of a file to be moved
+#: src/admin/file/MoveController.php:111 src/admin/file/MoveController.php:140
+msgid "Move %s"
+msgstr "Chuyển %s"
+
+#. translators: %s is the quantity of files which failed to be moved
+#: src/admin/file/MoveController.php:92
+msgid "%s file could not be moved"
+msgid_plural "%s files could not be moved"
+msgstr[0] "không thể di chuyển tệp %s"
+
+#: src/admin/file/BaseController.php:121
+msgid "Relocate"
+msgstr "Di dời"
+
+#: tpl/admin/file/move.php:24
+msgid "Move files"
+msgstr "Di chuyển tệp"
+
+#: tpl/admin/errors/file-sec.php:14
+msgid "Access to this file is blocked for security reasons"
+msgstr "Truy nhập vào tệp này bị chặn vì lý do bảo mật"
+
+#: tpl/admin/errors/file-sec.php:11
+msgid "File access disallowed"
+msgstr "Truy nhập tệp không được phép"
+
+#: src/admin/bundle/ViewController.php:116
+msgid "View template"
+msgstr "Xem mẫu"
+
+#: tpl/admin/config/version.php:18 tpl/admin/config/version.php:75
+msgid "Install manually"
+msgstr "Cài đặt thủ công"
+
+#: tpl/admin/config/version.php:14
+msgid "A newer version of Loco Translate is available for download"
+msgstr "Phiên bản mới hơn của Loco dịch có sẵn để tải xuống"
+
+#: tpl/admin/help/side-bar.php:9
+msgid "Official plugin page"
+msgstr "Trang plugin chính thức"
+
+#: tpl/admin/common/inc-fsconn.php:28
+msgid "File is protected by the bundle configuration"
+msgstr "Tệp được bảo vệ bởi cấu hình gói"
+
+#: tpl/admin/common/inc-fsconn.php:27
+msgid "Read only"
+msgstr "Chỉ đọc"
+
+#: tpl/admin/config/settings.php:43
+msgid "Scan JavaScript files with extensions:"
+msgstr "Quét các tệp JavaScript bằng tiện ích mở rộng:"
+
+#: src/admin/init/InitPoController.php:293
+msgid "Assign template"
+msgstr "Gán mẫu"
+
+#: src/js/Strings.php:162
+msgctxt "Editor"
+msgid "Translated"
+msgstr "Đã dịch"
+
+#: src/js/Strings.php:159
+msgctxt "Editor"
+msgid "Untranslated"
+msgstr "Chưa dịch"
+
+#. translators: %s will be replaced with a URL which may change without
+#. affecting the translation.
+#: src/hooks/AdminHooks.php:92
+msgid "Administrators and auditors may wish to review Loco's <a href=\"%s\">plugin privacy notice</a>."
+msgstr "Quản trị viên và kiểm toán viên có thể muốn xem lại thông báo về quyền riêng <a href=\"%s\">tư plugin của</a>Loco."
+
+#: src/hooks/AdminHooks.php:89
+msgid "This plugin doesn't collect any data from public website visitors."
+msgstr "Plugin này không thu thập bất kỳ dữ liệu nào từ khách truy cập trang web công cộng."
+
+#: tpl/admin/bundle/inc-po-table.php:54 tpl/admin/bundle/locale.php:66
+msgid "View"
+msgstr "Xem"
+
+#. translators: %s will be replaced with the full name of the user profile's
+#. admin language
+#: tpl/admin/root.php:17
+msgid "Your admin language is %s."
+msgstr "Ngôn ngữ quản trị của bạn %s."
+
+#. translators: %s will be replaced with the full name of the site language
+#: tpl/admin/root.php:14
+msgid "The language of this site is %s."
+msgstr "Ngôn ngữ của trang web này là %s."
+
+#: tpl/admin/list/locales.php:25
+msgid "Site language"
+msgstr "Ngôn ngữ site"
+
+#: tpl/admin/list/locales.php:22
+msgid "Files found"
+msgstr "Tìm thấy tệp"
+
+#: tpl/admin/list/locales.php:16
+msgid "Locale code"
+msgstr "Mã bản địa"
+
+#: tpl/admin/list/locales.php:13
+msgid "Locale name"
+msgstr "Tên miền địa phương"
+
+#: tpl/admin/file/info.php:110
+msgid "Files in this location can be modified or deleted by WordPress automatic updates"
+msgstr "Các tệp ở vị trí này có thể được sửa đổi hoặc xóa bởi các bản cập nhật tự động của WordPress"
+
+#: tpl/admin/file/info.php:107
+msgid "WordPress updates"
+msgstr "Cập nhật WordPress"
+
+#: tpl/admin/file/info-mo.php:18 tpl/admin/file/info-po.php:24
+#: tpl/admin/file/info-pot.php:21
+msgid "File size"
+msgstr "Kích thước tập tin"
+
+#: tpl/admin/file/diff.php:17
+msgctxt "Button label for a next revision"
+msgid "Next"
+msgstr "Tiếp theo"
+
+#: tpl/admin/file/diff.php:14
+msgctxt "Button label for a previous revision"
+msgid "Previous"
+msgstr "Trước"
+
+#: tpl/admin/file/diff.php:6
+msgctxt "revision date short format"
+msgid "j M @ H:i"
+msgstr "H:i d/m/Y"
+
+#: tpl/admin/errors/no-locale.php:11
+msgid "No files found for this language"
+msgstr "Không tìm thấy tệp nào cho ngôn ngữ này"
+
+#: tpl/admin/errors/no-backups.php:18
+msgid "File backups are disabled in your plugin settings"
+msgstr "Sao lưu tệp bị vô hiệu hóa trong thiết đặt plugin của bạn"
+
+#: tpl/admin/errors/no-backups.php:16
+msgid "Backup files will be written when you save translations from Loco Translate editor"
+msgstr "Các tệp sao lưu sẽ được viết khi bạn lưu bản dịch từ trình chỉnh sửa Loco dịch"
+
+#: tpl/admin/errors/no-backups.php:12
+msgid "No previous file revisions"
+msgstr "Không có phiên bản tệp trước đó"
+
+#: src/admin/config/SettingsController.php:68
+msgid "Disallow"
+msgstr "Không cho phép"
+
+#: src/admin/config/SettingsController.php:67
+msgid "Allow (with warning)"
+msgstr "Cho phép (có cảnh báo)"
+
+#: src/admin/config/SettingsController.php:66
+msgid "Allow"
+msgstr "Cho phép"
+
+#: tpl/admin/config/settings.php:187
+msgid "Modification of installed files"
+msgstr "Sửa đổi các tệp đã cài đặt"
+
+#: tpl/admin/config/settings.php:181
+msgid "Save credentials in session"
+msgstr "Lưu chứng danh trong phiên"
+
+#: tpl/admin/config/settings.php:170 tpl/admin/config/settings.php:176
+msgid "File system access"
+msgstr "Truy nhập hệ thống tệp"
+
+#: tpl/admin/common/inc-fsconn.php:56
+msgid "Click \"Connect\" to authenticate with the server"
+msgstr "Nhấp vào \"Kết nối\" để xác thực với máy chủ"
+
+#. translators: Page title for installed languages page
+#: src/mvc/AdminRouter.php:61
+msgid "Languages &lsaquo; Loco"
+msgstr "Ngôn ngưjj &lsaquo; Loco"
+
+#: src/mvc/AdminRouter.php:59
+msgid "Languages"
+msgstr "Ngôn ngữ"
+
+#: src/fs/FileWriter.php:314
+msgid "Modification of installed files is disallowed by the plugin settings"
+msgstr "Sửa đổi các tập tin được cài đặt chuyên biệt không được phép bởi các thiết lập plugin"
+
+#. translators: Where %s is a file name
+#: src/ajax/DiffController.php:47
+msgid "Revisions are identical, you can delete %s"
+msgstr "Sửa đổi là giống hệt nhau, bạn có thể xóa %s"
+
+#. translators: Where %s is the name of the invalid POT file
+#: src/admin/file/EditController.php:125 src/ajax/SyncController.php:72
+msgid "Translation template is invalid (%s)"
+msgstr "Mẫu dịch không hợp lệ (%s)"
+
+#. translators: %s is a file name to be rolled back to a previous version.
+#. translators: Page title where %s refers to a file name
+#: src/admin/file/DiffController.php:59 src/admin/file/DiffController.php:78
+msgid "Restore %s"
+msgstr "Khôi phục %s"
+
+#: src/admin/file/DiffController.php:35
+msgid "File restored"
+msgstr "Tệp được khôi phục"
+
+#: src/admin/file/BaseController.php:120 tpl/admin/file/diff.php:31
+msgid "Restore"
+msgstr "Khôi phục"
+
+#: src/admin/bundle/LocaleController.php:137
+msgid "See all core translations"
+msgstr "Xem tất cả các bản dịch cốt lõi"
+
+#. translators: %s refers to the name of a POT file
+#: src/admin/bundle/LocaleController.php:130
+#: src/admin/file/EditController.php:120 src/admin/file/EditController.php:170
+#: tpl/admin/common/inc-fsconn.php:16 tpl/admin/common/inc-fsconn.php:41
+#: tpl/admin/config/apis.php:122 tpl/admin/config/prefs.php:45
+#: tpl/admin/config/settings.php:234 tpl/admin/errors/no-backups.php:22
+msgid "Documentation"
+msgstr "Tài liệu hướng dẫn"
+
+#: src/admin/bundle/LocaleController.php:129
+msgid "No core translation files are installed for this language"
+msgstr "Không có tệp dịch lõi nào được cài đặt cho ngôn ngữ này"
+
+#: src/ajax/FsConnectController.php:130
+msgid "Changes to this file may be overwritten or deleted when you update WordPress"
+msgstr "Các thay đổi đối với tệp này có thể bị ghi đè hoặc xóa khi bạn cập nhật WordPress"
+
+#: src/ajax/FsConnectController.php:124
+msgid "This directory is managed by WordPress, be careful what you delete"
+msgstr "Thư mục này được quản lý bởi WordPress, hãy cẩn thận những gì bạn xóa"
+
+#: src/ajax/FsConnectController.php:121
+msgid "This file may be overwritten or deleted when you update WordPress"
+msgstr "Tệp này có thể bị ghi đè hoặc xóa khi bạn cập nhật WordPress"
+
+#: src/ajax/FsConnectController.php:163
+msgid "Saving this file requires permission"
+msgstr "Lưu tệp này yêu cầu quyền"
+
+#: src/ajax/FsConnectController.php:157
+msgid "Deleting this file requires permission"
+msgstr "Xóa bỏ tệp này yêu cầu quyền"
+
+#: src/ajax/FsConnectController.php:154
+msgid "Creating this file requires permission"
+msgstr "Tạo tệp này yêu cầu quyền"
+
+#. Translators: Plural category for zero quantity
+#: src/Locale.php:410
+msgctxt "Plural category"
+msgid "Zero"
+msgstr "Không"
+
+#: src/admin/init/InitPoController.php:377 tpl/admin/file/info.php:113
+msgid "What's this?"
+msgstr "Đây là cái gì?"
+
+#. Translators: Where %s is the size of a file
+#: tpl/admin/init/init-pot.php:18
+msgid "largest is %s"
+msgstr "lớn nhất là %s"
+
+#: tpl/admin/config/settings.php:68
+msgid "Maximum line length (zero disables wrapping)"
+msgstr "Độ dài dòng tối đa (không vô hiệu hóa gói)"
+
+#. Translators: (1) Number of files (2) Maximum size of file that will be
+#. included (3) Size of the largest encountered
+#: src/ajax/SyncController.php:99
+msgid "%1$s file has been skipped because it's %3$s. (Max is %2$s). Check all strings are present before saving."
+msgid_plural "%1$s files over %2$s have been skipped. (Largest is %3$s). Check all strings are present before saving."
+msgstr[0] "%1$s tệp đã bị bỏ qua vì nó %3$s. (Max là %2$s). Kiểm tra tất cả các chuỗi có mặt trước khi lưu."
+
+#: src/admin/bundle/ConfController.php:92
+msgid "Child theme declares the same Text Domain as the parent theme"
+msgstr "Chủ đề Con khai báo cùng Tên miền Văn bản với chủ đề mẹ"
+
+#. Translators: General plural category not covered by other forms
+#: src/Locale.php:420
+msgctxt "Plural category"
+msgid "Other"
+msgstr "Khác"
+
+#. Translators: Plural category used in some multi-plural languages
+#: src/Locale.php:418
+msgctxt "Plural category"
+msgid "Many"
+msgstr "Nhiều"
+
+#. Translators: Plural category used in some multi-plural languages
+#: src/Locale.php:416
+msgctxt "Plural category"
+msgid "Few"
+msgstr "Vài"
+
+#. Translators: Plural category used in some multi-plural languages
+#: src/Locale.php:414
+msgctxt "Plural category"
+msgid "Two"
+msgstr "Hai"
+
+#. Translators: Plural category for singular quantity
+#: src/Locale.php:412
+msgctxt "Plural category"
+msgid "One"
+msgstr "Một"
+
+#: tpl/admin/config/version.php:28
+msgid "You're running a development snapshot of Loco Translate"
+msgstr "Bạn đang chạy ảnh chụp nhanh phát triển của Loco dịch"
+
+#. Author URI of the plugin
+#: loco.php
+msgid "https://localise.biz/wordpress/plugin"
+msgstr "https://localise.biz/wordpress/plugin"
+
+#. Description of the plugin
+#: loco.php
+msgid "Translate themes and plugins directly in WordPress"
+msgstr "Dịch chủ đề và plugin trực tiếp trong WordPress"
+
+#: src/admin/bundle/LocaleController.php:147 tpl/admin/root.php:58
+msgid "See all plugins"
+msgstr "Xem tất cả các plugin"
+
+#: tpl/admin/root.php:54
+msgid "These plugins have recently loaded translation files into the admin area"
+msgstr "Các plugin này gần đây đã tải các tệp dịch vào khu vực quản trị"
+
+#: tpl/admin/root.php:51
+msgid "Running plugins:"
+msgstr "Plugin đang dịch:"
+
+#: src/admin/bundle/LocaleController.php:142 tpl/admin/root.php:43
+msgid "See all themes"
+msgstr "Xem tất cả giao diện"
+
+#: tpl/admin/root.php:39
+msgid "Active theme:"
+msgstr "Giao diện hiện hoạt động:"
+
+#: tpl/admin/root.php:30
+msgid "Translations have been recently modified in the following bundles"
+msgstr "Bản dịch gần đây đã được sửa đổi trong các gói sau"
+
+#: tpl/admin/root.php:27
+msgid "Recently updated:"
+msgstr "Cập nhật gần đây:"
+
+#: src/admin/RootController.php:84
+msgid "Welcome to Loco Translate"
+msgstr "Chào mừng bạn đến với Loco dịch"
+
+#: tpl/admin/list/inc-table.php:20
+msgid "Sets"
+msgstr "Bộ"
+
+#: tpl/admin/bundle/locale.php:32 tpl/admin/list/inc-table.php:11
+msgid "Bundle name"
+msgstr "Tên gói"
+
+#: tpl/admin/init/init-pot.php:42 tpl/admin/init/init-prompt.php:31
+msgid "About templates"
+msgstr "Giới thiệu về mẫu"
+
+#: tpl/admin/init/init-prompt.php:23
+msgid "This bundle doesn't define a translations template file"
+msgstr "Gói này không xác định tệp mẫu bản dịch"
+
+#: tpl/admin/init/init-prompt.php:19
+msgid "This bundle's template file doesn't exist yet. We recommend you create it before adding languages"
+msgstr "Tệp mẫu của gói này chưa tồn tại. Chúng tôi khuyên bạn nên tạo nó trước khi thêm ngôn ngữ"
+
+#: tpl/admin/init/init-copy.php:15 tpl/admin/init/init-prompt.php:15
+msgid "Template missing"
+msgstr "Thiếu mẫu"
+
+#: tpl/admin/init/init-pot.php:30
+msgid "Strings will be extracted to:"
+msgstr "Chuỗi sẽ được trích xuất để:"
+
+#. Translators: (1) Number of files excluded (2) the maximum size of file that
+#. was included
+#: tpl/admin/init/init-pot.php:24
+msgid "Excludes %1$s file over %2$s"
+msgid_plural "Excludes %1$s files over %2$s"
+msgstr[0] "Loại trừ tệp %1$s trên %2$s"
+
+#. Translators: Where %s is the size of a file
+#: tpl/admin/init/init-pot.php:16
+msgid "%s on disk"
+msgstr "%s trên đĩa"
+
+#: tpl/admin/init/init-pot.php:12
+msgid "Source files to scan:"
+msgstr "Nguồn tệp cần quét:"
+
+#: tpl/admin/init/init-po.php:169
+msgid "Start translating"
+msgstr "Bắt đầu dịch"
+
+#: tpl/admin/init/init-po.php:159
+msgid "Use this file as template when running Sync"
+msgstr "Dùng tệp này làm mẫu khi chạy Đồng bộ"
+
+#: tpl/admin/file/conf.php:38 tpl/admin/init/init-po.php:139
+msgid "Just copy English source strings"
+msgstr "Chỉ cần sao chép chuỗi nguồn tiếng Anh"
+
+#: tpl/admin/file/conf.php:32 tpl/admin/init/init-po.php:133
+msgid "Copy target translations from \"%s\""
+msgstr "Sao chép bản dịch đích từ \"%s\""
+
+#: tpl/admin/file/conf.php:12 tpl/admin/init/init-po.php:122
+msgid "Template options"
+msgstr "Tùy chọn mẫu"
+
+#: tpl/admin/init/init-po.php:77 tpl/admin/init/upload.php:15
+msgid "Choose a location"
+msgstr "Chọn một vị trí"
+
+#: tpl/admin/init/init-po.php:63
+msgid "Custom language"
+msgstr "Ngôn ngữ tùy chỉnh"
+
+#: tpl/admin/init/init-po.php:51
+msgid "Available languages"
+msgstr "Các ngôn ngữ sẵn có"
+
+#: src/admin/bundle/LocaleController.php:116
+#: src/admin/list/LocalesController.php:35 tpl/admin/init/init-po.php:45
+msgid "Installed languages"
+msgstr "Ngôn ngữ đã cài đặt"
+
+#: tpl/admin/init/init-po.php:44
+msgid "No language selected"
+msgstr "Không có ngôn ngữ nào được chọn"
+
+#: tpl/admin/init/init-po.php:39
+msgid "WordPress language"
+msgstr "Ngôn ngữ WordPress"
+
+#: tpl/admin/init/init-po.php:32
+msgid "Choose a language"
+msgstr "Chọn một ngôn ngữ"
+
+#: src/admin/init/InitPoController.php:389
+msgid "Create template instead"
+msgstr "Thay vào đó, hãy tạo mẫu"
+
+#: src/admin/init/InitPoController.php:392
+msgid "You're creating translations directly from source code"
+msgstr "Bạn đang tạo bản dịch trực tiếp từ mã nguồn"
+
+#: tpl/admin/help/tab-support.php:6
+msgid "Getting help with Loco Translate"
+msgstr "Nhận trợ giúp với Loco dịch"
+
+#: tpl/admin/help/tab-config-apis.php:9 tpl/admin/help/tab-config.php:9
+msgid "Full documentation"
+msgstr "Tài liệu đầy đủ"
+
+#: tpl/admin/help/tab-config.php:6
+msgid "User options apply to your WordPress login, across all sites"
+msgstr "Tùy chọn người dùng áp dụng cho đăng nhập WordPress của bạn, trên tất cả các trang web"
+
+#: tpl/admin/help/tab-config.php:5
+msgid "Site options apply to all users of Loco Translate across the current site"
+msgstr "Tùy chọn trang web áp dụng cho tất cả người dùng Loco dịch trên trang web hiện tại"
+
+#: tpl/admin/help/side-bar.php:12
+msgid "Support forum"
+msgstr "Diễn đàn hỗ trợ"
+
+#: tpl/admin/file/view-mo.php:14
+msgid "File is in binary MO format"
+msgstr "Tệp ở định dạng MO nhị phân"
+
+#. Translators: Where %s is the name (or number) of an operating system user
+#: tpl/admin/file/info.php:96
+msgid "To create new files here you'll have to connect to the remote file system, or make the directory writeable by %s"
+msgstr "Để tạo tệp mới ở đây, bạn sẽ phải kết nối với hệ thống tệp từ xa hoặc làm cho thư mục có thể ghi được bằng %s"
+
+#: tpl/admin/file/info.php:92
+msgid "This directory can't be written to directly by the web server"
+msgstr "Thư mục này không thể được ghi trực tiếp bởi máy chủ web"
+
+#: tpl/admin/file/info.php:81
+msgid "Note that the file may not be deletable due to additional ownership permissions"
+msgstr "Lưu ý rằng tệp có thể không thể xóa được do quyền sở hữu bổ sung"
+
+#. Translators: Where %s is the name (or number) of an operating system user
+#: tpl/admin/file/info.php:73
+msgid "The containing directory is writeable by %s, so you can add new files in the same location"
+msgstr "Thư mục chứa có thể ghi bằng %s, vì vậy bạn có thể thêm các tệp mới trong cùng một vị trí"
+
+#: tpl/admin/file/info.php:69
+msgid "Directory is writeable"
+msgstr "Thư mục có thể ghi được"
+
+#. Translators: "either" meaning that the file itself can't exist without a
+#. containing directory
+#: tpl/admin/file/info.php:59
+msgid "The containing directory for this file doesn't exist either"
+msgstr "Thư mục chứa cho tệp này cũng không tồn tại"
+
+#: tpl/admin/file/info.php:55
+msgid "Directory doesn't exist"
+msgstr "Thư mục không tồn tại"
+
+#. Translators: Where %s is the name (or number) of an operating system user
+#: tpl/admin/file/info.php:43
+msgid "To make changes you'll have to connect to the remote file system, or make the file writeable by %s"
+msgstr "Để thực hiện thay đổi, bạn sẽ phải kết nối với hệ thống tệp từ xa hoặc làm cho tệp có thể ghi được bằng %s"
+
+#: tpl/admin/file/info.php:39
+msgid "This file can't be updated directly by the web server"
+msgstr "Không thể cập nhật trực tiếp tệp này bởi máy chủ web"
+
+#: tpl/admin/file/info.php:27
+msgid "You can update these translations directly from the editor to the file system"
+msgstr "Bạn có thể cập nhật các bản dịch trực tiếp từ trình soạn thảo vào hệ thống tệp"
+
+#. Translators: Where %s is the type of file, e.g. "po"
+#: tpl/admin/file/info.php:24
+msgid "%s file is writeable"
+msgstr "%s có thể ghi được"
+
+#: tpl/admin/file/info.php:14
+msgid "File doesn't exist"
+msgstr "Tệp không tồn tại"
+
+#: tpl/admin/file/info-pot.php:27
+msgid "Last extracted"
+msgstr "Trích xuất lần cuối"
+
+#: tpl/admin/file/info-po.php:88
+msgid "These translations are not linked to a POT file. Sync operations will extract strings directly from source code."
+msgstr "Các bản dịch không được liên kết với một tập tin POT. Thao tác đồng bộ sẽ trích xuất chuỗi trực tiếp từ mã nguồn."
+
+#: tpl/admin/file/info-po.php:84
+msgid "Missing template"
+msgstr "Thiếu mẫu"
+
+#. Translators: Where %s is the name of a template file
+#: tpl/admin/file/info-po.php:75
+msgid "PO file has different source strings to \"%s\". Try running Sync before making any changes."
+msgstr "Po tập tin có chuỗi nguồn khác nhau để \"%s\". Hãy thử chạy Đồng bộ trước khi thực hiện bất kỳ thay đổi nào."
+
+#: tpl/admin/file/info-po.php:71
+msgid "Out of sync with template"
+msgstr "Không đồng bộ với mẫu"
+
+#. Translators: Where %s is the name of a template file
+#: tpl/admin/file/info-po.php:64
+msgid "PO file has the same source strings as \"%s\""
+msgstr "Po tập tin có cùng một nguồn chuỗi như \"%s\""
+
+#: tpl/admin/file/info-po.php:60
+msgid "In sync with template"
+msgstr "Đồng bộ với mẫu"
+
+#: tpl/admin/file/info-po.php:50
+msgid "We can't find the binary MO file that belongs with these translations"
+msgstr "Chúng tôi không thể tìm thấy tệp MO nhị phân thuộc về các bản dịch này"
+
+#: tpl/admin/file/info-po.php:47
+msgid "Binary file missing"
+msgstr "Thiếu tệp nhị phân"
+
+#: tpl/admin/file/info-other.php:11
+msgid "Unexpected file type"
+msgstr "Loại tệp không mong muốn"
+
+#: tpl/admin/file/info-mo.php:41
+msgid "We can't find the original PO file from which this was compiled"
+msgstr "Chúng tôi không thể tìm thấy tệp PO gốc mà từ đó tệp này được biên dịch"
+
+#: tpl/admin/file/info-mo.php:38
+msgid "PO file missing"
+msgstr "Thiếu tệp PO"
+
+#: tpl/admin/file/info-mo.php:27
+msgid "Compiled translations"
+msgstr "Bản dịch được biên dịch"
+
+#: tpl/admin/file/info-mo.php:24 tpl/admin/file/info-po.php:30
+msgid "Last translation"
+msgstr "Bản dịch cuối cùng"
+
+#: tpl/admin/file/info-mo.php:21 tpl/admin/file/info-po.php:27
+#: tpl/admin/file/info-pot.php:24
+msgid "File modified"
+msgstr "Tệp đã sửa đổi"
+
+#: tpl/admin/file/info-mo.php:15
+msgid "compiled"
+msgstr "biên dịch"
+
+#: tpl/admin/file/delete.php:30
+msgid "Delete Permanently"
+msgstr "Xóa vĩnh viễn"
+
+#: tpl/admin/file/delete.php:16
+msgid "Are you sure you want to <strong>permanently</strong> delete the following file?"
+msgstr "Bạn có chắc bạn muốn xóa <strong>bỏ vĩnh viễn</strong> tệp sau không?"
+
+#: tpl/admin/file/delete.php:12
+msgid "Confirm delete"
+msgstr "Xác nhận xoá"
+
+#. Translators: %s is a URL. Keep the <a> tag intact
+#: tpl/admin/errors/no-tokenizer.php:25
+msgid "You can still translate any bundle that has a <a href=\"%s\" target=\"_blank\">template</a>"
+msgstr "Bạn vẫn có thể dịch bất kỳ gói nào có <a href=\"%s\" target=\"_blank\">mẫu</a>"
+
+#. Translators: change "en" in the URL to your language if it's available at
+#. https://www.php.net/docs.php
+#: tpl/admin/errors/no-tokenizer.php:17
+msgid "Loco requires the <a href=\"http://php.net/manual/en/book.tokenizer.php\" target=\"_blank\">Tokenizer extension</a> to scan PHP source code for translatable strings"
+msgstr "Loco yêu cầu phần <a href=\"http://php.net/manual/en/book.tokenizer.php\" target=\"_blank\">mở rộng Tokenizer</a> để quét mã nguồn PHP cho các chuỗi có thể dịch"
+
+#: tpl/admin/errors/no-tokenizer.php:11
+msgid "About the Tokenizer"
+msgstr "Giới thiệu về Tokenizer"
+
+#: tpl/admin/errors/file-missing.php:14
+msgid "Either this file is missing or the server doesn't have permission to access it"
+msgstr "Tệp này bị thiếu hoặc hệ phục vụ không có quyền truy nhập nó"
+
+#: tpl/admin/errors/file-missing.php:11
+msgid "File not found"
+msgstr "Không tìm thấy tập tin"
+
+#: tpl/admin/errors/file-isdir.php:14
+msgid "This page was expecting a file, but the path is actually a directory"
+msgstr "Trang này đã mong đợi một tập tin, nhưng đường dẫn thực sự là một thư mục"
+
+#: tpl/admin/errors/file-isdir.php:11
+msgid "File is a directory"
+msgstr "Tệp là thư mục"
+
+#: tpl/admin/config/version.php:38
+msgid "You're running the latest version of Loco Translate"
+msgstr "Bạn đang chạy phiên bản mới nhất của Loco dịch"
+
+#: tpl/admin/config/version.php:17
+msgid "Upgrade to %s"
+msgstr "Nâng cấp lên %s"
+
+#: tpl/admin/config/version.php:11 tpl/admin/config/version.php:25
+#: tpl/admin/config/version.php:35
+msgid "Version %s"
+msgstr "Phiên bản %s"
+
+#: tpl/admin/config/settings.php:216
+msgid "Allow full access to these roles"
+msgstr "Cho phép truy cập đầy đủ vào các vai trò này"
+
+#: tpl/admin/config/settings.php:210
+msgid "Grant access to roles"
+msgstr "Cấp quyền truy cập vào vai trò"
+
+#: tpl/admin/config/settings.php:75 tpl/admin/config/settings.php:182
+msgid "Not recommended"
+msgstr "Không khuyến khích"
+
+#: tpl/admin/config/settings.php:75
+msgid "Add UTF-8 byte order mark"
+msgstr "Thêm dấu lệnh byte UTF-8"
+
+#: tpl/admin/config/settings.php:52 tpl/admin/config/settings.php:58
+msgid "Saving PO/POT files"
+msgstr "Lưu tệp PO/POT"
+
+#: tpl/admin/config/settings.php:37
+msgid "Scan PHP files with extensions:"
+msgstr "Quét các tệp PHP bằng tiện ích mở rộng:"
+
+#: tpl/admin/config/settings.php:31
+msgid "Skip PHP files larger than:"
+msgstr "Bỏ qua các tệp PHP lớn hơn:"
+
+#: tpl/admin/config/settings.php:21 tpl/admin/config/settings.php:27
+msgid "Extracting strings"
+msgstr "Giải nén chuỗi"
+
+#: tpl/admin/config/prefs.php:16 tpl/admin/config/prefs.php:20
+msgid "Translator credit"
+msgstr "Tín dụng dịch giả"
+
+#. translators: text field placeholder
+#: tpl/admin/common/inc-table-filter.php:6
+msgid "Filter..."
+msgstr "Lọc..."
+
+#: tpl/admin/common/inc-fsconn.php:60
+msgid "Connect"
+msgstr "Kết nối"
+
+#. Translators: When a file or folder cannot be modified due to filesystem
+#. permissions
+#: tpl/admin/common/inc-fsconn.php:50 tpl/admin/file/info.php:36
+#: tpl/admin/file/info.php:89
+msgid "Write protected"
+msgstr "Ghi được bảo vệ"
+
+#: tpl/admin/bundle/view.php:55
+msgid "This bundle isn't automatically compatible and requires configuring before you can use all the functions of Loco Translate"
+msgstr "Gói này không tự động tương thích và yêu cầu cấu hình trước khi bạn có thể sử dụng tất cả các chức năng của Loco dịch"
+
+#: tpl/admin/bundle/view.php:52
+msgid "unconfigured"
+msgstr "chưa cấu hình"
+
+#. Translators: %s is a URL. Keep the <a> tag intact
+#: tpl/admin/bundle/view.php:35 tpl/admin/bundle/view.php:57
+msgid "Click the <a href=\"%s\">setup</a> tab to complete the bundle configuration"
+msgstr "Nhấp <a href=\"%s\">setup</a> vào tab thiết lập để hoàn tất cấu hình gói"
+
+#: tpl/admin/bundle/view.php:32
+msgid "This bundle isn't fully configured, so we don't know what the following files are for"
+msgstr "Gói này không được cấu hình đầy đủ, vì vậy chúng tôi không biết các tệp sau đây là gì"
+
+#: tpl/admin/bundle/view.php:29
+msgid "Additional files found"
+msgstr "Tìm thấy tệp bổ sung"
+
+#: tpl/admin/bundle/setup.php:39
+msgid "If you have trouble translating this bundle, consider asking the author for help"
+msgstr "Nếu bạn gặp sự cố khi dịch gói này, hãy cân nhắc yêu cầu tác giả trợ giúp"
+
+#: tpl/admin/bundle/setup.php:36
+msgid "Author details"
+msgstr "Chi tiết tác giả"
+
+#: tpl/admin/bundle/setup/saved.php:19
+msgid "Edit config"
+msgstr "Sửa cấu hình"
+
+#: tpl/admin/bundle/setup/saved.php:14
+msgid "This bundle's configuration is saved in the WordPress database"
+msgstr "Cấu hình của gói này được lưu trong cơ sở dữ liệu WordPress"
+
+#: tpl/admin/bundle/setup/saved.php:11
+msgid "Bundle configuration saved"
+msgstr "Cấu hình gói đã lưu"
+
+#: tpl/admin/bundle/setup/partial.php:14
+msgid "This bundle's configuration has been automatically detected, but isn't fully complete"
+msgstr "Cấu hình của gói này đã được tự động phát hiện, nhưng chưa hoàn tất"
+
+#: tpl/admin/bundle/setup/partial.php:11
+msgid "Partially configured bundle"
+msgstr "Gói được cấu hình một phần"
+
+#: tpl/admin/bundle/setup/none.php:15
+msgid "It needs configuring before you can do any translations"
+msgstr "Nó cần cấu hình trước khi bạn có thể thực hiện bất kỳ bản dịch nào"
+
+#: tpl/admin/bundle/setup/none.php:14
+msgid "This bundle isn't set up for translation in a way we understand"
+msgstr "Gói này không được thiết lập để dịch theo cách chúng tôi hiểu"
+
+#: tpl/admin/bundle/setup/none.php:11
+msgid "Unconfigured bundle"
+msgstr "Gói chưa cấu hình"
+
+#: tpl/admin/bundle/setup/meta.php:14
+msgid "This bundle's configuration has been automatically detected and seems to be fully compatible"
+msgstr "Cấu hình của gói này đã được tự động phát hiện và dường như hoàn toàn tương thích"
+
+#: tpl/admin/bundle/setup/inc-nav.php:25
+msgid "Get help with this"
+msgstr "Nhận trợ giúp về vấn đề này"
+
+#: tpl/admin/bundle/setup/inc-nav.php:22
+msgid "Import config from XML"
+msgstr "Nhập cấu hình từ XML"
+
+#: tpl/admin/bundle/setup/core.php:13
+msgid "This bundle's configuration is built into Loco Translate"
+msgstr "Cấu hình của gói này được tích hợp vào Loco dịch"
+
+#: tpl/admin/bundle/setup/core.php:10 tpl/admin/bundle/setup/meta.php:11
+msgid "Bundle auto-configured"
+msgstr "Gói tự động cấu hình"
+
+#: tpl/admin/bundle/setup/conf.php:55
+msgid "Load config"
+msgstr "Tải cấu hình"
+
+#: tpl/admin/bundle/setup/conf.php:49
+msgid "If you've been given a configuration file by a developer, paste the XML code here"
+msgstr "Nếu bạn đã được nhà phát triển cấp tệp cấu hình, hãy dán mã XML vào đây"
+
+#: tpl/admin/bundle/setup/conf.php:46
+msgid "XML setup"
+msgstr "Thiết lập XML"
+
+#: tpl/admin/bundle/setup/conf.php:56
+msgid "Cancel"
+msgstr "Hủy"
+
+#: tpl/admin/bundle/setup/author.php:15 tpl/admin/bundle/setup/core.php:14
+#: tpl/admin/bundle/setup/meta.php:15
+msgid "You can make changes in the Advanced tab if you need to override the current settings"
+msgstr "Bạn có thể thực hiện thay đổi trong tab Nâng cao nếu bạn cần ghi đè cài đặt hiện tại"
+
+#: tpl/admin/bundle/setup/author.php:14
+msgid "This bundle's configuration is provided by the author"
+msgstr "Cấu hình của gói này được cung cấp bởi tác giả"
+
+#: tpl/admin/bundle/setup/author.php:11
+msgid "Official configuration"
+msgstr "Cấu hình chính thức"
+
+#: tpl/admin/bundle/inc-po-table.php:124
+msgid "No translations found for \"%s\""
+msgstr "Không tìm thấy bản dịch cho \"%s\""
+
+#: tpl/admin/bundle/inc-po-table.php:57 tpl/admin/bundle/locale.php:69
+msgid "Info"
+msgstr "Thông tin"
+
+#: tpl/admin/bundle/inc-po-table.php:60 tpl/admin/bundle/locale.php:72
+msgid "Copy"
+msgstr "Sao chép"
+
+#: tpl/admin/bundle/inc-po-table.php:51 tpl/admin/bundle/locale.php:63
+msgid "Edit"
+msgstr "Sửa"
+
+#: tpl/admin/bundle/inc-po-table.php:31 tpl/admin/bundle/locale.php:49
+msgid "Folder"
+msgstr "Thư mục"
+
+#: tpl/admin/bundle/inc-po-table.php:28 tpl/admin/bundle/locale.php:46
+#: tpl/admin/list/inc-table.php:17 tpl/admin/list/locales.php:19
+msgid "Last modified"
+msgstr "Sửa đổi lần cuối"
+
+#: tpl/admin/bundle/inc-po-table.php:22 tpl/admin/bundle/locale.php:39
+msgid "Pending"
+msgstr "Đang chờ xử lý"
+
+#: tpl/admin/bundle/inc-po-table.php:16 tpl/admin/bundle/locale.php:36
+#: tpl/admin/file/info-po.php:33
+msgid "Translation progress"
+msgstr "Tiến độ dịch thuật"
+
+#: tpl/admin/bundle/inc-po-table.php:13
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#: tpl/admin/bundle/conf.php:159 tpl/admin/bundle/setup/saved.php:18
+msgid "Reset config"
+msgstr "Đặt lại cấu hình"
+
+#: tpl/admin/bundle/conf.php:146
+msgid "XML"
+msgstr "XML"
+
+#: tpl/admin/bundle/conf.php:144
+msgid "Parent theme"
+msgstr "Giao diện cha"
+
+#: tpl/admin/bundle/conf.php:142
+msgid "Add set"
+msgstr "Thêm tập hợp"
+
+#: tpl/admin/bundle/conf.php:141
+msgid "Save config"
+msgstr "Lưu cấu hình"
+
+#. Translators: Help tip for "Blocked paths" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:134
+msgid "Folders within the bundle that will never be searched for files"
+msgstr "Các thư mục trong gói sẽ không bao giờ được tìm kiếm các tệp"
+
+#: tpl/admin/bundle/conf.php:128
+msgid "Blocked paths"
+msgstr "Đường dẫn bị chặn"
+
+#. Translators: Help tip for "Source file paths" field in advanced bundle
+#. config
+#: tpl/admin/bundle/conf.php:113
+msgid "Files and folders within the bundle that contain localized PHP code"
+msgstr "Các tệp và thư mục trong gói chứa mã PHP được bản địa hóa"
+
+#: tpl/admin/bundle/conf.php:100
+msgid "Source file paths"
+msgstr "Đường dẫn tệp nguồn"
+
+#. Translators: Help tip for "Domain path" field in advanced bundle config
+#. Translators: Help tip for "Source file paths" field in advanced bundle
+#. config
+#. Translators: Help tip for "Blocked paths" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:94 tpl/admin/bundle/conf.php:113
+#: tpl/admin/bundle/conf.php:134
+msgid "no wildcards"
+msgstr "không có ký tự đại diện"
+
+#. Translators: Help tip for "Domain path" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:94
+msgid "Folders within the bundle that contain author-supplied translations"
+msgstr "Các thư mục trong gói chứa bản dịch do tác giả cung cấp"
+
+#: tpl/admin/bundle/conf.php:89 tpl/admin/bundle/conf.php:108
+msgid "Exclude"
+msgstr "Loại trừ"
+
+#: tpl/admin/bundle/conf.php:85 tpl/admin/bundle/conf.php:104
+msgid "Include"
+msgstr "Bao gồm"
+
+#: tpl/admin/bundle/conf.php:81
+msgid "Domain path"
+msgstr "Đường dẫn tên miền"
+
+#. Translators: Help tip for "Template file" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:75
+msgid "Relative path from bundle root to the official POT file"
+msgstr "Đường dẫn tương đối từ gốc bó đến tệp POT chính thức"
+
+#: tpl/admin/bundle/conf.php:71 tpl/admin/common/inc-fsconn.php:12
+msgid "Locked"
+msgstr "Đã khóa"
+
+#. Translators: Help tip for "File prefix" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:59
+msgid "Usually the same as the text domain, but don't leave blank unless you mean to"
+msgstr "Thường giống như miền văn bản, nhưng không để trống trừ khi bạn muốn"
+
+#: tpl/admin/bundle/conf.php:53
+msgid "File prefix"
+msgstr "Tiền tố tệp"
+
+#. Translators: Help tip for "Text domain" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:47
+msgid "The namespace into which WordPress will load translated strings"
+msgstr "Không gian tên mà WordPress sẽ tải các chuỗi đã dịch"
+
+#: tpl/admin/bundle/conf.php:41 tpl/admin/list/inc-table.php:14
+msgid "Text domain"
+msgstr "Tên miền văn bản"
+
+#. Translators: Help tip for "Project name" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:35
+msgid "Descriptive name for this set of translatable strings"
+msgstr "Tên mô tả cho tập hợp các chuỗi có thể dịch này"
+
+#: tpl/admin/bundle/conf.php:29
+msgid "Project name"
+msgstr "Tên dự án"
+
+#: tpl/admin/bundle/alias.php:17
+msgid "Go to WordPress Core"
+msgstr "Đi tới WordPress Core"
+
+#: tpl/admin/bundle/alias.php:11
+msgid "\"Hello Dolly\" is part of the WordPress core"
+msgstr "\"Hello Dolly\" là một phần của lõi WordPress"
+
+#. translators: %s refers to the handle of a plugin, e.g.
+#. "loco-translate/loco.php"
+#: src/package/Plugin.php:232
+msgid "Plugin not found: %s"
+msgstr "Plugin không tìm thấy: %s"
+
+#: src/package/Header.php:93
+msgid "Visit official site"
+msgstr "Truy cập trang web chính thức"
+
+#: src/admin/bundle/LocaleController.php:136 src/package/Core.php:87
+msgid "WordPress Core"
+msgstr "Lõi WordPress"
+
+#: src/package/Core.php:29
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: src/package/Core.php:28
+msgid "The WordPress Team"
+msgstr "Nhóm Phát Triển WordPress"
+
+#: src/package/Core.php:26
+msgid "WordPress core"
+msgstr "Lõi WordPress"
+
+#. translators: (1) is the name of a PHP script, (2) is a line number in the
+#. file
+#: src/output/Buffer.php:130
+msgid "Loco was interrupted by output from %1$s:%2$u"
+msgstr "Loco bị gián đoạn bởi đầu ra %s: %u"
+
+#. translators: %s: Human-readable time difference.
+#: src/mvc/FileParams.php:152
+msgid "%s ago"
+msgstr "%s trước"
+
+#. translators: relative time when something happened in the last 30 seconds
+#: src/mvc/FileParams.php:149
+msgid "Just now"
+msgstr "Ngay bây giờ"
+
+#: src/mvc/FileParams.php:145
+msgid "Y/m/d"
+msgstr "d/m/Y"
+
+#: src/mvc/Controller.php:49
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Bạn không có quyền truy cập trang này."
+
+#: src/mvc/AjaxRouter.php:203
+msgid "Download controller returned empty output"
+msgstr "Tải xuống bộ điều khiển trả về đầu ra rỗng"
+
+#: src/mvc/AjaxRouter.php:198
+msgid "Download action not found"
+msgstr "Không tìm thấy hành động tải xuống"
+
+#: src/mvc/AjaxRouter.php:175
+msgid "Ajax controller returned empty JSON"
+msgstr "Ajax điều khiển trở lại trống JSON"
+
+#. translators: Fatal error where %s represents an unexpected value
+#: src/mvc/AjaxRouter.php:170
+msgid "Ajax route not found: \"%s\""
+msgstr "Ajax tuyến đường không tìm thấy: \"%s\""
+
+#: src/mvc/AdminRouter.php:243
+msgid "Page not found"
+msgstr "Không tìm thấy trang"
+
+#. translators: Page title for core WordPress translations
+#: src/mvc/AdminRouter.php:56
+msgid "Core translations &lsaquo; Loco"
+msgstr "Bản dịch cốt lõi &lsaquo; Loco"
+
+#: src/mvc/AdminRouter.php:54
+msgid "WordPress"
+msgstr "WordPress"
+
+#. translators: Page title for plugin translations
+#: src/mvc/AdminRouter.php:51
+msgid "Plugin translations &lsaquo; Loco"
+msgstr "Bản dịch plugin &lsaquo; Loco"
+
+#. translators: Page title for theme translations
+#: src/mvc/AdminRouter.php:46
+msgid "Theme translations &lsaquo; Loco"
+msgstr "Bản dịch chủ đề &lsaquo; Loco"
+
+#: src/mvc/AdminRouter.php:42
+msgid "Home"
+msgstr "Tổng quan"
+
+#: src/mvc/AdminController.php:114
+msgid "Loco Translate is powered by"
+msgstr "Loco dịch được cung cấp bởi"
+
+#: src/mvc/AdminController.php:51
+msgid "Help & support"
+msgstr "Trợ giúp & hỗ trợ"
+
+#. translators: List heading showing preview of translated text for each item
+#: src/js/Strings.php:180
+msgctxt "Editor"
+msgid "Translation"
+msgstr "Dịch"
+
+#. translators: Label for the translation editing window when no translation
+#. selected
+#: src/js/Strings.php:177
+msgctxt "Editor"
+msgid "Translation not loaded"
+msgstr "Bản dịch không được nạp"
+
+#. translators: Label for the context window when no translation selected
+#: src/js/Strings.php:174
+msgctxt "Editor"
+msgid "Context not loaded"
+msgstr "Ngữ cảnh không được nạp"
+
+#. translators: Label for the source text window when no translation selected
+#: src/js/Strings.php:171
+msgctxt "Editor"
+msgid "Source text not loaded"
+msgstr "Văn bản nguồn không được nạp"
+
+#. translators: Label for the plural form of the original English text
+#: src/js/Strings.php:90 src/Locale.php:402 pub/js/min/editor.js:286
+msgctxt "Editor"
+msgid "Plural"
+msgstr "Số nhiều"
+
+#. translators: Label for the singular form of the original English text
+#: src/js/Strings.php:93 src/Locale.php:401 pub/js/min/editor.js:286
+msgctxt "Editor"
+msgid "Single"
+msgstr "Độc thân"
+
+#. translators: Label for the window pane for entering translator comments
+#: src/js/Strings.php:156
+msgctxt "Editor"
+msgid "Comments"
+msgstr "Bình luận"
+
+#. translators: Label for the window pane holding message context
+#: src/js/Strings.php:153
+msgctxt "Editor"
+msgid "Context"
+msgstr "Ngữ cảnh"
+
+#. translators: Where %s is the name of the language, e.g. "French translation"
+#. xgettext: javascript-format
+#: src/js/Strings.php:150
+msgctxt "Editor"
+msgid "%s translation"
+msgstr "Dịch %s"
+
+#. translators: Label for the window pane holding the original English text
+#. translators: List heading showing preview of English text for each item
+#: src/js/Strings.php:146 tpl/admin/file/info-pot.php:30
+msgctxt "Editor"
+msgid "Source text"
+msgstr "Văn bản nguồn"
+
+#. translators: Generic error when external process broke an Ajax request
+#: src/js/Strings.php:133
+msgid "Server returned invalid data"
+msgstr "Hệ phục vụ trả về dữ liệu không hợp lệ"
+
+#: src/js/Strings.php:136
+msgid "Check console output for debugging information"
+msgstr "Kiểm tra đầu ra bảng điều khiển để gỡ lỗi thông tin"
+
+#: src/js/Strings.php:139
+msgid "Provide the following text when reporting a problem"
+msgstr "Cung cấp văn bản sau khi báo cáo sự cố"
+
+#. translators: When text filtering reduces to an empty view
+#: src/js/Strings.php:14
+msgid "Nothing matches the text filter"
+msgstr "Không có gì khớp với bộ lọc văn bản"
+
+#: src/hooks/AdminHooks.php:129 tpl/ajax/modal-apis-batch.php:37
+msgid "Translate"
+msgstr "Dịch"
+
+#. translators: Error thrown when attempting to parse a file that is not a
+#. supported translation file format
+#: src/gettext/Data.php:25
+msgid "%s is not a Gettext file"
+msgstr "%s không phải là tệp Gettext"
+
+#. Translators: Refers to translation files in an alternative location that
+#. isn't Author, System or Custom.
+#: src/fs/LocaleDirectory.php:72
+msgctxt "File location"
+msgid "Other"
+msgstr "Khác"
+
+#. Translators: Refers to translation files in Loco's custom/protected
+#. directory
+#: src/fs/LocaleDirectory.php:69
+msgctxt "File location"
+msgid "Custom"
+msgstr "Tùy chỉnh"
+
+#. Translators: Refers to system-installed translation files - i.e. those under
+#. WP_LANG_DIR
+#: src/fs/LocaleDirectory.php:66
+msgctxt "File location"
+msgid "System"
+msgstr "Hệ thống"
+
+#. Translators: Refers to bundled plugin or theme translation files - i.e.
+#. those supplied by the author
+#: src/fs/LocaleDirectory.php:63
+msgctxt "File location"
+msgid "Author"
+msgstr "Tác giả"
+
+#: src/fs/FileWriter.php:309
+msgid "File modification is disallowed by your WordPress config"
+msgstr "Sửa đổi tệp không được phép bởi cấu hình WordPress của bạn"
+
+#: src/fs/FileWriter.php:298
+msgid "Failed to build directory path"
+msgstr "Thất bại khi xây dựng đường dẫn thư mục"
+
+#: src/fs/FileWriter.php:290
+msgid "Failed to create directory"
+msgstr "Thất bại khi tạo thư mục"
+
+#: src/fs/FileWriter.php:253
+msgid "Failed to save file"
+msgstr "Thất bại khi lưu tệp"
+
+#: src/fs/FileWriter.php:243
+msgid "Permission denied to update file"
+msgstr "Quyền bị từ chối cập nhật tệp"
+
+#. translators: %s refers to a directory name which was expected to be an
+#. ordinary file
+#: src/fs/FileWriter.php:218
+msgid "\"%s\" is a directory, not a file"
+msgstr "\"%s\" là một thư mục, không phải là một tập tin"
+
+#. translators: %s refers to a file name, for which a delete operation failed.
+#: src/fs/FileWriter.php:201
+msgid "Failed to delete %s"
+msgstr "Thất bại khi xóa bỏ %s"
+
+#. translators: (1) Source file name (2) Target file name
+#: src/fs/FileWriter.php:162
+msgid "Failed to copy %1$s to %2$s"
+msgstr "Thất bại khi sao %s vào %s"
+
+#: src/fs/FileWriter.php:151
+msgid "Refusing to copy over an existing file"
+msgstr "Từ chối sao qua tệp hiện có"
+
+#. translators: %s refers to a file name, for which the chmod operation failed.
+#: src/fs/FileWriter.php:133
+msgid "Failed to chmod %s"
+msgstr "Thất bại khi chmod %s"
+
+#: src/fs/FileWriter.php:52
+msgid "Failed to connect to remote server"
+msgstr "Thất bại khi kết nối tới hệ phục vụ từ xa"
+
+#: src/error/XmlParseException.php:8
+msgid "XML parse error"
+msgstr "Lỗi phân tích cú pháp XML"
+
+#: src/error/Warning.php:19 src/js/Strings.php:124
+msgid "Warning"
+msgstr "Cảnh báo"
+
+#: src/error/Success.php:19 src/js/Strings.php:130
+msgid "OK"
+msgstr "OK"
+
+#: src/error/Notice.php:20 src/js/Strings.php:127
+#: tpl/admin/common/inc-fsconn.php:37
+msgid "Notice"
+msgstr "Thông báo"
+
+#: src/error/Exception.php:165 src/js/Strings.php:121
+msgid "Error"
+msgstr "Lỗi"
+
+#: src/data/Permissions.php:155
+msgctxt "User role"
+msgid "Translator"
+msgstr "Translator"
+
+#: src/config/XMLModel.php:54
+msgid "XML supplied is empty"
+msgstr "XML được cung cấp trống"
+
+#: src/config/FormModel.php:147
+msgid "Text Domain cannot be empty"
+msgstr "Text Domain không thể rỗng"
+
+#. translators: used when username of web server process is unknown
+#: src/compat/PosixExtension.php:115
+msgid "the web server"
+msgstr "máy chủ web"
+
+#. translators: %s refers to the name of a new file to be created, but which
+#. already existed
+#: src/api/WordPressFileSystem.php:87
+msgid "%s already exists in this folder"
+msgstr "%s đã tồn tại trong cặp này"
+
+#: src/ajax/XgettextController.php:67
+msgid "Template file created"
+msgstr "Tệp mẫu được tạo"
+
+#: src/gettext/Compiler.php:94
+msgid "PO file saved, but MO file compilation failed"
+msgstr "Tệp PO được lưu, nhưng biên dịch tệp MO đã thất bại"
+
+#: src/gettext/Compiler.php:287
+msgid "PO file saved and MO file compiled"
+msgstr "Tệp PO đã lưu và tệp MO được biên dịch"
+
+#. translators: %s refers to a directory where a backup file could not be
+#. created due to file permissions
+#: src/fs/Revisions.php:222
+msgid "Failed to create backup file in \"%s\". Check file permissions or disable backups"
+msgstr "Thất bại khi tạo tệp sao lưu trong \"%s\". Kiểm tra quyền tệp hoặc vô hiệu hóa bản sao lưu"
+
+#: src/ajax/MsginitController.php:63
+msgid "MO file exists for this language already. Delete it first"
+msgstr "Tệp MO đã tồn tại cho ngôn ngữ này rồi. Xóa nó trước"
+
+#: src/ajax/FsConnectController.php:117
+msgid "Connected to remote file system"
+msgstr "Đã kết nối với hệ thống tệp từ xa"
+
+#: src/admin/list/ThemesController.php:14
+msgid "Translate themes"
+msgstr "Dịch giao diện"
+
+#: src/admin/list/PluginsController.php:12
+msgid "Translate plugins"
+msgstr "Dịch plugin"
+
+#. translators: %s refers to the name of a translation set (theme, plugin or
+#. core component)
+#: src/admin/init/InitPotController.php:106
+msgid "New translations template for \"%s\""
+msgstr "Mẫu bản dịch mới cho \"%s\""
+
+#: src/admin/init/InitPotController.php:104
+msgid "New template file"
+msgstr "Tệp mẫu mới"
+
+#: src/admin/init/InitPotController.php:56
+msgid "Template file already exists"
+msgstr "Tệp mẫu đã tồn tại"
+
+#: src/admin/init/InitPotController.php:16
+msgid "New template"
+msgstr "Mẫu mới"
+
+#: src/admin/init/InitPoController.php:223
+msgid "Skip template"
+msgstr "Bỏ qua mẫu"
+
+#. translators: Were %s is number of source files that will be scanned
+#: src/admin/init/InitPoController.php:280
+msgid "%s source file will be scanned for translatable strings"
+msgid_plural "%s source files will be scanned for translatable strings"
+msgstr[0] "%s tệp nguồn sẽ được quét cho các chuỗi có thể dịch"
+
+#. translators: 1: Number of strings; 2: Name of POT file; e.g. "100 strings
+#. found in file.pot"
+#: src/admin/init/InitPoController.php:249
+msgid "%1$s string found in %2$s"
+msgid_plural "%1$s strings found in %2$s"
+msgstr[0] "%1$s dây được tìm thấy trong %2$s"
+
+#: src/admin/init/InitPoController.php:119
+msgid "Initializing new translations in unknown set"
+msgstr "Khởi tạo bản dịch mới trong tập hợp không xác định"
+
+#. translators: %s refers to the slug/handle of a theme or plugin
+#: src/admin/init/InitPoController.php:115
+msgid "Initializing new translations in \"%s\""
+msgstr "Khởi tạo bản dịch mới trong \"%s\""
+
+#. translators: Warning that the language in the file header (1) does not match
+#. the file name (2)
+#: src/admin/file/InfoController.php:177
+msgid "Language header is \"%1$s\" but file name contains \"%2$s\""
+msgstr "Tiêu đề ngôn ngữ là \"%s\" nhưng tên tệp chứa \"%s\""
+
+#: src/admin/file/InfoController.php:169
+msgid "File does not have a valid header"
+msgstr "Tệp không có đầu trang hợp lệ"
+
+#: src/admin/file/InfoController.php:137 src/package/Header.php:86
+msgid "Unknown author"
+msgstr "Tác giả không biết"
+
+#. Translators: Button that toggles between "code" and regular text editing
+#. modes
+#: src/admin/file/EditController.php:219
+msgctxt "Editor"
+msgid "Toggle code view"
+msgstr "Chuyển đổi chế độ xem mã"
+
+#. Translators: Button that toggles invisible characters
+#: src/admin/file/EditController.php:217
+msgctxt "Editor"
+msgid "Toggle invisibles"
+msgstr "Chuyển đổi vô hình"
+
+#. Translators: Button for downloading a PO, MO or POT file
+#: src/admin/file/EditController.php:213
+msgctxt "Editor"
+msgid "Download"
+msgstr "Tải về"
+
+#. Translators: Button that reloads current screen
+#: src/admin/file/EditController.php:207
+msgctxt "Editor"
+msgid "Revert"
+msgstr "Đặt lại"
+
+#. Translators: Button that runs in-editor sync/operation
+#: src/admin/file/EditController.php:205
+msgctxt "Editor"
+msgid "Sync"
+msgstr "Đồng bộ"
+
+#. Translators: Button that saves translations to disk
+#: src/admin/file/EditController.php:203
+msgctxt "Editor"
+msgid "Save"
+msgstr "Lưu"
+
+#. Translators: button for removing a string when manually editing a POT file
+#: src/admin/file/EditController.php:201 src/ajax/ApisController.php:26
+msgid "Help"
+msgstr "Trợ giúp"
+
+#. Translators: button for removing a string when manually editing a POT file
+#: src/admin/file/EditController.php:200
+msgctxt "Editor"
+msgid "Remove"
+msgstr "Xoá"
+
+#. Translators: button for adding a new string when manually editing a POT file
+#: src/admin/file/EditController.php:198
+msgctxt "Editor"
+msgid "Add"
+msgstr "Thêm"
+
+#. translators: %s refers to the name of a POT file
+#: src/admin/file/EditController.php:119
+msgid "Translations don't match template. Run sync to update from %s"
+msgstr "Bản dịch không khớp với mẫu. Chạy đồng bộ để cập nhật từ %s"
+
+#. translators: %1$s is the file name, %2$s is the bundle name
+#: src/admin/file/EditController.php:18
+msgid "Editing %1$s in %2$s"
+msgstr "Chỉnh sửa %1$s trong %2$s"
+
+#. translators: Warning that deleting a file will also delete others. %s
+#. indicates that quantity.
+#: src/admin/file/DeleteController.php:104
+msgid "%s dependent file will also be deleted"
+msgid_plural "%s dependent files will also be deleted"
+msgstr[0] "%s tệp phụ thuộc cũng sẽ bị xóa"
+
+#. translators: Page title where %s is the name of a file to be deleted
+#: src/admin/file/DeleteController.php:79
+#: src/admin/file/DeleteController.php:98
+msgid "Delete %s"
+msgstr "Xóa %s"
+
+#: src/admin/file/DiffController.php:45
+msgid "File deleted"
+msgstr "%u Tệp đã bị xóa"
+
+#: src/admin/file/BaseController.php:122 tpl/admin/bundle/inc-po-table.php:66
+#: tpl/admin/bundle/locale.php:75 tpl/admin/file/diff.php:32
+msgid "Delete"
+msgstr "Xóa"
+
+#: src/admin/file/BaseController.php:119 tpl/admin/bundle/inc-po-table.php:25
+#: tpl/admin/bundle/locale.php:43
+msgid "File info"
+msgstr "Thông tin tệp"
+
+#: src/admin/file/BaseController.php:118
+msgid "Source"
+msgstr "Nguồn"
+
+#: src/admin/file/BaseController.php:117
+msgid "Editor"
+msgstr "Trình chỉnh sửa"
+
+#: src/admin/config/SettingsController.php:51
+msgid "Super Admin"
+msgstr "Quản Trị Viên Cấp Cao"
+
+#: src/admin/config/ApisController.php:59
+#: src/admin/config/PrefsController.php:42
+#: src/admin/config/SettingsController.php:79
+#: src/admin/config/VersionController.php:22 src/mvc/AdminRouter.php:66
+#: tpl/admin/help/tab-config.php:2
+msgid "Plugin settings"
+msgstr "Thiết lập Plugin"
+
+#: src/admin/config/DebugController.php:55
+msgid "System diagnostics"
+msgstr "Chẩn đoán hệ thống"
+
+#: src/admin/config/BaseController.php:21
+#: src/admin/config/VersionController.php:13
+msgid "Version"
+msgstr "Phiên bản"
+
+#: src/admin/config/BaseController.php:19
+#: src/admin/config/PrefsController.php:13 src/mvc/AdminRouter.php:71
+msgid "User options"
+msgstr "Tùy chọn người dùng"
+
+#: src/admin/config/BaseController.php:18
+msgid "Site options"
+msgstr "Thiết lập tùy chỉnh"
+
+#: src/admin/bundle/ViewController.php:133
+#: src/admin/init/InitPoController.php:218 tpl/admin/init/init-pot.php:40
+msgid "Create template"
+msgstr "Tạo bản mẫu"
+
+#: src/admin/bundle/ViewController.php:124
+msgid "Edit template"
+msgstr "Chỉnh sửa mẫu"
+
+#: src/admin/bundle/ViewController.php:99 src/admin/file/BaseController.php:141
+#: src/admin/init/InitPoController.php:16
+#: src/admin/init/InitPoController.php:122
+msgid "New language"
+msgstr "Thêm ngôn ngữ"
+
+#. translators: %s is a quantity of files which were found, but whose context
+#. is unknown
+#: src/admin/bundle/SetupController.php:115
+msgid "%s file can't be matched to a known set of strings"
+msgid_plural "%s files can't be matched to a known set of strings"
+msgstr[0] "tệp %s không thể khớp với một tập hợp các chuỗi đã biết"
+
+#: src/admin/bundle/SetupController.php:35
+msgid "Bundle setup"
+msgstr "Thiết lập gói"
+
+#: src/admin/bundle/SetupController.php:25
+msgid "Setup tab"
+msgstr "Tab Thiết lập"
+
+#. translators: where %s is a plugin or theme
+#: src/admin/bundle/SetupController.php:15
+msgid "Set up %s"
+msgstr "Thiết lập %s"
+
+#: src/admin/bundle/ConfController.php:137 tpl/admin/bundle/setup/core.php:17
+#: tpl/admin/bundle/setup/inc-nav.php:19
+msgid "Advanced configuration"
+msgstr "Cấu hình nâng cao"
+
+#: src/admin/bundle/ConfController.php:52
+msgid "Advanced tab"
+msgstr "Tab Nâng cao"
+
+#. translators: where %s is a plugin or theme
+#: src/admin/bundle/ConfController.php:16
+msgid "Configure %s"
+msgstr "Cấu hình %s"
+
+#: src/admin/bundle/BaseController.php:128
+#: src/admin/config/DebugController.php:12 src/error/Debug.php:19
+#: src/mvc/AdminRouter.php:77
+msgid "Debug"
+msgstr "Debug"
+
+#: src/admin/bundle/BaseController.php:123 tpl/admin/file/conf.php:58
+#: tpl/admin/file/move.php:26
+msgid "Advanced"
+msgstr "Nâng cao"
+
+#: src/admin/bundle/BaseController.php:122
+msgid "Setup"
+msgstr "Thiết lập"
+
+#: src/admin/bundle/BaseController.php:66
+msgid "Configuration reset"
+msgstr "Đặt lại cấu hình"
+
+#: src/admin/bundle/BaseController.php:51
+msgid "Configuration saved"
+msgstr "Cấu hình đã lưu"
+
+#. translators: home screen title where %s is the version number
+#: src/admin/RootController.php:23
+msgid "Loco Translate %s"
+msgstr "Loco dịch %s"
+
+#: src/admin/bundle/BaseController.php:121
+#: src/admin/bundle/LocaleController.php:34
+#: src/admin/bundle/ViewController.php:25
+#: src/admin/config/BaseController.php:39 src/admin/file/EditController.php:27
+#: src/admin/file/InfoController.php:26 src/admin/file/ViewController.php:26
+#: src/admin/init/InitPoController.php:25
+#: src/admin/init/InitPotController.php:25 src/admin/list/BaseController.php:45
+#: src/admin/list/LocalesController.php:24 src/admin/RootController.php:12
+msgid "Overview"
+msgstr "Tổng quan"
+
+#: src/admin/bundle/LocaleController.php:146 src/admin/Navigation.php:44
+#: src/mvc/AdminRouter.php:49
+msgid "Plugins"
+msgstr "Plugin"
+
+#: src/admin/bundle/LocaleController.php:141 src/admin/Navigation.php:41
+#: src/mvc/AdminRouter.php:44
+msgid "Themes"
+msgstr "Giao diện"
+
+#: src/Locale.php:329
+msgid "Invalid locale"
+msgstr "Bản địa không hợp lệ"
+
+#. translators: %s refers to the name of a missing PHP extension, for example
+#. "mbstring".
+#: loco.php:138
+msgid "Loco Translate requires the \"%s\" PHP extension. Ask your hosting provider to install it"
+msgstr "Loco dịch yêu cầu phần mở rộng PHP \"%s\" . Yêu cầu nhà cung cấp dịch vụ lưu trữ của bạn cài đặt"
+
+#. Author of the plugin
+#: loco.php
+msgid "Tim Whitlock"
+msgstr "Tim Whitlock"
+
+#. Plugin URI of the plugin
+#: loco.php
+msgid "https://wordpress.org/plugins/loco-translate/"
+msgstr "https://vi.wordpress.org/plugins/loco-translate/"
+
+#. Translators: Placeholder text for text filter above editor
+#: src/admin/file/EditController.php:215
+msgid "Filter translations"
+msgstr "Tìm bản dịch"
+
+#: tpl/admin/bundle/conf.php:65 tpl/admin/bundle/inc-po-table.php:45
+#: tpl/admin/file/edit-pot.php:20 tpl/admin/file/info-pot.php:18
+#: tpl/admin/file/view-pot.php:9
+msgid "Template file"
+msgstr "Tệp mẫu"
+
+#: tpl/admin/config/apis.php:121 tpl/admin/config/prefs.php:44
+#: tpl/admin/config/settings.php:233
+msgid "Save settings"
+msgstr "Lưu thiết lập"
+
+#: tpl/admin/config/settings.php:62
+msgid "Number of backups to keep of each file:"
+msgstr "Số lượng sao lưu để giữ của mỗi tập tin:"
+
+#: tpl/admin/config/settings.php:137
+msgid "Include Fuzzy strings"
+msgstr "Bao gồm chuỗi Fuzzy"
+
+#: tpl/admin/config/settings.php:131
+msgid "Generate hash tables"
+msgstr "Tạo bảng băm"
+
+#: tpl/admin/config/settings.php:120 tpl/admin/config/settings.php:126
+msgid "Compiling MO files"
+msgstr "Biên dịch tệp MO"
+
+#: tpl/admin/bundle/locale.php:14 tpl/admin/common/inc-po-header.php:8
+#: tpl/admin/file/edit-pot.php:22 tpl/admin/file/view-pot.php:11
+msgctxt "Modified time"
+msgid "Updated"
+msgstr "Đã cập nhật"
+
+#. translators: Warning appears when user tries to refresh or navigate away
+#. when editor work is unsaved
+#: src/js/Strings.php:102
+msgid "Your changes will be lost if you continue without saving"
+msgstr "Thay đổi của bạn sẽ bị mất nếu bạn tiếp tục mà không lưu"
+
+#. translators: Summary of existing strings that no longer exist after running
+#. in-editor Sync xgettext: javascript-format
+#: src/js/Strings.php:29
+msgid "%s obsolete string removed"
+msgid_plural "%s obsolete strings removed"
+msgstr[0] "%s dây lỗi thời bị loại bỏ"
+
+#. translators: Summary of new strings after running in-editor Sync xgettext:
+#. javascript-format
+#: src/js/Strings.php:25
+msgid "%s new string added"
+msgid_plural "%s new strings added"
+msgstr[0] "%s chuỗi mới được thêm vào"
+
+#. translators: Message appears after sync operation.
+#: src/js/Strings.php:44
+msgid "Strings up to date with source code"
+msgstr "Chuỗi cập nhật với mã nguồn"
+
+#. translators: Message appears after sync operation
+#: src/js/Strings.php:21
+msgid "Merged from source code"
+msgstr "Hợp nhất từ mã nguồn"
+
+#. translators: Where %s is the name of the POT template file. Message appears
+#. after sync xgettext: javascript-format
+#: src/js/Strings.php:18
+msgid "Merged from %s"
+msgstr "Sáp nhập từ %s"
+
+#. translators: Success notice where %s is a file extension, e.g. "PO"
+#: src/admin/file/HeadController.php:81 src/gettext/Compiler.php:291
+msgid "%s file saved"
+msgstr "tệp %s đã lưu"
+
+#: src/js/Strings.php:142
+msgid "Unknown error"
+msgstr "Lỗi không rõ"
+
+#: src/admin/file/EditController.php:169 src/mvc/AdminRouter.php:67
+#: src/mvc/AdminRouter.php:72 tpl/admin/common/inc-fsconn.php:18
+#: tpl/admin/common/inc-fsconn.php:43 tpl/admin/errors/no-backups.php:24
+#: tpl/ajax/modal-apis-empty.php:15
+msgid "Settings"
+msgstr "Cài đặt"
+
+#. Plugin Name of the plugin
+#: loco.php src/hooks/AdminHooks.php:88 src/mvc/AdminRouter.php:37
+msgid "Loco Translate"
+msgstr "Loco dịch"
+
+#. translators: Page title for plugin home screen
+#: src/mvc/AdminRouter.php:39
+msgid "Loco, Translation Management"
+msgstr "Loco, Quản lý dịch thuật"
+
+#. translators: Shows number of untranslated strings at top of editor
+#. translators: Shows number of untranslated strings at top of editor xgettext:
+#. javascript-format
+#: src/gettext/Metadata.php:209 src/js/Strings.php:118
+msgid "%s untranslated"
+msgstr "%s chưa dịch"
+
+#. translators: Shows number of fuzzy strings at top of editor
+#. translators: Shows number of fuzzy strings at top of editor xgettext:
+#. javascript-format
+#: src/gettext/Metadata.php:205 src/js/Strings.php:114
+msgid "%s fuzzy"
+msgstr "%s mờ"
+
+#. translators: Shows percentage translated at top of editor
+#. translators: Shows percentage translated at top of editor xgettext:
+#. javascript-format
+#: src/gettext/Metadata.php:202 src/js/Strings.php:110
+msgid "%s%% translated"
+msgstr "%s%% đã dịch"
+
+#: src/admin/config/ApisController.php:43
+#: src/admin/config/PrefsController.php:26
+#: src/admin/config/SettingsController.php:31
+msgid "Settings saved"
+msgstr "Các thay đổi đã được lưu"
+
+#: src/error/WriteException.php:13
+msgid "Permission denied"
+msgstr "Quyền bị từ chối"

@@ -1,0 +1,27 @@
+.lp-prerequisite {
+
+}
+
+.lp-prerequisite p {
+	font-size: 1rem;
+}
+
+.lp-course-buttons .list-course-prerequisite {
+	max-height: 200px;
+	overflow-y: auto;
+	padding: 0;
+}
+
+.list-course-prerequisite li {
+	list-style: none;
+	padding: 0;
+}
+
+.list-course-prerequisite li.passed a {
+	color: rgba(0, 128, 0, 0.9) !important;
+}
+
+.list-course-prerequisite a {
+	color: rgba(255, 0, 0, 0.82) !important;
+}
+

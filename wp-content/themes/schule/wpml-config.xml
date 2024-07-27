@@ -1,0 +1,26 @@
+<!-- 
+cmsmasters_package: Schule
+cmsmasters_version: 1.0.0
+-->
+<wpml-config>
+    <admin-texts>
+        <key name="cmsmasters_options_schule_header">
+            <key name="schule_header_top_line_short_info" />
+            <key name="schule_header_top_line_donations_but_text" />
+            <key name="schule_header_donations_but_text" />
+            <key name="schule_header_add_cont_cust_html" />
+        </key>
+		<key name="cmsmasters_options_schule_footer">
+            <key name="schule_footer_html" />
+            <key name="schule_footer_copyright" />
+        </key>
+		<key name="cmsmasters_options_schule_single_project">
+            <key name="schule_portfolio_project_details_title" />
+        </key>
+		<key name="cmsmasters_options_schule_single_profile">
+            <key name="schule_profile_post_details_title" />
+        </key>
+    </admin-texts>
+</wpml-config>
+
+

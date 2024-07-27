@@ -1,0 +1,41 @@
+html,
+body {
+	background: transparent !important;
+}
+
+body {
+	margin: 0 !important;
+}
+
+html:before,
+html:after,
+body:before,
+body:after {
+	display: none !important;
+}
+
+#ls-template-outer-wrapper {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: column wrap;
+}
+
+#ls-template-projects-wrapper {
+	width: 100%;
+}
+
+html#ls-global {
+	margin: 0 !important;
+}
+
+#wpadminbar {
+	opacity: 0.4;
+	transition: opacity 0.2s ease-in-out;
+}
+
+#wpadminbar:hover {
+	opacity: 1;
+}

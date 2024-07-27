@@ -1,0 +1,32 @@
+/**
+ * @package 	WordPress Plugin
+ * @subpackage 	CMSMasters Mega Menu
+ * @version 	1.2.0
+ * 
+ * Mega Menu Builder Styles in a Right To Left (RTL) direction
+ * Created by CMSMasters
+ * 
+ */
+
+
+.is-mega-menu, 
+.is-column, 
+.is-mega-descr-text {
+	margin-left: 0;
+	margin-right: 4px;
+}
+
+.is-drop-side-right {
+	margin-left: 0;
+	margin-right: 6px;
+}
+
+.menu-item span[data-class=cmsmasters_new_icon_img] {
+	margin: 0 0 0 10px;
+}
+
+.menu-item a.cmsmasters_remove_icon {
+	margin-left: 0;
+	margin-right: 5px;
+}
+

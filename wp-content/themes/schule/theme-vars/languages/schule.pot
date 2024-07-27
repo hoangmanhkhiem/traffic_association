@@ -1,0 +1,4369 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Schule 1.1.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-01 09:00+0200\n"
+"PO-Revision-Date: 2023-12-01 09:00+0200\n"
+"Last-Translator: \n"
+"Language-Team: cmsmasters <cmsmstrs@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;translate_nooped_plural;_n:1,2;_n_noop:1,2;"
+"_nx:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: archive.php:35 author.php:38
+#: theme-framework/theme-style/post-type/blog/post-single.php:171
+msgid "No posts found"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:89
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:105
+msgid "On"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:129
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:140
+#: theme-framework/theme-style/function/template-functions-project.php:223
+msgid "By"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:130
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:141
+#: theme-framework/theme-style/function/template-functions-post.php:118
+#: theme-framework/theme-style/function/template-functions-post.php:128
+#: theme-framework/theme-style/function/template-functions-shortcodes.php:119
+#: theme-framework/theme-style/template/archive.php:95
+msgid "Posts by"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:170
+#: theme-framework/theme-style/template/archive.php:102
+msgid "In"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:200
+#: theme-framework/theme-style/function/template-functions-project.php:259
+msgid "Tags"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:272
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:284
+#: framework/function/general-functions.php:1823
+msgid "Comment on"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:311
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:401
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:427
+#, php-format
+msgid "%s to go"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:331
+msgid "Campaign Target"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:352
+msgid "Donation"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:352
+msgid "Donations"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:392
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:410
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:420
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:742
+msgid "Donated"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:484
+msgid "Donate Now!"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:547
+#: theme-framework/theme-style/function/template-functions-single.php:175
+msgid "More items"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:579
+msgid "No items found"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:720
+msgid "Anonym"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:803
+msgid "First Name:"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:810
+msgid "Last Name:"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:817
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/organizer.php:48
+msgid "Email:"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:824
+msgid "Company:"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:831
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/organizer.php:39
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/venue.php:42
+msgid "Phone:"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:841
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/details.php:145
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/organizer.php:57
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/venue.php:49
+msgid "Website:"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:848
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/venue.php:29
+msgid "Address:"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:855
+msgid "City:"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:862
+msgid "State / Province:"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:869
+msgid "Postal / Zip Code:"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/function/plugin-template-functions.php:876
+msgid "Country:"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/templates/single-campaign.php:85
+#: framework/admin/options/cmsmasters-theme-options.php:746 page.php:68
+#: sitemap.php:57
+#: theme-framework/theme-style/post-type/blog/post-single.php:101
+#: theme-framework/theme-style/post-type/portfolio/project-single.php:145
+#: theme-framework/theme-style/post-type/profile/profile-single.php:106
+msgid "Pages"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/templates/single-campaign.php:114
+msgid "Share this campaign?"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/templates/single-campaign.php:119
+#: theme-framework/theme-style/post-type/blog/post-single.php:152
+#: theme-framework/theme-style/post-type/portfolio/project-single.php:209
+msgid "About author"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/templates/single-campaign.php:137
+msgid "More campaigns"
+msgstr ""
+
+#: cmsmasters-donations/cmsmasters-framework/theme-style/templates/single-campaign.php:138
+msgid "No campaigns found"
+msgstr ""
+
+#: comments.php:14
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:26
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:26 comments.php:122
+msgid "Comment"
+msgstr ""
+
+#: comments.php:26 theme-framework/theme-style/class/theme-widgets.php:697
+#: theme-framework/theme-style/function/template-functions-profile.php:159
+#: theme-framework/theme-style/function/template-functions-project.php:161
+msgid "Comments"
+msgstr ""
+
+#: comments.php:38 comments.php:74
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:47 comments.php:83
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:97
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:103
+msgid "Your name"
+msgstr ""
+
+#: comments.php:106
+msgid "Your email"
+msgstr ""
+
+#: comments.php:114
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: comments.php:125
+msgid "You must be"
+msgstr ""
+
+#: comments.php:127
+msgid "logged in"
+msgstr ""
+
+#: comments.php:129
+msgid "to post a comment"
+msgstr ""
+
+#: comments.php:132
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:136
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:137
+msgid "Log out?"
+msgstr ""
+
+#: comments.php:141
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:146
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:147
+msgid "Leave your comment to"
+msgstr ""
+
+#: comments.php:148
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:149
+msgid "Add Comment"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:24
+msgid "Clear"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:25
+msgid "Clear color"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:26
+msgid "Color value"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:27
+#: framework/admin/options/cmsmasters-theme-options-general.php:212
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:666
+#: functions.php:210
+msgid "Default"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:28
+msgid "Select default color"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:29
+msgid "Select Color"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:47
+msgid "Choose image"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:48
+msgid "Insert image"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:49
+#: framework/admin/options/cmsmasters-theme-options.php:119
+#: framework/admin/options/cmsmasters-theme-options.php:480
+#: framework/admin/options/cmsmasters-theme-options.php:561
+#: framework/admin/options/cmsmasters-theme-options.php:632
+#: framework/admin/options/cmsmasters-theme-options.php:880
+#: framework/admin/settings/cmsmasters-theme-settings.php:333
+#: framework/admin/settings/cmsmasters-theme-settings.php:761
+#: framework/admin/settings/cmsmasters-theme-settings.php:1026
+msgid "Remove"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:50
+msgid "Edit gallery"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:57
+msgid "Cancel"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:58
+msgid "Insert"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:59
+msgid "Deselect"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:60
+msgid "Choose Icon"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:61
+#: framework/admin/options/cmsmasters-theme-options.php:120
+#: framework/admin/settings/cmsmasters-theme-settings.php:336
+msgid "Find icons"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:62
+msgid "min 2 symbols"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:63
+msgid "Choose icons font"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:64
+msgid ""
+"Error on page!\n"
+"Reload page and try again."
+msgstr ""
+
+#: framework/admin/inc/config-functions.php:61
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:359
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:417
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:679
+msgid "None"
+msgstr ""
+
+#: framework/admin/inc/config-functions.php:122
+msgid "default"
+msgstr ""
+
+#: framework/admin/inc/config-functions.php:123 functions.php:42
+msgid "none"
+msgstr ""
+
+#: framework/admin/inc/config-functions.php:124
+msgid "uppercase"
+msgstr ""
+
+#: framework/admin/inc/config-functions.php:125
+msgid "lowercase"
+msgstr ""
+
+#: framework/admin/inc/config-functions.php:126
+msgid "capitalize"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:48
+#: framework/admin/options/cmsmasters-theme-options-other.php:42
+#: framework/admin/options/cmsmasters-theme-options-page.php:43
+#: framework/admin/options/cmsmasters-theme-options-post.php:56
+#: framework/admin/options/cmsmasters-theme-options-profile.php:51
+#: framework/admin/options/cmsmasters-theme-options-project.php:58
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:21
+msgid "Background"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:49
+msgid "Use Default"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:56
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:342
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:396
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:202
+msgid "Background Color"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:64
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:405
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:211
+msgid "Background Image Visibility"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:65
+#: framework/admin/options/cmsmasters-theme-options-general.php:281
+#: framework/admin/options/cmsmasters-theme-options-general.php:385
+#: framework/admin/options/cmsmasters-theme-options-other.php:109
+#: framework/admin/options/cmsmasters-theme-options-page.php:126
+#: framework/admin/options/cmsmasters-theme-options-post.php:212
+#: framework/admin/options/cmsmasters-theme-options-post.php:220
+#: framework/admin/options/cmsmasters-theme-options-post.php:228
+#: framework/admin/options/cmsmasters-theme-options-post.php:320
+#: framework/admin/options/cmsmasters-theme-options-profile.php:77
+#: framework/admin/options/cmsmasters-theme-options-profile.php:165
+#: framework/admin/options/cmsmasters-theme-options-profile.php:190
+#: framework/admin/options/cmsmasters-theme-options-project.php:178
+#: framework/admin/options/cmsmasters-theme-options-project.php:374
+#: framework/admin/options/cmsmasters-theme-options-project.php:382
+#: framework/admin/options/cmsmasters-theme-options-project.php:433
+msgid "Show"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:72
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:414
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:220
+msgid "Background Image"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:83
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:425
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:231
+msgid "Background Repeat"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:91
+#: framework/admin/options/cmsmasters-theme-options-general.php:307
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:430
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:236
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:543
+msgid "No Repeat"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:95
+#: framework/admin/options/cmsmasters-theme-options-general.php:311
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:431
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:237
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:544
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:99
+#: framework/admin/options/cmsmasters-theme-options-general.php:315
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:432
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:238
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:545
+msgid "Repeat Vertically"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:103
+#: framework/admin/options/cmsmasters-theme-options-general.php:319
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:433
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:239
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:546
+msgid "Repeat"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:109
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:440
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:246
+msgid "Background Position"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:117
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:445
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:251
+msgid "Top Left"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:121
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:446
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:252
+msgid "Top Center"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:125
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:447
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:253
+msgid "Top Right"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:129
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:448
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:254
+msgid "Center Left"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:133
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:449
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:255
+msgid "Center Center"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:137
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:450
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:256
+msgid "Center Right"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:141
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:451
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:257
+msgid "Bottom Left"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:145
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:452
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:258
+msgid "Bottom Center"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:149
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:453
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:259
+msgid "Bottom Right"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:155
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:460
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:266
+msgid "Background Attachment"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:163
+#: framework/admin/options/cmsmasters-theme-options-general.php:333
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:465
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:271
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:558
+msgid "Scroll"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:167
+#: framework/admin/options/cmsmasters-theme-options-general.php:337
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:466
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:272
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:559
+msgid "Fixed"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:173
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:473
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:279
+msgid "Background Size"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:181
+#: framework/admin/options/cmsmasters-theme-options-general.php:351
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:478
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:284
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:571
+msgid "Auto"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:185
+#: framework/admin/options/cmsmasters-theme-options-general.php:355
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:479
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:285
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:572
+msgid "Cover"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:189
+#: framework/admin/options/cmsmasters-theme-options-general.php:359
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:480
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:286
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:573
+msgid "Contain"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:204
+msgid "Heading Text"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:216
+msgid "Custom"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:220
+msgid "Disabled"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:226
+msgid "Heading Title"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:234
+msgid "Heading Subtitle"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:242
+msgid "Heading Icon"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:243
+msgid "Choose your custom icon for this heading"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:250
+msgid "Heading Alignment"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:258
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:499
+msgid "Left"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:262
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:500
+msgid "Right"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:266
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:247
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:501
+msgid "Center"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:272
+msgid "Heading Color Scheme"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:280
+msgid "Heading Background Image Visibility"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:288
+msgid "Heading Background Image"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:299
+msgid "Heading Background Repeat"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:325
+msgid "Heading Background Attachment"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:343
+msgid "Heading Background Size"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:365
+msgid "Heading Background Color Overlay"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:373
+msgid "Heading Height"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:374
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:335
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:384
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:394
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:590
+msgid "pixels"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-general.php:384
+msgid "Breadcrumbs"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:35
+#: framework/admin/options/cmsmasters-theme-options-page.php:36
+#: framework/admin/options/cmsmasters-theme-options-post.php:49
+#: framework/admin/options/cmsmasters-theme-options-profile.php:44
+#: framework/admin/options/cmsmasters-theme-options-project.php:51
+msgid "Layout"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:49
+#: framework/admin/options/cmsmasters-theme-options-page.php:50
+#: framework/admin/options/cmsmasters-theme-options-post.php:63
+#: framework/admin/options/cmsmasters-theme-options-profile.php:58
+#: framework/admin/options/cmsmasters-theme-options-project.php:65
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:19
+msgid "Heading"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:67
+#: framework/admin/options/cmsmasters-theme-options-page.php:68
+#: framework/admin/options/cmsmasters-theme-options-post.php:278
+#: framework/admin/options/cmsmasters-theme-options-profile.php:181
+#: framework/admin/options/cmsmasters-theme-options-project.php:424
+msgid "Page Color Scheme"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:75
+#: framework/admin/options/cmsmasters-theme-options-page.php:76
+#: framework/admin/options/cmsmasters-theme-options-post.php:286
+msgid "Page Layout"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:76
+#: framework/admin/options/cmsmasters-theme-options-page.php:77
+#: framework/admin/options/cmsmasters-theme-options-post.php:287
+msgid ""
+"Choosing layout with a sidebar please make sure to add widgets in the "
+"Appearance - Widgets tab. The empty sidebar won't be displayed."
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:84
+#: framework/admin/options/cmsmasters-theme-options-page.php:85
+#: framework/admin/options/cmsmasters-theme-options-post.php:295
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:443
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:457
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:471
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:485
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:94
+#: learnpress/cmsmasters-framework/theme-style/admin/plugin-settings.php:88
+#: tribe-events/cmsmasters-framework/theme-style/admin/plugin-settings.php:30
+msgid "Right Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:89
+#: framework/admin/options/cmsmasters-theme-options-page.php:90
+#: framework/admin/options/cmsmasters-theme-options-post.php:300
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:444
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:458
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:472
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:486
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:95
+#: learnpress/cmsmasters-framework/theme-style/admin/plugin-settings.php:89
+#: tribe-events/cmsmasters-framework/theme-style/admin/plugin-settings.php:31
+msgid "Left Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:94
+#: framework/admin/options/cmsmasters-theme-options-page.php:95
+#: framework/admin/options/cmsmasters-theme-options-post.php:305
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:445
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:459
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:473
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:487
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:96
+#: learnpress/cmsmasters-framework/theme-style/admin/plugin-settings.php:90
+#: tribe-events/cmsmasters-framework/theme-style/admin/plugin-settings.php:32
+msgid "Full Width"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:100
+#: framework/admin/options/cmsmasters-theme-options-page.php:117
+#: framework/admin/options/cmsmasters-theme-options-post.php:311
+msgid "Choose Right\\Left Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:108
+#: framework/admin/options/cmsmasters-theme-options-page.php:125
+#: framework/admin/options/cmsmasters-theme-options-post.php:319
+#: framework/admin/options/cmsmasters-theme-options-profile.php:189
+#: framework/admin/options/cmsmasters-theme-options-project.php:432
+#: framework/function/general-functions.php:447
+msgid "Bottom Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:116
+#: framework/admin/options/cmsmasters-theme-options-page.php:133
+#: framework/admin/options/cmsmasters-theme-options-post.php:327
+#: framework/admin/options/cmsmasters-theme-options-profile.php:197
+#: framework/admin/options/cmsmasters-theme-options-project.php:440
+msgid "Choose Bottom Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-other.php:124
+#: framework/admin/options/cmsmasters-theme-options-page.php:141
+#: framework/admin/options/cmsmasters-theme-options-post.php:335
+#: framework/admin/options/cmsmasters-theme-options-profile.php:205
+#: framework/admin/options/cmsmasters-theme-options-project.php:448
+msgid "Choose Bottom Sidebar Layout"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-page.php:101
+msgid "Header Overlaps Content"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-page.php:102
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:174
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:308
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:317
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:176
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:345
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:488
+msgid "enable"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-page.php:109
+msgid "Disabled Heading Block"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-page.php:110
+msgid "Use this checkbox to disable heading block"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:43
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:17
+msgid "Post"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:76
+msgid "Don't Show Featured Image in Open Post"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:77
+#: framework/admin/options/cmsmasters-theme-options-project.php:89
+msgid "Don't Show"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:94
+msgid "Post Image"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:115
+msgid "Post Gallery"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:135
+#: framework/admin/options/cmsmasters-theme-options-project.php:128
+msgid "Video Type"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:143
+#: framework/admin/options/cmsmasters-theme-options-project.php:136
+msgid "Embedded (YouTube, Vimeo)"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:147
+#: framework/admin/options/cmsmasters-theme-options-project.php:140
+msgid "Self-Hosted"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:153
+#: framework/admin/options/cmsmasters-theme-options-project.php:146
+msgid "Embedded Video Link"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:161
+#: framework/admin/options/cmsmasters-theme-options-project.php:154
+msgid "Self-Hosted Video Links"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:179
+msgid "Audio Links"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:211
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:103
+msgid "Post Title"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:219
+#: framework/admin/options/cmsmasters-theme-options-profile.php:164
+#: framework/admin/options/cmsmasters-theme-options-project.php:373
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:185
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:326
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:496
+msgid "Sharing Box"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:227
+#: framework/admin/options/cmsmasters-theme-options-project.php:381
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:195
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:353
+msgid "About Author Box"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:235
+#: framework/admin/options/cmsmasters-theme-options-project.php:389
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:204
+msgid "More Posts Box"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:243
+#: framework/admin/options/cmsmasters-theme-options-project.php:397
+msgid "Show Related Tab"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:247
+#: framework/admin/options/cmsmasters-theme-options-project.php:401
+msgid "Show Popular Tab"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:251
+#: framework/admin/options/cmsmasters-theme-options-project.php:405
+msgid "Show Recent Tab"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:255
+#: framework/admin/options/cmsmasters-theme-options-project.php:409
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:212
+msgid "Hide More Posts Box"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:261
+msgid "'Read More' Buttons Text"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:262
+msgid ""
+"Enter the 'Read More' button text that should be used in you blog shortcode"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-post.php:266
+#: tribe-events/cmsmasters-framework/theme-style/templates/day/single-event.php:70
+#: tribe-events/cmsmasters-framework/theme-style/templates/day/single-featured.php:64
+#: tribe-events/cmsmasters-framework/theme-style/templates/list/single-event.php:70
+#: tribe-events/cmsmasters-framework/theme-style/templates/list/single-featured.php:76
+#: tribe-events/cmsmasters-framework/theme-style/templates/pro/map/single-event.php:70
+#: tribe-events/cmsmasters-framework/theme-style/templates/pro/map/single-featured.php:64
+#: tribe-events/cmsmasters-framework/theme-style/templates/pro/widgets/modules/single-event.php:201
+msgid "Read More"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:38
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:24
+msgid "Profile"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:76
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:432
+msgid "Profile Title"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:84
+msgid "Subtitle"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:92
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:441
+msgid "Profile Details Title"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:100
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:19
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:48
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:122
+msgid "Social Icons"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:101
+msgid "Add social icons for this profile"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:108
+msgid "Profile Info"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:116
+msgid "Profile Features 1 Title"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:124
+msgid "Profile Features 1"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:132
+msgid "Profile Features 2 Title"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:140
+msgid "Profile Features 2"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:148
+msgid "Profile Features 3 Title"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-profile.php:156
+msgid "Profile Features 3"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:45
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:20
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:639
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:690
+msgid "Project"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:78
+msgid "Project Images"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:88
+msgid "Don't Show Featured Image in Open Project"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:96
+msgid "Number of Columns"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:104
+msgid "Three"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:108
+msgid "Two"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:112
+msgid "One"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:177
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:244
+msgid "Project Title"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:185
+msgid "Project Puzzle Image Size"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:186
+msgid ""
+"Recommended Project Puzzle Image dimensions, or other size, with the same "
+"ratio:"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:255
+msgid "Project Puzzle Image (1px or No Gap)"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:256
+msgid "Choose image for Masonry Puzzle portfolio projects 1px or no gap"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:266
+msgid "Project Puzzle Image (Large Gap)"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:267
+msgid "Choose image for Masonry Puzzle portfolio projects large gap"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:277
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:253
+msgid "Project Details Title"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:285
+msgid "Project Info"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:293
+msgid "Project Link Text"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:298
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:697
+msgid "View Project"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:301
+msgid "Project Link URL"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:310
+msgid "Redirect to project link URL instead of opening project page"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:317
+msgid "Project Link Target"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:318
+msgid "Open link in a new tab"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:325
+msgid "Project Features 1 Title"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:333
+msgid "Project Features 1"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:341
+msgid "Project Features 2 Title"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:349
+msgid "Project Features 2"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:357
+msgid "Project Features 3 Title"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options-project.php:365
+msgid "Project Features 3"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:115
+#: framework/admin/options/cmsmasters-theme-options.php:871
+msgid "Create Gallery"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:116
+msgid "Please select the format."
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:117
+msgid "Link with this format already exists."
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:118
+msgid "Do you really want to remove this item?"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:121
+#: framework/admin/settings/cmsmasters-theme-settings.php:337
+msgid "Do you really want to remove this social icon?"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:355
+msgid "Default Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:390
+msgid "Select Slider"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:407
+msgid "Select Blog Category"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:425
+msgid "Select Project Category"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:444
+msgid "Select Profile Category"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:477
+#: framework/admin/settings/cmsmasters-theme-settings.php:758
+msgid "Choose Image"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:477
+#: framework/admin/settings/cmsmasters-theme-settings.php:758
+msgid "Insert Image"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:507
+#: framework/admin/options/cmsmasters-theme-options.php:580
+#: framework/admin/settings/cmsmasters-theme-settings.php:975
+#: framework/function/theme-categories-icon.php:28
+#: framework/function/theme-categories-icon.php:56
+msgid "Choose icon"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:508
+msgid "Remove icon"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:521
+msgid "Add info"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:522
+#: framework/admin/options/cmsmasters-theme-options.php:581
+#: framework/admin/settings/cmsmasters-theme-settings.php:976
+#: framework/function/theme-categories-icon.php:29
+#: framework/function/theme-categories-icon.php:57
+msgid "Cancel changes"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:529
+#: framework/admin/options/cmsmasters-theme-options.php:699
+msgid "Link"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:533
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:124
+msgid "Text"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:537
+#: framework/admin/options/cmsmasters-theme-options.php:608
+#: framework/admin/settings/cmsmasters-theme-settings.php:1002
+msgid "Open link in a new tab/window?"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:541
+msgid "Add Contact Info"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:542
+msgid "Save Contact Info"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:587
+#: framework/admin/settings/cmsmasters-theme-settings.php:981
+msgid "Icon Color"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:593
+#: framework/admin/settings/cmsmasters-theme-settings.php:987
+msgid "Icon Hover Color"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:593
+#: framework/admin/settings/cmsmasters-theme-settings.php:987
+msgid "if not selected - Icon Color will be used"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:600
+msgid "Icon link"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:604
+msgid "Icon title"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:612
+#: framework/admin/settings/cmsmasters-theme-settings.php:1006
+msgid "Add Icon"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:613
+#: framework/admin/settings/cmsmasters-theme-settings.php:1007
+msgid "Save Icon"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:698
+#: framework/admin/options/cmsmasters-theme-options.php:767
+#: theme-framework/theme-style/class/theme-widgets.php:156
+#: theme-framework/theme-style/class/theme-widgets.php:377
+#: theme-framework/theme-style/class/theme-widgets.php:567
+#: theme-framework/theme-style/class/theme-widgets.php:928
+#: theme-framework/theme-style/class/theme-widgets.php:1016
+msgid "Title"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:736
+msgid "Blank Field"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:737
+msgid "Select Link"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:739
+msgid "Posts"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:753
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:689
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:691
+msgid "Projects"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:768
+msgid "Values"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:813
+msgid "Select Format"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:871
+msgid "Edit Gallery"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:871
+msgid "Create/Edit Gallery"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:871
+msgid "Insert Gallery"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:912
+msgid "count"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:913
+msgid "to go"
+msgstr ""
+
+#: framework/admin/options/cmsmasters-theme-options.php:1000
+msgid "Theme Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:37
+msgid "Color Scheme Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:63
+msgid "Header Middle Text Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:64
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:73
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:82
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:91
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:100
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:109
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:118
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:127
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:136
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:145
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:154
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:163
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:172
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:181
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:190
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:199
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:208
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:217
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:226
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:235
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:244
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:253
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:262
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:271
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:280
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:289
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:298
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:307
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:316
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:325
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:334
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:343
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:352
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:361
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:370
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:379
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:388
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:397
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:406
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:415
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:424
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:433
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:442
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:451
+msgid "(may apply to some other elements too)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:72
+msgid "Header Middle Links Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:81
+msgid "Header Middle Links Font Color on Hover"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:90
+msgid "Header Middle Background Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:99
+msgid "Header Middle Background Color on Scroll"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:108
+msgid "Header Middle Border Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:117
+msgid "Header Bottom Text Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:126
+msgid "Header Bottom Links Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:135
+msgid "Header Bottom Links Font Color on Hover"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:144
+msgid "Header Bottom Background Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:153
+msgid "Header Bottom Background Color on Scroll"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:162
+msgid "Header Bottom Border Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:171
+msgid "Main Elements Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:180
+msgid "Main Elements Font Color on Hover"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:189
+msgid "Main Elements Font Color for Current Position"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:198
+msgid "Main Elements Subtitle Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:207
+msgid "Main Elements Background Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:216
+msgid "Main Elements Background Color on Hover"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:225
+msgid "Main Elements Background Color for Current Position"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:234
+msgid "Main Elements Border Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:243
+msgid "Dropdown Description Text Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:252
+msgid "Dropdown Background Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:261
+msgid "Dropdown Border Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:270
+msgid "Dropdown Elements Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:279
+msgid "Dropdown Elements Color on Hover"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:288
+msgid "Dropdown Elements Subtitle Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:297
+msgid "Dropdown Elements Highlight Color on Hover"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:306
+msgid "Dropdown Elements Border Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:315
+msgid "Text Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:324
+msgid "Links Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:333
+msgid "Links Font Color on Hover"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:351
+msgid "Border Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:360
+msgid "Top Menu Elements Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:369
+msgid "Top Menu Main Elements Font Color on Hover"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:378
+msgid "Top Menu Main Elements Background Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:387
+msgid "Top Menu Main Elements Background Color on Hover"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:396
+msgid "Top Menu Main Elements Border Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:405
+msgid "Top Menu Dropdown Background Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:414
+msgid "Top Menu Dropdown Border Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:423
+msgid "Top Menu Dropdown Elements Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:432
+msgid "Top Menu Dropdown Elements Color on Hover"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:441
+msgid "Top Menu Dropdown Elements Highlight Color on Hover"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:450
+msgid "Top Menu Dropdown Elements Border Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:459
+msgid "Main Content Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:460
+msgid "Font color for main content"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:468
+msgid "Primary Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:469
+msgid "First color for links and some other elements"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:477
+msgid "Highlight Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:478
+msgid "Color for links rollovers, etc"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:486
+msgid "Headings Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:487
+msgid "Color for headings and some other elements"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:495
+msgid "Main Background Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:496
+msgid "Main background color for some elements"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:504
+msgid "Alternate Background Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:505
+msgid "Alternate background color for some elements"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:513
+msgid "Borders Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-color.php:514
+msgid "Color for borders"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:17
+msgid "Import"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:18
+msgid "Export"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:33
+msgid "Theme Settings Import"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:40
+msgid "Theme Settings Export"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:72
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:85
+#: framework/admin/settings/cmsmasters-theme-settings.php:372
+#: framework/admin/settings/cmsmasters-theme-settings.php:373
+msgid "Theme Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:73
+msgid "Enter your theme settings data here and click 'Import' button"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:73
+msgid ""
+"Please note that when importing theme settings, these settings will be "
+"applied to the appropriate Theme Style (with the same name)."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:73
+msgid "To see these settings applied, please enable appropriate"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:73
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:25
+msgid "Theme Style"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:86
+msgid "Click here to export your theme settings data to the file."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:86
+msgid ""
+"Please note, that when exporting theme settings, you will export settings "
+"for the currently active Theme Style."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:86
+msgid "Theme Style can be set"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:86
+msgid "here"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-demo.php:88
+msgid "Export Theme Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:16
+msgid "Sidebars"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:22
+msgid "Lightbox"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:23
+#: theme-framework/theme-style/template/404.php:39
+msgid "Sitemap"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:24
+#: theme-framework/theme-style/template/404.php:24
+msgid "404"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:25
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:72
+msgid "Custom Codes"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:28
+msgid "reCAPTCHA"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:42
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:111
+msgid "Custom Sidebars"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:54
+msgid "Theme Lightbox Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:60
+msgid "Sitemap Page Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:66
+msgid "404 Error Page Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:78
+msgid "Form Builder Plugin reCAPTCHA Keys"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:133
+msgid "Skin"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:138
+msgid "Dark"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:139
+msgid "Light"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:140
+msgid "Mac"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:141
+msgid "Metro Black"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:142
+msgid "Metro White"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:143
+msgid "Parade"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:144
+msgid "Smooth"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:151
+msgid "Path"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:152
+msgid "Sets path for switching windows"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:156
+msgid "Vertical"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:157
+msgid "Horizontal"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:164
+msgid "Infinite"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:165
+msgid "Sets the ability to infinite the group"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:173
+msgid "Keep Aspect Ratio"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:174
+msgid "Sets the resizing method used to keep aspect ratio within the viewport"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:182
+msgid "Mobile Optimizer"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:183
+msgid ""
+"Make lightboxes optimized for giving better experience with mobile devices"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:191
+msgid "Max Scale"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:192
+msgid "Sets the maximum viewport scale of the content"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:203
+msgid "Min Scale"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:204
+msgid "Sets the minimum viewport scale of the content"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:215
+msgid "Inner Toolbar"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:216
+msgid "Bring buttons into windows, or let them be over the overlay"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:224
+msgid "Smart Recognition"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:225
+msgid "Sets content auto recognize from web pages"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:233
+msgid "Fullscreen One Slide"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:234
+msgid "Decide to fullscreen only one slide or hole gallery the fullscreen mode"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:242
+msgid "Fullscreen Viewport"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:243
+msgid "Sets the resizing method used to fit content within the fullscreen mode"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:248
+msgid "Fit"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:249
+msgid "Fill"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:250
+msgid "Stretch"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:257
+msgid "Toolbar Controls"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:258
+msgid "Sets buttons be available or not"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:266
+msgid "Arrow Controls"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:267
+msgid "Enable the arrow buttons"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:275
+msgid "Fullscreen Controls"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:276
+msgid "Sets the fullscreen button"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:284
+msgid "Thumbnails Controls"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:285
+msgid "Sets the thumbnail navigation"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:293
+msgid "Keyboard Controls"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:294
+msgid "Sets the keyboard navigation"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:302
+msgid "Mouse Wheel Controls"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:303
+msgid "Sets the mousewheel navigation"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:311
+msgid "Swipe Controls"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:312
+msgid "Sets the swipe navigation"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:320
+msgid "Slideshow Controls"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:321
+msgid "Enable the slideshow feature and button"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:331
+#: sitemap.php:66
+msgid "Website Pages"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:332
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:341
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:350
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:359
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:368
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:377
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:406
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:488
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:497
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:212
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:326
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:404
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:519
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:600
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:619
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:690
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:721
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:730
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:104
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:113
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:122
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:131
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:140
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:149
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:158
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:167
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:186
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:196
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:245
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:264
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:273
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:282
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:291
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:300
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:309
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:318
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:327
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:336
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:354
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:433
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:452
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:461
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:470
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:479
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:497
+#: learnpress/cmsmasters-framework/theme-style/admin/plugin-settings.php:98
+#: learnpress/cmsmasters-framework/theme-style/admin/plugin-settings.php:107
+#: theme-framework/theme-style/admin/theme-settings.php:26
+#: theme-framework/theme-style/admin/theme-settings.php:35
+msgid "show"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:340
+#: sitemap.php:79
+msgid "Blog Archives by Categories"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:349
+#: sitemap.php:99
+msgid "Blog Archives by Tags"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:358
+#: sitemap.php:112
+msgid "Blog Archives by Month"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:367
+#: sitemap.php:128
+msgid "Portfolio Archives by Categories"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:376
+#: sitemap.php:144
+msgid "Portfolio Archives by Tags"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:387
+msgid "Text Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:415
+msgid "Choose your custom error page background image."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:487
+msgid "Search Line"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:496
+msgid "Sitemap Button"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:505
+msgid "Sitemap Page URL"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:517
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:527
+msgid "Custom JavaScript"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:537
+msgid "Google Maps API key"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:547
+msgid "Twitter Access Data"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:550
+#, php-format
+msgid "Generate %s and paste access data to fields."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:552
+msgid "twitter access data"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:559
+msgid "Consumer Key"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:560
+msgid "Consumer Secret"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:561
+msgid "Access Token"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:562
+msgid "Access Token Secret"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:571
+msgid "reCAPTCHA Public Key"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-element.php:581
+msgid "reCAPTCHA Private Key"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:16
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:29
+msgid "Content"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:17
+msgid "Links"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:18
+#: functions.php:212
+msgid "Navigation"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:20
+#: tribe-events/cmsmasters-framework/theme-style/templates/pro/modules/meta/additional-fields.php:15
+msgid "Other"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:21
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:373
+msgid "Google Fonts"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:34
+msgid "Content Font Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:40
+msgid "Links Font Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:46
+msgid "Navigation Font Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:52
+msgid "Headings Font Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:58
+msgid "Other Fonts Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:64
+msgid "Serving Google Fonts from CDN"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:97
+msgid "Main Content Font"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:116
+msgid "Links Font"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:135
+msgid "Links Hover Text Decoration"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:147
+msgid "Navigation Title Font"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:165
+msgid "Navigation Dropdown Font"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:185
+msgid "H1 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:204
+msgid "H2 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:223
+msgid "H3 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:242
+msgid "H4 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:261
+msgid "H5 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:280
+msgid "H6 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:301
+msgid "Button Font"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:319
+msgid "Small Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:337
+msgid "Text Fields Font"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:354
+msgid "Blockquote Font"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:382
+msgid "Google Fonts Subset"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:387
+msgid "Latin Extended"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:388
+msgid "Arabic"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:389
+msgid "Cyrillic"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:390
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:391
+msgid "Greek"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:392
+msgid "Greek Extended"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:393
+msgid "Vietnamese"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:394
+msgid "Japanese"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:395
+msgid "Korean"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:396
+msgid "Thai"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:397
+msgid "Bengali"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:398
+msgid "Devanagari"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:399
+msgid "Gujarati"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:400
+msgid "Gurmukhi"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:401
+msgid "Hebrew"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:402
+msgid "Kannada"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:403
+msgid "Khmer"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:404
+msgid "Malayalam"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:405
+msgid "Myanmar"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:406
+msgid "Oriya"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:407
+msgid "Sinhala"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:408
+msgid "Tamil"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-font.php:409
+msgid "Telugu"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:18
+#: framework/admin/settings/cmsmasters-theme-settings.php:389
+msgid "General"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:28
+#: functions.php:211
+msgid "Header"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:30
+#: functions.php:214
+msgid "Footer"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:43
+msgid "General Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:49
+msgid "Background Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:55
+msgid "Theme Design Style"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:61
+msgid "Header Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:67
+msgid "Content Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:73
+msgid "Footer Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:105
+msgid "Theme Layout"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:110
+msgid "Liquid"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:111
+msgid "Boxed"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:118
+msgid "Logo Type"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:123
+msgid "Image"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:131
+msgid "Logo Image"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:132
+msgid "Choose your website logo image."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:142
+msgid "Retina Logo Image"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:143
+msgid ""
+"Choose logo image for retina displays. Logo for Retina displays should be "
+"twice the size of the default one."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:153
+msgid "Logo Title"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:163
+msgid "Logo Subtitle"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:173
+msgid "Custom Text Colors"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:182
+msgid "Logo Title Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:191
+msgid "Logo Subtitle Color"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:221
+msgid "Choose your custom website background image url."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:295
+msgid "Choose Theme Style"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:307
+msgid "Fixed Header"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:316
+msgid "Header Overlaps Content by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:325
+msgid "Top Line"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:334
+msgid "Top Height"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:344
+msgid "Top Short Info"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:345
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:427
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:739
+msgid "HTML tags are allowed!"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:354
+msgid "Top Additional Content"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:360
+msgid ""
+"Top Line Social Icons (will be shown if Cmsmasters Content Composer plugin "
+"is active)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:361
+msgid "Top Line Navigation (will be shown if set in Appearance - Menus tab)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:368
+msgid "Header Styles"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:373
+msgid "Default Style"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:374
+msgid "Compact Style Left Navigation"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:375
+msgid "Compact Style Right Navigation"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:376
+msgid "Compact Style Center Navigation"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:383
+msgid "Header Middle Height"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:393
+msgid "Header Bottom Height"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:403
+msgid "Header Search"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:412
+msgid "Header Additional Content"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:418
+msgid ""
+"Header Social Icons (will be shown if Cmsmasters Content Composer plugin is "
+"active)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:419
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:426
+msgid "Header Custom HTML"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:438
+msgid "Layout Type by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:439
+msgid ""
+"Choosing layout with a sidebar please make sure to add widgets to the "
+"Sidebar in the Appearance - Widgets tab. The empty sidebar won't be "
+"displayed."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:452
+msgid "Archives Layout Type"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:453
+msgid ""
+"Choosing layout with a sidebar please make sure to add widgets to the "
+"Archive Sidebar in the Appearance - Widgets tab. The empty sidebar won't be "
+"displayed."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:466
+msgid "Search Layout Type"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:467
+msgid ""
+"Choosing layout with a sidebar please make sure to add widgets to the Search "
+"Sidebar in the Appearance - Widgets tab. The empty sidebar won't be "
+"displayed."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:480
+msgid "Other Layout Type"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:481
+msgid ""
+"Layout for pages of non-listed types. Choosing layout with a sidebar please "
+"make sure to add widgets to the Sidebar in the Appearance - Widgets tab. The "
+"empty sidebar won't be displayed."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:494
+msgid "Heading Alignment by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:508
+msgid "Heading Color Scheme by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:518
+msgid "Heading Background Image Visibility by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:527
+msgid "Heading Background Image by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:528
+msgid "Choose your custom heading background image by default."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:538
+msgid "Heading Background Repeat by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:553
+msgid "Heading Background Attachment by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:566
+msgid "Heading Background Size by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:580
+msgid "Heading Background Color Overlay by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:589
+msgid "Heading Height by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:599
+msgid "Breadcrumbs Visibility by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:608
+msgid "Bottom Color Scheme"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:618
+msgid "Bottom Sidebar Visibility by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:619
+msgid ""
+"Please make sure to add widgets in the Appearance - Widgets tab. The empty "
+"sidebar won't be displayed."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:627
+msgid "Bottom Sidebar Layout by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:651
+msgid "Footer Color Scheme"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:661
+msgid "Footer Type"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:667
+msgid "Small"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:674
+msgid "Footer Additional Content"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:680
+msgid "Footer Navigation (will be shown if set in Appearance - Menus tab)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:681
+msgid ""
+"Social Icons (will be shown if Cmsmasters Content Composer plugin is active)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:682
+msgid "Custom HTML"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:689
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:698
+msgid "Footer Logo"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:699
+msgid "Choose your website footer logo image."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:709
+msgid "Footer Logo for Retina"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:710
+msgid "Choose your website footer logo image for retina."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:720
+#: theme-framework/theme-style/theme-functions.php:74
+msgid "Footer Navigation"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:729
+msgid ""
+"Footer Social Icons (will be shown if Cmsmasters Content Composer plugin is "
+"active)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:738
+msgid "Footer Custom HTML"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-general.php:748
+msgid "Copyright Text"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:40
+msgid "Blog Post Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:47
+msgid "Portfolio Project Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:54
+msgid "Person Block Profile Options"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:89
+#: learnpress/cmsmasters-framework/theme-style/admin/plugin-settings.php:83
+msgid "Layout Type"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:112
+msgid "Post Date"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:121
+msgid "Post Categories"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:130
+msgid "Post Author"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:139
+msgid "Post Comments"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:148
+msgid "Post Tags"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:157
+msgid "Post Likes"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:166
+msgid "Posts Navigation Box"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:175
+msgid "Posts Navigation Order by Category"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:209
+msgid "Show Related Posts"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:210
+msgid "Show Popular Posts"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:211
+msgid "Show Recent Posts"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:219
+msgid "More Posts Box Items Number"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:220
+msgid "posts"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:230
+msgid "More Posts Slider Pause Time"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:231
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:389
+msgid "in seconds, if '0' - autoslide disabled"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:254
+msgid "Enter a project details block title"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:263
+msgid "Project Date"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:272
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:713
+msgid "Project Categories"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:281
+msgid "Project Author"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:290
+msgid "Project Comments"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:299
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:727
+msgid "Project Tags"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:308
+msgid "Project Likes"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:317
+#: theme-framework/theme-style/function/template-functions-project.php:348
+msgid "Project Link"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:335
+msgid "Projects Navigation Box"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:344
+msgid "Projects Navigation Order by Category"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:362
+msgid "More Projects Box"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:367
+msgid "Show Related Projects"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:368
+msgid "Show Popular Projects"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:369
+msgid "Show Recent Projects"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:370
+msgid "Hide More Projects Box"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:377
+msgid "More Projects Box Items Number"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:378
+msgid "projects"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:388
+msgid "More Projects Slider Pause Time"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:399
+msgid "Project Slug"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:400
+msgid "Enter a page slug that should be used for your projects single item"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:409
+msgid "Project Categories Slug"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:410
+msgid "Enter page slug that should be used on projects categories archive page"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:419
+msgid "Project Tags Slug"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:420
+msgid "Enter page slug that should be used on projects tags archive page"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:442
+msgid "Enter a profile details block title"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:451
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:767
+msgid "Profile Categories"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:460
+msgid "Profile Comments"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:469
+msgid "Profile Likes"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:478
+msgid "Profiles Navigation Box"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:487
+msgid "Profiles Navigation Order by Category"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:505
+msgid "Profile Slug"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:506
+msgid "Enter a page slug that should be used for your profiles single item"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:515
+msgid "Profile Categories Slug"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings-single.php:516
+msgid "Enter page slug that should be used on profiles categories archive page"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:38
+#: framework/admin/settings/cmsmasters-theme-settings.php:388
+msgid "Theme General Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:73
+#: framework/admin/settings/cmsmasters-theme-settings.php:400
+msgid "Theme Fonts Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:108
+#: framework/admin/settings/cmsmasters-theme-settings.php:412
+msgid "Theme Color Schemes"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:120
+#: framework/admin/settings/cmsmasters-theme-settings.php:424
+msgid "Theme Elements Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:159
+#: framework/admin/settings/cmsmasters-theme-settings.php:436
+msgid "Theme Single Posts Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:182
+#: framework/admin/settings/cmsmasters-theme-settings.php:448
+msgid "Theme Settings Import/Export"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:224
+msgid "Default Field"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:225
+msgid "This is a default description."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:334
+msgid "Do you really want to remove this sidebar?"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:335
+msgid "Do you really want to remove this google web font?"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:341
+msgid "All theme settings were imported successfully."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:342
+msgid ""
+"Error on page!!!\n"
+"Please reload page and try again."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:343
+msgid "Theme style settings were reset to default."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:401
+msgid "Fonts"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:413
+msgid "Colors"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:425
+msgid "Elements"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:437
+msgid "Single Posts"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:449
+msgid "Import/Export"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:469
+#, php-format
+msgid ""
+"<p>To add new Google Font proceed to <a href=\"%1$s\" "
+"target=\"_blank\">fonts.google.com</a>, find needed Google Font and click on "
+"the + to select it: <a href=\"%2$s\" target=\"_blank\">screenshot</a>.<br /"
+">Choose the font style in the Customize tab: <a href=\"%3$s\" "
+"target=\"_blank\">screenshot</a>.<br />Copy the highlighted code and the "
+"font family: <a href=\"%4$s\" target=\"_blank\">screenshot</a>, click on the "
+"Add Font button: <a href=\"%5$s\" target=\"_blank\">screenshot</a>, and past "
+"Font Family and Font Style to the appropriate fields: <a href=\"%6$s\" "
+"target=\"_blank\">screenshot</a>.<br />To add a specific subset choose the "
+"needed one from the Google Fonts Subset list.  To select multiple subsets "
+"hold down the Ctrl key and click on the subsets you need to add: <a "
+"href=\"%7$s\" target=\"_blank\">screenshot</a>.<br /><strong>Don't forget to "
+"Save Changes.</strong><br />Then new Google Font will appear in the Google "
+"Fonts list: <a href=\"%8$s\" target=\"_blank\">screenshot</a></p>"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:490
+#: framework/admin/settings/cmsmasters-theme-settings.php:500
+msgid "Save Changes"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:502
+msgid "Import Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:504
+msgid "Apply This Style"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:505
+msgid "Reset Theme Style Settings to Default"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:790
+msgid "System Font"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:805
+msgid "Local Fonts"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:816
+msgid "Google Web Fonts"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:828
+msgid "Google Font"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:836
+msgid "Font Size"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:836
+#: framework/admin/settings/cmsmasters-theme-settings.php:844
+msgid "in pixels"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:844
+msgid "Line Height"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:860
+msgid "Font Weight"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:876
+msgid "Font Style"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:890
+msgid "Text Transform"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:904
+msgid "Text Decoration"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:916
+msgid "Add Sidebar"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:955
+#: framework/admin/settings/cmsmasters-theme-settings.php:965
+msgid "Font Family (for example: Roboto Slab)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:956
+#: framework/admin/settings/cmsmasters-theme-settings.php:965
+msgid "Font Style (for example: Roboto+Slab:100,300,400,700)"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:965
+msgid "Add Font"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:994
+msgid "Icon Link"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:998
+msgid "Icon Title"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:1056
+msgid "Expecting a Numeric value!"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:1062
+#: framework/admin/settings/cmsmasters-theme-settings.php:1383
+msgid "Expecting a Numeric value! Please fix."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:1072
+msgid "Expecting comma separated numeric values"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:1081
+msgid "Expecting comma separated numeric values! Please fix."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:1103
+msgid "Invalid email! Please re-enter!"
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:1105
+msgid "This setting field cannot be empty! Please enter a valid email address."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:1112
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: framework/admin/settings/cmsmasters-theme-settings.php:1377
+msgid "Number!"
+msgstr ""
+
+#: framework/admin/settings/inc/cmsmasters-helper-functions.php:110
+msgid "Custom Fonts"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:393
+#: framework/class/class-tgm-plugin-activation.php:834
+#: framework/class/class-tgm-plugin-activation.php:2544
+#: framework/class/class-tgm-plugin-activation.php:3591
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:394
+#: framework/class/class-tgm-plugin-activation.php:3170
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:395
+#: framework/class/class-tgm-plugin-activation.php:2963
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:529
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:530
+msgid "Update Required"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:941
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:941
+#: framework/class/class-tgm-plugin-activation.php:944
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:944
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:1131
+#: framework/class/class-tgm-plugin-activation.php:2959
+#: tribe-events/cmsmasters-framework/theme-style/templates/pro/widgets/modules/single-event.php:176
+msgid "and"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:1993
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2284
+msgid "Required"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2287
+msgid "Recommended"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2303
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2306
+msgid "External Source"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2309
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2326
+msgid "Not Installed"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2330
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2332
+msgid "Active"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2338
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2341
+msgid "Requires Update"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2344
+msgid "Update recommended"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2353
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2399
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class/class-tgm-plugin-activation.php:2403
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class/class-tgm-plugin-activation.php:2407
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class/class-tgm-plugin-activation.php:2411
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class/class-tgm-plugin-activation.php:2493
+msgid "unknown"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2501
+msgid "Installed version:"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2509
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2521
+msgid "Available version:"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2544
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2558
+msgid "Plugin"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2559
+msgid "Source"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2560
+msgid "Type"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2564
+msgid "Version"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2565
+msgid "Status"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2619
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2625
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2695
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2728
+msgid "Install"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2734
+msgid "Update"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2737
+msgid "Activate"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2768
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2770
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2811
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2813
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2919
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2945
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3169
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3514
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3518
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3521
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3523
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3526
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3528
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3529
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3531
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/function/breadcrumbs.php:19
+msgid "Home"
+msgstr ""
+
+#: framework/function/breadcrumbs.php:97
+msgid "Search results for"
+msgstr ""
+
+#: framework/function/breadcrumbs.php:122
+msgid "Galleries"
+msgstr ""
+
+#: framework/function/breadcrumbs.php:124
+msgid "Images"
+msgstr ""
+
+#: framework/function/breadcrumbs.php:126
+msgid "Videos"
+msgstr ""
+
+#: framework/function/breadcrumbs.php:128
+msgid "Audio"
+msgstr ""
+
+#: framework/function/breadcrumbs.php:135
+msgid "No breadcrumbs"
+msgstr ""
+
+#: framework/function/general-functions.php:90
+msgid "Please add your Google Maps API key"
+msgstr ""
+
+#: framework/function/general-functions.php:91
+#: theme-framework/theme-style/class/theme-widgets.php:996
+msgid "read more how"
+msgstr ""
+
+#: framework/function/general-functions.php:112
+msgid "Close"
+msgstr ""
+
+#: framework/function/general-functions.php:113
+msgid "Enter Fullscreen (Shift+Enter)"
+msgstr ""
+
+#: framework/function/general-functions.php:114
+msgid "Exit Fullscreen (Shift+Enter)"
+msgstr ""
+
+#: framework/function/general-functions.php:115
+msgid "Slideshow"
+msgstr ""
+
+#: framework/function/general-functions.php:116
+msgid "Next"
+msgstr ""
+
+#: framework/function/general-functions.php:117
+msgid "Previous"
+msgstr ""
+
+#: framework/function/general-functions.php:118
+msgid "An error occurred when trying to load photo."
+msgstr ""
+
+#: framework/function/general-functions.php:119
+msgid "An error occurred when trying to load contents."
+msgstr ""
+
+#: framework/function/general-functions.php:120
+msgid ""
+"The content your are attempting to view requires the <a href='{pluginspage}' "
+"target='_blank'>{type} plugin<\\/a>."
+msgstr ""
+
+#: framework/function/general-functions.php:435
+msgid "Sidebar"
+msgstr ""
+
+#: framework/function/general-functions.php:437
+msgid ""
+"Widgets in this area will be shown in all left and right sidebars till you "
+"don't use custom sidebar. To display the sidebar please choose the Right or "
+"Left Layout Type in the Theme Settings - General - Content options."
+msgstr ""
+
+#: framework/function/general-functions.php:449
+msgid ""
+"Widgets in this area will be shown at the bottom of middle block below the "
+"content and middle sidebar, but above footer. To display Bottom Sidebar "
+"please enable it in the Theme Settings - General - Content - Bottom Sidebar "
+"Visibility by Default. You can also display it on concrete page in the Page "
+"Layout options."
+msgstr ""
+
+#: framework/function/general-functions.php:459
+msgid "Archive Sidebar"
+msgstr ""
+
+#: framework/function/general-functions.php:461
+msgid ""
+"Widgets in this area will be shown in all left and right sidebars on "
+"archives pages. To display the sidebar please choose the Right or Left "
+"Layout Type in the Theme Settings - General - Content options."
+msgstr ""
+
+#: framework/function/general-functions.php:471
+msgid "Search Sidebar"
+msgstr ""
+
+#: framework/function/general-functions.php:473
+msgid ""
+"Widgets in this area will be shown in left or right sidebar on search page. "
+"To display the sidebar please choose the Right or Left Layout Type in the "
+"Theme Settings - General - Content options."
+msgstr ""
+
+#: framework/function/general-functions.php:490
+msgid "Custom sidebar created with cmsmasters admin panel."
+msgstr ""
+
+#: framework/function/general-functions.php:1514
+msgid "Default Logo Subtitle"
+msgstr ""
+
+#: framework/function/general-functions.php:1816
+msgid "comment"
+msgstr ""
+
+#: framework/function/general-functions.php:1816
+msgid "comments"
+msgstr ""
+
+#: framework/function/general-functions.php:2021
+#: framework/function/likes.php:27
+msgid "like"
+msgstr ""
+
+#: framework/function/general-functions.php:2021
+#: framework/function/likes.php:27
+msgid "likes"
+msgstr ""
+
+#: framework/function/theme-categories-icon.php:23
+#: framework/function/theme-categories-icon.php:49
+msgid "Category Icon"
+msgstr ""
+
+#: framework/function/theme-colored-categories.php:26
+#: framework/function/theme-colored-categories.php:51
+msgid "Category Color"
+msgstr ""
+
+#: functions.php:43
+msgid "underline"
+msgstr ""
+
+#: functions.php:44
+msgid "overline"
+msgstr ""
+
+#: functions.php:45
+msgid "line-through"
+msgstr ""
+
+#: functions.php:59
+msgid "Custom 1"
+msgstr ""
+
+#: functions.php:60
+msgid "Custom 2"
+msgstr ""
+
+#: functions.php:61
+msgid "Custom 3"
+msgstr ""
+
+#: functions.php:213
+msgid "Header Top"
+msgstr ""
+
+#: image.php:26
+msgid "Edit Media"
+msgstr ""
+
+#: image.php:28
+msgid "Published"
+msgstr ""
+
+#: image.php:28
+msgid "at"
+msgstr ""
+
+#: image.php:28
+msgid "in"
+msgstr ""
+
+#: learnpress/cmsmasters-framework/theme-style/admin/plugin-options.php:41
+#: learnpress/cmsmasters-framework/theme-style/admin/plugin-settings.php:55
+msgid "Course"
+msgstr ""
+
+#: learnpress/cmsmasters-framework/theme-style/admin/plugin-options.php:69
+#: learnpress/cmsmasters-framework/theme-style/admin/plugin-settings.php:97
+msgid "Course Title"
+msgstr ""
+
+#: learnpress/cmsmasters-framework/theme-style/admin/plugin-options.php:78
+#: learnpress/cmsmasters-framework/theme-style/admin/plugin-settings.php:106
+msgid "Course Featured Image"
+msgstr ""
+
+#: learnpress/cmsmasters-framework/theme-style/admin/plugin-settings.php:68
+msgid "LearnPress Course Options"
+msgstr ""
+
+#: learnpress/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:26
+msgid "Courses"
+msgstr ""
+
+#: learnpress/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:27
+msgid "Choose your courses order by parameter"
+msgstr ""
+
+#: learnpress/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:28
+msgid "Show courses associated with certain categories."
+msgstr ""
+
+#: learnpress/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:29
+msgid ""
+"If you don't choose any course categories, all your courses will be shown"
+msgstr ""
+
+#: learnpress/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:30
+msgid "Courses Number"
+msgstr ""
+
+#: learnpress/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:31
+msgid "Enter the number of courses to be shown in shortcode"
+msgstr ""
+
+#: learnpress/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:32
+msgid "number, if empty - show all courses"
+msgstr ""
+
+#: learnpress/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-functions.php:33
+msgid "Choose number of courses per row"
+msgstr ""
+
+#: learnpress/cmsmasters-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-plugin-shortcodes.php:103
+msgid "Free"
+msgstr ""
+
+#: learnpress/cmsmasters-framework/theme-style/cmsmasters-plugin-functions.php:100
+#: learnpress/cmsmasters-framework/theme-style/cmsmasters-plugin-functions.php:103
+#, php-format
+msgid "Default: %s"
+msgstr ""
+
+#: search.php:40
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: sitemap.php:153
+msgid "No tags"
+msgstr ""
+
+#: theme-framework/theme-style/admin/theme-settings.php:25
+msgid "Top Line Social Icons"
+msgstr ""
+
+#: theme-framework/theme-style/admin/theme-settings.php:34
+#: theme-framework/theme-style/theme-functions.php:75
+msgid "Top Line Navigation"
+msgstr ""
+
+#: theme-framework/theme-style/admin/theme-settings.php:64
+msgid "Secondary Color"
+msgstr ""
+
+#: theme-framework/theme-style/admin/theme-settings.php:65
+msgid "Secondary color for some elements"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:20
+msgid "Your contact information"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:27
+#: theme-framework/theme-style/class/theme-widgets.php:33
+msgid "Contact Information"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:161
+#: theme-framework/theme-style/cmsmasters-c-c/shortcodes/cmsmasters-client.php:19
+msgid "Name"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:166
+msgid "Website"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:171
+msgid "Email"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:176
+msgid "Phone"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:181
+msgid "Address"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:186
+msgid "City"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:191
+msgid "State"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:196
+msgid "Zip"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:201
+msgid "Country"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:206
+msgid "Time"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:223
+msgid "Latest projects from your portfolio"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:226
+#: theme-framework/theme-style/class/theme-widgets.php:232
+msgid "Latest Projects"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:382
+#: theme-framework/theme-style/class/theme-widgets.php:572
+msgid "Show Only from Projects Type"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:384
+#: theme-framework/theme-style/class/theme-widgets.php:574
+msgid "Show all projects"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:402
+msgid "Enter the number of latest projects you'd like to display"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:404
+#: theme-framework/theme-style/class/theme-widgets.php:594
+#: theme-framework/theme-style/class/theme-widgets.php:947
+msgid "default is"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:409
+#: theme-framework/theme-style/class/theme-widgets.php:599
+msgid "Autoplay"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:413
+msgid "Show likes"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:417
+msgid "Show comments"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:432
+msgid "Popular projects from your portfolio"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:435
+#: theme-framework/theme-style/class/theme-widgets.php:441
+msgid "Popular Projects"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:592
+msgid "Enter the number of popular projects you'd like to display"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:614
+msgid "Latest, popular posts & recent comments"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:617
+msgid "Posts Tabs"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:685
+#: theme-framework/theme-style/class/theme-widgets.php:703
+msgid "Latest"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:691
+msgid "Popular"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:876
+msgid "on"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:878
+#: theme-framework/theme-style/class/theme-widgets.php:987
+msgid "ago"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:934
+msgid "Latest Posts"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:938
+msgid "Popular Posts"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:942
+msgid "Recent Comments"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:945
+msgid ""
+"Enter the number of recent comments, popular and latest posts you'd like to "
+"display"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:963
+msgid "Your Twitter account recent tweet"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:966
+#: theme-framework/theme-style/class/theme-widgets.php:972
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:446
+msgid "Twitter"
+msgstr ""
+
+#: theme-framework/theme-style/class/theme-widgets.php:996
+msgid "Please add your Twitter API keys"
+msgstr ""
+
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:26
+msgid "Logo Overlay"
+msgstr ""
+
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:27
+msgid "Choose this client logo overlay"
+msgstr ""
+
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:29
+msgid "Best Offer Border Color"
+msgstr ""
+
+#: theme-framework/theme-style/cmsmasters-c-c/cmsmasters-c-c-theme-functions.php:30
+msgid "Choose border color for this pricing table best offer"
+msgstr ""
+
+#: theme-framework/theme-style/function/single-comment.php:23
+msgid "Reply"
+msgstr ""
+
+#: theme-framework/theme-style/function/single-comment.php:37
+msgid "Edit"
+msgstr ""
+
+#: theme-framework/theme-style/function/single-comment.php:46
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: theme-framework/theme-style/function/template-functions-post.php:276
+msgid "Read more..."
+msgstr ""
+
+#: theme-framework/theme-style/function/template-functions-profile.php:95
+#: theme-framework/theme-style/function/template-functions-project.php:97
+msgid "Categories"
+msgstr ""
+
+#: theme-framework/theme-style/function/template-functions-profile.php:128
+#: theme-framework/theme-style/function/template-functions-project.php:130
+msgid "Likes"
+msgstr ""
+
+#: theme-framework/theme-style/function/template-functions-project.php:196
+msgid "Date"
+msgstr ""
+
+#: theme-framework/theme-style/function/template-functions-project.php:224
+#: theme-framework/theme-style/function/template-functions-project.php:235
+#: theme-framework/theme-style/function/template-functions-shortcodes.php:123
+msgid "Projects by"
+msgstr ""
+
+#: theme-framework/theme-style/function/template-functions-project.php:233
+msgid "Author"
+msgstr ""
+
+#: theme-framework/theme-style/function/template-functions-shortcodes.php:214
+#: theme-framework/theme-style/function/template-functions.php:816
+msgid "Read more"
+msgstr ""
+
+#: theme-framework/theme-style/function/template-functions-single.php:117
+msgid "website"
+msgstr ""
+
+#: theme-framework/theme-style/function/template-functions-single.php:246
+msgid "Trackbacks and Pingbacks"
+msgstr ""
+
+#: theme-framework/theme-style/function/template-functions.php:215
+msgid "Enter Keywords"
+msgstr ""
+
+#: theme-framework/theme-style/function/template-functions.php:417
+#, php-format
+msgid "%1$d search result for: %2$s"
+msgid_plural "%1$d search results for: %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: theme-framework/theme-style/function/template-functions.php:419
+#, php-format
+msgid "0 search results for: %s"
+msgstr ""
+
+#: theme-framework/theme-style/function/template-functions.php:424
+#, php-format
+msgid "Author: %1$s (%2$s %3$s)"
+msgstr ""
+
+#: theme-framework/theme-style/function/template-functions.php:426
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: theme-framework/theme-style/post-type/blog/post-single.php:142
+msgid "Like this post?"
+msgstr ""
+
+#: theme-framework/theme-style/post-type/blog/post-single.php:170
+msgid "More posts"
+msgstr ""
+
+#: theme-framework/theme-style/post-type/portfolio/project-single.php:198
+msgid "Like this project?"
+msgstr ""
+
+#: theme-framework/theme-style/post-type/portfolio/project-single.php:228
+msgid "More projects"
+msgstr ""
+
+#: theme-framework/theme-style/post-type/portfolio/project-single.php:229
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:699
+msgid "No projects found"
+msgstr ""
+
+#: theme-framework/theme-style/post-type/profile/profile-single.php:144
+msgid "Socials"
+msgstr ""
+
+#: theme-framework/theme-style/post-type/profile/profile-single.php:154
+msgid "Like this profile?"
+msgstr ""
+
+#: theme-framework/theme-style/template/404.php:25
+msgid "We're sorry, but the page you were looking for doesn't exist."
+msgstr ""
+
+#: theme-framework/theme-style/theme-functions.php:73
+msgid "Primary Navigation"
+msgstr ""
+
+#: theme-framework/theme-style/theme-functions.php:215
+msgid "enter keywords"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:21
+msgid "CMSMasters Content Composer"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:30
+msgid "CMSMasters Custom Fonts"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:39
+msgid "CMSMasters Mega Menu"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:48
+msgid "CMSMasters Donations"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:57
+msgid "CMSMasters Importer"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:66
+msgid "LayerSlider WP"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:75
+msgid "Revolution Slider"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:84
+msgid "Envato Market"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:90
+msgid "GDPR Cookie Consent"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:95
+msgid "The Events Calendar"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:100
+msgid "LearnPress"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:105
+msgid "LearnPress Course Review"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:110
+msgid "LearnPress Courses Wishlist"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:115
+msgid "LearnPress Prerequisite Courses"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:120
+msgid "Contact Form 7"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:125
+msgid "MailPoet 3"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:136
+msgid "Theme Required & Recommended Plugins"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:137
+msgid "Theme Plugins"
+msgstr ""
+
+#: theme-vars/plugin-activator.php:138
+msgid "Return to Theme Required & Recommended Plugins"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:81
+msgid "All Rights Reserved"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:443
+msgid "Facebook"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:444
+msgid "Google+"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:445
+msgid "Instagram"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:447
+msgid "YouTube"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:540
+msgid "Project details"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:561
+msgid "Profile details"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:627
+msgid "Square"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:633
+msgid "Masonry Blog"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:644
+msgid "Masonry Project"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:650
+msgid "Featured"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:655
+msgid "Masonry"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:661
+msgid "Full"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:667
+msgid "Project Full"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:672
+msgid "Masonry Full"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:692
+msgid "All Projects"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:693
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:747
+msgid "Add New"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:694
+msgid "Add New Project"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:695
+msgid "Edit Project"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:696
+msgid "New Project"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:698
+msgid "Search Projects"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:700
+msgid "No projects found in Trash"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:714
+msgid "Project Category"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:728
+msgid "Project Tag"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:743
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:744
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:745
+msgid "Profiles"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:746
+msgid "All Profiles"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:748
+msgid "Add New Profile"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:749
+msgid "Edit Profile"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:750
+msgid "New Profile"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:751
+msgid "View Profile"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:752
+msgid "Search Profiles"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:753
+msgid "No Profiles found"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:754
+msgid "No Profiles found in Trash"
+msgstr ""
+
+#: theme-vars/theme-style/admin/theme-settings-defaults.php:768
+msgid "Profile Category"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/admin/plugin-settings.php:25
+msgid "Events Calendar Layout Type"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/bar.php:21
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/bar.php:36
+#, php-format
+msgid "Find %s"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/bar.php:47
+msgid "Event Views Navigation"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/bar.php:48
+msgid "View as:"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/details.php:26
+msgid "Details"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/details.php:36
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/details.php:67
+msgid "Start:"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/details.php:43
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/details.php:73
+msgid "End:"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/details.php:55
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/details.php:85
+msgid "Date:"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/details.php:91
+msgid "Time:"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/details.php:110
+msgid "Cost:"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/details.php:122
+#, php-format
+msgid "%s Category"
+msgid_plural "%s Categories"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/details.php:131
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/details.php:135
+#, php-format
+msgid "%s Tags:"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/organizer.php:29
+msgid "Organizer Name:"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/modules/meta/venue.php:23
+msgid "Venue Name:"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/pro/related-events.php:12
+#, php-format
+msgid "Related %s"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/pro/single-organizer.php:42
+#: tribe-events/cmsmasters-framework/theme-style/templates/pro/single-venue.php:66
+#, php-format
+msgid "Back to %s"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/pro/widgets/list-widget.php:33
+msgid "View More&hellip;"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/pro/widgets/list-widget.php:41
+#: tribe-events/cmsmasters-framework/theme-style/templates/widgets/list-widget.php:78
+#, php-format
+msgid "There are no upcoming %s at this time."
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/pro/widgets/this-week/loop-grid-day.php:55
+#, php-format
+msgid "View %1$s %2$s"
+msgid_plural "View All %1$s %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/pro/widgets/venue-widget.php:27
+#, php-format
+msgid "No upcoming %s."
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/pro/widgets/venue-widget.php:60
+#, php-format
+msgid "View all %s at this %s"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/single-event.php:49
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: tribe-events/cmsmasters-framework/theme-style/templates/widgets/list-widget.php:72
+#, php-format
+msgid "View All %s"
+msgstr ""

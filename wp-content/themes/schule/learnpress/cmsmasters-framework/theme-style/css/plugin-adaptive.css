@@ -1,0 +1,46 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	schule
+ * @version		1.1.0
+ * 
+ * LearnPress Responsive CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+@media only screen {
+  /*-------------------------------------------------------------------------*/
+  /*	Tablet Monitor 950
+	/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /*	Phone Monitor
+	/*-------------------------------------------------------------------------*/
+}
+@media only screen and (max-width: 950px) {
+  .cmsmasters_learnpress_shortcode.cmsmasters_4 .lpr_course_post,
+  .cmsmasters_learnpress_shortcode.cmsmasters_5 .lpr_course_post {
+    width: 47.4%;
+  }
+  .cmsmasters_learnpress_shortcode.cmsmasters_4 .lpr_course_post:nth-child(2n+1),
+  .cmsmasters_learnpress_shortcode.cmsmasters_5 .lpr_course_post:nth-child(2n+1) {
+    clear: both;
+  }
+  .cmsmasters_learnpress_shortcode.cmsmasters_5 .lpr_course_post {
+    width: 50%;
+  }
+  .cmsmasters_learnpress_shortcode.cmsmasters_5 .lpr_course_post:nth-child(5n+1) {
+    clear: none;
+  }
+  .cmsmasters_learnpress_shortcode.cmsmasters_5 .lpr_course_post:nth-child(2n+1) {
+    clear: both;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .cmsmasters_learnpress_shortcode.cmsmasters_2 .lpr_course_post,
+  .cmsmasters_learnpress_shortcode.cmsmasters_3 .lpr_course_post,
+  .cmsmasters_learnpress_shortcode.cmsmasters_4 .lpr_course_post,
+  .cmsmasters_learnpress_shortcode.cmsmasters_5 .lpr_course_post {
+    width: 97.4%;
+    float: none;
+    clear: left;
+  }
+}

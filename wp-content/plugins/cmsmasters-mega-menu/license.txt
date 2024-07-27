@@ -1,0 +1,24 @@
+CMSMasters Mega Menu License Terms & Conditions
+
+CMSMasters Mega Menu should be used in strict compliance to the terms and conditions listed in this document.
+
+
+1. General Terms
+1.1 CMSMasters Mega Menu (hereafter - Software) is distributed under a proprietary licence with CMSMasters Studio as exclusive legal copyright holder. Any software usage, modification, sharing and redistribution conditions are limited to the stated below and cannot be extended without legally provable consent from CMSMasters authority.
+
+2. Software usage
+2.1. Software can be used exclusively as an add-on to a Wordpress theme, created by CMSMasters Studio and legally purchased by software user. 
+2.2. This software can be used on a single installation only per one theme purchase. 
+2.3. Software can be used only with a theme, that is stated as compatible with it and its specific version. 
+2.4. Software should be treated as appendant to the theme it was purchased with. Wordpress theme (as a main product) can be used without software (appendant product) installed, not vice versa. 
+
+3. Software modification
+3.1. While software is used according to the Software Usage terms of this license, software user may apply modifications to it at his own risk. CMSMasters Studio does not take any responsibility for the altered product malfunction. 
+3.2. Despite any modifications and changes applied to software code by its user, copyright cannot be altered and belongs exclusively to CMSMasters Studio. 
+3.3. Product renaming is prohibited.
+
+4. Software Sharing & Redistribution
+4.1. Any sharing or redistribution of this Software is prohibited.
+
+
+Copyright 2014 CMSMasters Studio

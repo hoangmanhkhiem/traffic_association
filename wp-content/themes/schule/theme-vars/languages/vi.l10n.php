@@ -1,0 +1,3 @@
+<?php
+return ['project-id-version'=>'Schule 1.1.9','report-msgid-bugs-to'=>'','pot-creation-date'=>'2023-12-01 09:00+0200','po-revision-date'=>'2024-07-25 18:32+0000','last-translator'=>'','language-team'=>'Tiếng Việt','language'=>'vi','mime-version'=>'1.0','content-type'=>'text/plain; charset=UTF-8','content-transfer-encoding'=>'8bit','plural-forms'=>'nplurals=1; plural=0;','x-poedit-keywordslist'=>'__;_e;_x;_ex;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;esc_html_e;esc_html_x;translate_nooped_plural;_n:1,2;_n_noop:1,2;_nx:1,2','x-poedit-basepath'=>'.','x-poedit-sourcecharset'=>'UTF-8','x-generator'=>'Loco https://localise.biz/','x-poedit-searchpath-0'=>'.
+','x-loco-version'=>'2.6.11; wp-6.6.1','messages'=>[]];

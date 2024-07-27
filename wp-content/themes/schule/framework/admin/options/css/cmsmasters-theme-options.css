@@ -1,0 +1,763 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Schule
+ * @version 	1.1.0
+ * 
+ * Post, Page, Project & Profile Options Styles
+ * Created by CMSMasters
+ * 
+ */
+
+
+body.wp-admin a, 
+body.wp-admin input, 
+body.wp-admin textarea, 
+body.wp-admin select {outline:none;}
+
+input[type=number] {
+	width: 65px;
+	padding: 2px 0 2px 6px;
+	margin-right: 10px;
+}
+
+input.long_size[type=number] {
+	width: 100px;
+}
+
+input[type=range] {
+	width: 150px;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+input[type=range] + input[type=text] {
+	float: left;
+	margin: -3px 10px 0;
+}
+
+#wp_editbtns_video {
+	display:none;
+    position:absolute;
+    padding:2px;
+    z-index:999998;
+}
+
+.ui-helper-hidden {display:none;}
+
+.ui-helper-hidden-accessible {
+	position:absolute !important;
+	clip:rect(1px 1px 1px 1px);
+	clip:rect(1px,1px,1px,1px);
+}
+
+.ui-helper-reset {
+	border:0;
+	list-style:none;
+	font-size:100%;
+	line-height:1.3;
+	text-decoration:none;
+	margin:0;
+	padding:0;
+	outline:0;
+}
+
+.ui-helper-clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+}
+
+* html .ui-helper-clearfix {height:1%;}
+
+.ui-helper-zfix {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+.ui-state-disabled {cursor:default !important;}
+
+.ui-widget-overlay {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.fl {float:left;}
+
+.fr {float:right;}
+
+.cl {clear:both;}
+
+.ovh {overflow:hidden;}
+
+.nav-tab-content {
+	display:none;
+}
+
+.nav-tab-content.nav-tab-content-active {
+	display:block;
+}
+
+#poststuff h2.nav-tab-wrapper {
+	border-bottom-color:#dddddd;
+	padding-bottom:0;
+	padding-left:10px;
+	margin:20px 0 0;
+}
+
+.nav-tab {
+	border-color:#dddddd;
+	background-color:#f5f5f5;
+	margin-right:7px;
+}
+
+.nav-tab.nav-tab-active {
+	border-color:#dddddd;
+	border-bottom-color:#ffffff;
+	background:none;
+}
+
+.form-table > tbody > tr:first-child {border-top:0;}
+
+.form-table > tbody > tr > th, 
+.form-table > tbody > tr > td {
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.form-table > tbody > tr > th {font-weight:bold;}
+
+.form-table table td {
+	padding:0 20px 0 0;
+}
+
+#cmsmasters_custom_meta_box .cmsmasters_dn {
+	display:none;
+}
+
+#cmsmasters_custom_meta_box .cmsmasters_db {
+	display:block;
+}
+
+#cmsmasters_custom_meta_box .cmsmasters_dib {
+	display:block;
+}
+
+.cmsmasters_tr_radio_img input[type="radio"], 
+.cmsmasters_tr_radio_img_pj input[type="radio"] {margin:-1px 5px 0 0;}
+
+.cmsmasters_tr_images_list .cmsmasters_gallery img {
+	border: 1px solid #dddddd;
+	background-color: #f5f5f5;
+	display: block;
+	padding: 3px;
+	margin-top: 10px;
+	min-width: 50px;
+	min-height: 50px;
+	max-width: 100%;
+	cursor: pointer;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.cmsmasters_tr_images_list .cmsmasters_gallery .cmsmasters_gallery_cancel {
+	background-color: #f5f5f5;
+	color: #555555;
+	display: block;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	bottom: 4px;
+	left: 4px;
+	-webkit-border-radius: 0 3px 0 0;
+	-moz-border-radius: 0 3px 0 0;
+	border-radius: 0 3px 0 0;
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}
+
+.cmsmasters_tr_images_list .cmsmasters_gallery .cmsmasters_gallery_cancel:hover {
+	color: #dd0000;
+}
+
+.cmsmasters_tr_images_list .cmsmasters_gallery {
+	display: block;
+	position: relative;
+}
+
+.cmsmasters_tr_images_list .cmsmasters_gallery li {
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0 7px 7px 0;
+	position: relative;
+}
+
+.cmsmasters_tr_images_list .cmsmasters_gallery li.ui-sortable-placeholder {
+	width: 98px;
+	height: 98px;
+	margin: 1px 8px 8px 1px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.cmsmasters_tr_images_list .cmsmasters_gallery li img {
+	width: 100px;
+	height: 100px;
+	margin: 0;
+	cursor: move;
+}
+
+.pickcolor_example {
+	border:1px solid #dfdfdf;
+	padding:4px 14px;
+	margin:0 7px 0 3px;
+}
+
+.cmsmasters_heading_icons_list {
+	margin:0;
+	position:relative;
+	overflow:hidden;
+}
+
+.cmsmasters_heading_icons_list .cmsmasters_heading_icon {
+	display:inline-block;
+	padding:0 15px 10px 0;
+	margin-bottom:0;
+}
+
+.cmsmasters_heading_icons_list .cmsmasters_heading_icon a {display:block;}
+
+.cmsmasters_heading_icons_list .cmsmasters_heading_icon a img {
+	display:block;
+	padding:6px;
+	max-width:100px;
+	max-height:100px;
+}
+
+.cmsmasters_heading_icons_list .cmsmasters_heading_icon.selected a img {
+	border:1px solid #dddddd;
+	background-color:#f5f5f5;
+	padding:5px;
+}
+
+.post_image_list_parent {
+	display:none;
+	position:relative;
+	overflow:hidden;
+	min-height:20px;
+}
+
+.post_images_nav {
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	display:none;
+	padding:10px 0;
+	position:relative;
+	overflow:hidden;
+	clear:both;
+}
+
+tr.cmsmasters_tr_repeatable .ovh, 
+tr.cmsmasters_tr_repeatable .custom_repeatable, 
+tr.cmsmasters_tr_repeatable_link .ovh, 
+tr.cmsmasters_tr_repeatable_link .custom_repeatable, 
+tr.cmsmasters_tr_repeatable_multiple .ovh, 
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable {
+	border-bottom:1px dotted #cccccc;
+	width:80%;
+	margin-top:0;
+}
+
+tr.cmsmasters_tr_repeatable_link .ovh, 
+tr.cmsmasters_tr_repeatable_multiple .ovh {padding-bottom:5px;}
+
+tr.cmsmasters_tr_repeatable_link .custom_repeatable, 
+tr.cmsmasters_tr_repeatable_media .custom_repeatable, 
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable {margin-top:7px;}
+
+tr.cmsmasters_tr_repeatable_link .ovh .fl, 
+tr.cmsmasters_tr_repeatable_multiple .ovh .fl {padding:0 0 0 5px;}
+
+tr.cmsmasters_tr_repeatable_multiple .ovh .fl {width:40%;}
+
+tr.cmsmasters_tr_repeatable_link .ovh .fl:first-child, 
+tr.cmsmasters_tr_repeatable_multiple .ovh .fl:first-child {padding-left:30px;}
+
+tr.cmsmasters_tr_repeatable .custom_repeatable li, 
+tr.cmsmasters_tr_repeatable_link .custom_repeatable li,
+tr.cmsmasters_tr_repeatable_media .custom_repeatable li, 
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li {
+	position:relative;
+	overflow:hidden;
+}
+
+tr.cmsmasters_tr_repeatable .custom_repeatable li span.hndle, 
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li span.hndle, 
+tr.cmsmasters_tr_repeatable_link .custom_repeatable li span.hndle {
+	color:#707070;
+	font-size:15px;
+	line-height:16px;
+	display:block;
+	width:16px;
+	height:16px;
+	float:left;
+	padding:5px 5px 5px 0;
+	position:relative;
+}
+
+tr.cmsmasters_tr_repeatable .custom_repeatable li input[type="text"], 
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li input[type="text"], 
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li textarea, 
+tr.cmsmasters_tr_repeatable_media .custom_repeatable li input[type="text"], 
+tr.cmsmasters_tr_repeatable_link .custom_repeatable li input[type="text"] {
+	float:left;
+	margin-right:5px;
+}
+
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li input[type="text"], 
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li textarea {width:40%;}
+
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li textarea {resize:vertical;}
+
+tr.cmsmasters_tr_repeatable .custom_repeatable li a.repeatable-remove, 
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li a.repeatable-copy, 
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li a.repeatable-remove, 
+tr.cmsmasters_tr_repeatable_media .custom_repeatable li a.repeatable-remove, 
+tr.cmsmasters_tr_repeatable_link .custom_repeatable li a.repeatable-remove {
+	color:#707070;
+	margin-top:1px;
+	float:left;
+	font-size:14px;
+	line-height:28px;
+}
+
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li a.repeatable-copy {
+	margin-right:5px;
+}
+
+tr.cmsmasters_tr_repeatable .custom_repeatable li a.repeatable-remove:hover, 
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li a.repeatable-remove:hover, 
+tr.cmsmasters_tr_repeatable_media .custom_repeatable li a.repeatable-remove:hover, 
+tr.cmsmasters_tr_repeatable_link .custom_repeatable li a.repeatable-remove:hover {
+	color:#dd0000;
+}
+
+tr.cmsmasters_tr_repeatable_multiple .custom_repeatable li a.repeatable-copy:hover {
+	color:#0074a2;
+}
+
+tr.cmsmasters_tr_repeatable_media .custom_repeatable {
+	border-top:1px dotted #cccccc;
+	width:60%;
+}
+
+tr.cmsmasters_tr_repeatable_media .custom_repeatable {padding-top:7px;}
+
+tr.cmsmasters_tr_repeatable_media .custom_repeatable li input.cmsmasters_link {width:60%;}
+
+tr.cmsmasters_tr_repeatable_link .ovh .fl {width:50%;}
+
+tr.cmsmasters_tr_repeatable_link .ovh .fl:first-child {width:30%;}
+
+tr.cmsmasters_tr_repeatable .custom_repeatable li input[type="text"], 
+tr.cmsmasters_tr_repeatable_link .custom_repeatable li input[type="text"] {width:50%;}
+
+tr.cmsmasters_tr_repeatable_link .custom_repeatable li input[type="text"].cmsmasters_name {width:30%;}
+
+tr.cmsmasters_tr_repeatable a.repeatable-add, 
+tr.cmsmasters_tr_repeatable_multiple a.repeatable-multiple-add, 
+tr.cmsmasters_tr_repeatable_media a.repeatable-media-add, 
+tr.cmsmasters_tr_repeatable_link a.repeatable-link-add {
+	color:#707070;
+	margin-top:1px;
+	font-size:14px;
+	line-height:29px;
+}
+
+tr.cmsmasters_tr_repeatable a.repeatable-add:hover, 
+tr.cmsmasters_tr_repeatable_multiple a.repeatable-multiple-add:hover, 
+tr.cmsmasters_tr_repeatable_media a.repeatable-media-add:hover, 
+tr.cmsmasters_tr_repeatable_link a.repeatable-link-add:hover {
+	color:#00dd00;
+}
+
+.cmsmasters_col_label {
+	display:block;
+	margin:0 0 5px;
+}
+
+.wp-color-result:after {
+	-webkit-border-radius:0 1px 1px 0;
+	-moz-border-radius:0 1px 1px 0;
+	border-radius:0 1px 1px 0;
+}
+
+#poststuff .form-table .icon_management h3 {
+	padding: 0 0 10px;
+	cursor: default;
+}
+
+.form-table .icon_management .icon_del, 
+.form-table .icon_management .icon_move {
+	background-color: #ffffff;
+	color: #707070;
+	display: block;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	bottom: 4px;
+	left: 4px;
+	-webkit-border-radius: 0 3px 0 0;
+	-moz-border-radius: 0 3px 0 0;
+	border-radius: 0 3px 0 0;
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}
+
+.form-table .icon_management .icon_del {
+	bottom: 3px;
+	left: 3px;
+}
+
+.form-table .icon_management .icon_move {
+	font-size: 15px;
+	line-height: 24px;
+	width: 24px;
+	height: 24px;
+	bottom: auto;
+	left: auto;
+	top: 3px;
+	right: 3px;
+	cursor: move;
+	-webkit-border-radius: 0 0 0 3px;
+	-moz-border-radius: 0 0 0 3px;
+	border-radius: 0 0 0 3px;
+}
+
+.form-table .icon_management .icon_move:before {
+	margin-top: 4px;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.form-table .icon_management .icon_del:hover {
+	color: #dd0000;
+}
+
+.form-table td .icon_management p {
+	margin-top:0;
+	position:relative;
+}
+
+.form-table td .icon_management p:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.form-table td .icon_management small {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.form-table td .icon_management small a {
+	display:block;
+	width:20px;
+	height:20px;
+}
+
+.icon_management > ul {
+	border-top: 1px dotted #dddddd;
+	display: block;
+	width: 80%;
+	padding-top: 10px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.icon_management ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.icon_management ul li {
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	display: block;
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding: 3px;
+	margin: 25px 25px 0 0;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.icon_management ul li.ui-sortable-highlight {
+	border: 1px solid #e6db55;
+	background-color: #ffffe0;
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+
+.icon_management ul li div {
+	background-color: #f9f9f9;
+	font-size: 24px;
+	line-height: 92px;
+	text-align: center;
+	height: 92px;
+}
+
+#add_icon, 
+#edit_icon {
+	display: none;
+}
+
+#poststuff .form-table .contact_info_management h3 {
+	padding: 0 0 10px;
+	cursor: default;
+}
+
+.form-table .contact_info_management .icon_del, 
+.form-table .contact_info_management .icon_move {
+	background-color: #ffffff;
+	color: #707070;
+	display: block;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	bottom: 4px;
+	left: 4px;
+	-webkit-border-radius: 0 3px 0 0;
+	-moz-border-radius: 0 3px 0 0;
+	border-radius: 0 3px 0 0;
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}
+
+.form-table .contact_info_management .icon_del {
+	bottom: 0;
+    top: 3px;
+    right: 0;
+    left: auto;
+}
+
+.form-table .contact_info_management .icon_move {
+	font-size: 15px;
+	line-height: 24px;
+	width: 24px;
+	height: 24px;
+	bottom: auto;
+	left: 0;
+	top: 3px;
+	right: auto;
+	cursor: move;
+	-webkit-border-radius: 0 0 0 3px;
+	-moz-border-radius: 0 0 0 3px;
+	border-radius: 0 0 0 3px;
+}
+
+.form-table .contact_info_management .icon_move:before {
+	margin-top: 4px;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.form-table .contact_info_management .icon_del:hover {
+	color: #dd0000;
+}
+
+.form-table td .contact_info_management p {
+	margin-top:0;
+	position:relative;
+}
+
+.form-table td .contact_info_management p:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.form-table td .contact_info_management small {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.form-table td .contact_info_management small a {
+	display:block;
+	width:20px;
+	height:20px;
+}
+
+.contact_info_management > ul {
+	border-top: 1px dotted #dddddd;
+	display: block;
+	width: 100%;
+	padding-top: 10px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.contact_info_management ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.contact_info_management ul li {
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	display: block;
+	width: 50%;
+	height: 30px;
+	float: left;
+	clear:both;
+	padding: 3px;
+	margin: 10px 25px 0 0;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.contact_info_management ul li.ui-sortable-highlight {
+	border: 1px solid #e6db55;
+	background-color: #ffffe0;
+	display: block;
+	width: 50%;
+	height: 30px;
+}
+
+.contact_info_management ul li div {
+	background-color: #f9f9f9;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: left;
+	height: 22px;
+	padding: 0 0 0 30px;
+}
+
+.contact_info_management ul li div:before {
+	margin:0 10px 0 0;
+}
+
+#add_contact_info, 
+#edit_contact_info {
+	display: none;
+}
+
+.icon_upload_link {
+	display: block;
+	padding-bottom: 10px;
+}
+
+.icon_upload_link label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.icon_upload_link label input[type="text"] {
+	margin-right: 10px;
+}
+
+.contact_info_upload_link {
+	display: block;
+	padding-bottom: 10px;
+}
+
+.contact_info_upload_link label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.contact_info_upload_link label input[type="text"] {
+	margin-right: 10px;
+}
+
+.icon_upload_link .wp-picker-input-wrap > label, 
+.cmsmasters_admin_page .wp-picker-input-wrap > label {
+	display:inline-block;
+}
+
+.icon_upload_link .wp-picker-container, 
+.cmsmasters_admin_page .wp-picker-container {
+	width:280px;
+	max-width:100%;
+	overflow:hidden;
+}
+
+.cmsmasters_funds_stat_wrap {
+	background-color: #f1f1f1;
+	width: 100%;
+	height: 10px;
+	margin: 20px 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.cmsmasters_funds_stat {
+	background-color: #0074a2;
+	height: 10px;
+	position: relative;
+}
+
+.cmsmasters_funds_stat span, 
+.cmsmasters_funds_stat strong {
+	position: absolute;
+	right: 0;
+}
+
+.cmsmasters_funds_stat span {
+	top: -20px;
+}
+
+.cmsmasters_funds_stat strong {
+	bottom: -20px;
+}
+

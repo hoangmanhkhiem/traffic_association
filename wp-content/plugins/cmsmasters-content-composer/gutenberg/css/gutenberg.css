@@ -1,0 +1,186 @@
+/**
+ * @package 	WordPress Plugin
+ * @subpackage 	CMSMasters Content Composer
+ * @version		2.2.8
+ * 
+ * Content Composer Gutenberg
+ * Created by CMSMasters
+ * 
+ */
+
+
+body.composer-editor-active .composer-switch-mode-off {
+	display: none;
+}
+
+body.composer-editor-active #composer-switch-mode-button {
+	background-color: #f7f7f7;
+	color: #555555;
+	border-color: #cccccc;
+	-webkit-box-shadow: 0 1px 0 #cccccc !important;
+	box-shadow: 0 1px 0 #cccccc !important;
+	text-shadow: unset;
+}
+
+body.composer-editor-active #composer-switch-mode-button:before {
+	content: none;
+}
+
+body.composer-editor-active #composer-switch-mode-button:hover {
+	background-color: #e9e9e9;
+}
+
+body.composer-editor-active #composer-switch-mode-button:active {
+	-webkit-box-shadow: inset 0 1px 0 #cccccc;
+	box-shadow: inset 0 1px 0 #cccccc;
+	-webkit-transform: translateY(1px);
+	-ms-transform: translateY(1px);
+	transform: translateY(1px);
+}
+
+body.composer-editor-active #composer-editor {
+	display: table;
+}
+
+body.composer-editor-active #postdivrich {
+	display: none !important;
+}
+
+body.composer-editor-active .editor-block-list__layout {
+	display: none;
+}
+
+body.composer-editor-inactive .composer-switch-mode-on {
+	display: none;
+}
+
+body.composer-editor-inactive #composer-editor {
+	display: none;
+}
+
+body.composer-editor-active .edit-post-layout__content .edit-post-visual-editor {
+	-webkit-flex-basis: auto;
+	-ms-flex-preferred-size: auto;
+	flex-basis: auto;
+}
+
+body.composer-editor-active #composer-editor {
+	margin-bottom: 50px;
+}
+
+body.composer-editor-active .edit-post-text-editor__body .editor-post-text-editor {
+	display: none;
+}
+
+body .gutenberg #composer-switch-mode {
+	margin: 0 15px;
+}
+
+#composer-editor {
+	background-color: #f9f9f9;
+	border: 1px solid #e9e9e9;
+	height: 300px;
+	width: 100%;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#composer-editor:hover {
+	background-color: #fefefe;
+}
+
+#composer-go-to-edit-page-link {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+}
+
+#composer-go-to-edit-page-link.composer-animate #composer-editor-button {
+	display: none;
+}
+
+#composer-go-to-edit-page-link:not(.composer-animate) .composer-loader-wrapper {
+	display: none;
+}
+
+#composer-go-to-edit-page-link .composer-loader-wrapper {
+	margin: auto;
+	width: 100px;
+}
+
+#composer-go-to-edit-page-link .composer-loader {
+	text-align: center;
+	height: 100px;
+	position: relative;
+}
+
+#composer-go-to-edit-page-link .composer-loader:before {
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 100px;
+	margin: 0;
+	vertical-align: middle;
+	opacity: 0.3;
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-animation: loading 2s ease-in;
+	animation: loading 2s ease-in;
+}
+
+@-webkit-keyframes loading {
+	0% {
+		opacity: .3;
+		font-size: 30px;
+		line-height: 100px;
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		color: inherit;
+		font-size: 100px;
+		opacity: 1;
+		-webkit-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+}
+
+@keyframes loading {
+	0% {
+		color: #ffffff;
+		font-size: 30px;
+		opacity: .3;
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		color: #777777;
+		font-size: 100px;
+		opacity: 1;
+		-webkit-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+}
+
+#composer-go-to-edit-page-link.composer-animate .composer-loader:before {
+	color: #777777;
+	font-size: 100px;
+	opacity: 1;
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+#composer-go-to-edit-page-link .composer-loading-title {
+	font-size: 13px;
+	color: #777777;
+	text-transform: uppercase;
+	margin-top: 45px;
+}
+

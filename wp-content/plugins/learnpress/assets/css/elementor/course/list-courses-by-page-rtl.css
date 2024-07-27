@@ -1,0 +1,49 @@
+/**
+* Style widget list courses by page
+*/
+.learn-press-pagination {
+  margin: 20px 0;
+  text-align: center;
+}
+.learn-press-pagination .page-numbers {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  list-style: none;
+}
+.learn-press-pagination .page-numbers > li {
+  display: inline-block;
+  margin: 0;
+}
+.learn-press-pagination .page-numbers > li .page-numbers {
+  float: unset;
+  padding: 0 12px;
+  color: #666;
+  text-decoration: none;
+}
+.learn-press-pagination .page-numbers > li .page-numbers.current {
+  color: var(--lp-primary-color);
+  font-weight: 400;
+}
+.learn-press-pagination .page-numbers > li .page-numbers:hover {
+  color: var(--lp-primary-color);
+}
+
+.list-courses-elm-wrapper .learn-press-courses {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.list-courses-elm-wrapper .learn-press-courses.grid {
+  display: grid;
+  grid-template-columns: repeat(var(--lp-el-courses-grid-columns, 3), 1fr);
+  column-gap: var(--lp-el-list-courses-grid-column-gap, 30px);
+  row-gap: var(--lp-el-courses-grid-row-gap, 30px);
+}
+.list-courses-elm-wrapper .learn-press-courses li {
+  list-style: none;
+  overflow: hidden;
+}

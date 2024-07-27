@@ -1,0 +1,151 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Schule
+ * @version 	1.2.0
+ */
+ 
+-----------------------------------------------------------------------
+				CHANGELOG
+-----------------------------------------------------------------------
+Version 1.2.0:
+	
+	1. Fixed an error in the Clients shortcode when an image is not selected
+	2. Updated plugins
+--------------------------------------
+Version 1.1.9:
+	
+	1. Fixed header overlaps by default option
+	2. Fixed twitter
+	3. Fixed pagination in shortcodes
+	4. Updated plugins
+--------------------------------------
+Version 1.1.8:
+
+	1. Updated plugins
+--------------------------------------
+Version 1.1.7:
+
+	1. Fixed tribe event series
+	2. Updated plugins
+--------------------------------------
+Version 1.1.6:
+
+	1. Fix for webp format in jQuery iLightBox
+	2. Fixed custom fonts in gutenberg editor.
+	3. Fixed fatal error on PHP 8
+	4. LearnPress: added the ability to display an excerpt.
+	5. Updated plugins
+	6. Updated translates
+--------------------------------------
+Version 1.1.5:
+
+	1. Fixed pingbacks & trackbacks.
+	2. Fixed twitter connection.
+	3. Update Plugins
+	4. Updated translates
+--------------------------------------
+Version 1.1.4:
+
+	1. Updated plugins
+--------------------------------------
+Version 1.1.3:
+
+	1. Fixed hover slider script
+	2. Fixed behavior section setting for Posts Slider, Pricing Table and Gallery shortcodes.
+	3. Fixed The Events Calendar updated design
+	4. Updated plugins
+--------------------------------------
+Version 1.1.2:
+
+	1. Update Plugins
+	2. Small fixes for The Events Calendar updated design
+--------------------------------------
+Version 1.1.1:
+
+	1. Update Plugins
+	2. Update Translate
+	3. Fixed demo content
+	4. Fixed The Events Calendar updated design
+--------------------------------------
+Version 1.1.0:
+
+	1. LearnPress 4.0.5
+	2. revslider 6.4.11
+	3. LayerSlider 6.11.8
+	4. Fixed jQuery Migrate notices
+	5. Envato theme check fixes
+	6. Fixed iLightbox
+--------------------------------------
+Version 1.0.9:
+
+	1. revslider 6.3.3
+	2. CC update (WP 5.6 section and column update fix)
+--------------------------------------
+Version 1.0.8:
+
+	1. revslider 6.3.2
+	2. Envato theme check fix
+	3. Yoast SEO breadcrumbs fix
+	4. Classic Editor fix
+	5. PHP 7.4 implode fix
+	6. PHP 7.4 donastions plugin fix
+	7. Gutenberg notices and CC button fixes
+	8. CC update
+	9. Update isotope
+	10. WP 5.6 columns fix
+	11. WP 5.6 drag'n'drop fix
+	12. WP 5.6 pop-up fix
+	13. Update LightBox isotope
+	14. WP 5.6 import demo content fix
+--------------------------------------
+Version 1.0.7:
+
+	1. WP 5.5 Color Picker fix
+	2. Removed Form Builder plugin
+	3. revslider 6.2.18
+	4. LayerSlider 6.11.2
+--------------------------------------
+Version 1.0.6:
+
+	1. Updated RevSlider
+	2. Updated LayerSlider
+	3. Updated Dontaions
+	4. Updated Content Composer
+	5. Updated Contact Form Builder
+	6. Fixed bugs
+--------------------------------------
+Version 1.0.5:
+
+	1. Added One Click Demo Import
+	2. Updated Content Composer
+	3. Updated Contact Form Builder
+	4. Added support Gutenberg and WordPress 5.0
+	5. Fixed some bugs
+--------------------------------------
+Version 1.0.4:
+
+	1. Updated revslider
+	2. Updated Content Composer (Gutenberg)
+	3. Update MailPoet to 3 ver.
+--------------------------------------
+Version 1.0.3:
+
+	1. Updated RevSlider
+	2. Updated LayerSlider
+	3. Added functional "Sticky ?olumn" to framework
+	4. Fix some bugs
+--------------------------------------
+Version 1.0.2:
+
+	1. Update LearnPress
+	2. Update RevSlider
+	3. Update LayerSlider
+	4. Update EvantoMarket
+	5. Update Contact Form Builder
+	6. Update Content Compouser
+	7. Fix for cmsmasters_rgba2rgb function
+	8. Add excerpt length attr for vasiliy_post_exc_cont function
+	9. Small style fixes, replace image-rendering for small images
+	10. Fix width and height for logo retina (for validator)
+	11. Fix Events List Widget
+--------------------------------------

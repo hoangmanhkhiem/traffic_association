@@ -1,0 +1,80 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Schule
+ * @version 	1.0.1
+ * 
+ * Stylesheet for Visual Editor in a Right To Left (RTL) direction
+ * Created by CMSMasters
+ * 
+ */
+
+
+body {
+	text-align: right;
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+div {
+	text-align: right;
+}
+
+ol ol, 
+ol ul, 
+ul ol, 
+ul ul {
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+blockquote {
+	padding: 10px 30px 10px 20px;
+}
+
+.fl {
+	float: right;
+}
+
+.fr {
+	float: left;
+}
+
+.one_first, 
+.one_half, 
+.one_third, 
+.two_third, 
+.one_fourth, 
+.three_fourth {
+	float: right;
+	margin-right: 0;
+	margin-left: 4%;
+}
+
+.one_half.last, 
+.one_third.last, 
+.two_third.last, 
+.one_fourth.last, 
+.three_fourth.last {
+	float: left;
+	margin-left: 0;
+}
+
+.one_first {
+	float: none;
+	margin-left: 0;
+}
+
+.one_half + .one_half, 
+.one_third + .two_third, 
+.two_third + .one_third, 
+.one_third + .one_third + .one_third, 
+.one_fourth + .one_fourth + .one_half, 
+.one_fourth + .one_half + .one_fourth, 
+.one_half + .one_fourth + .one_fourth, 
+.one_fourth + .three_fourth, 
+.three_fourth + .one_fourth, 
+.one_fourth + .one_fourth + .one_fourth + .one_fourth {
+	float: left;
+	margin-left: 0;
+}
+

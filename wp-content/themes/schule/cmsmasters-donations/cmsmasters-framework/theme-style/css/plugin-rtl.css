@@ -1,0 +1,327 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Schule
+ * @version 	1.0.0
+ * 
+ * CMSMasters Donations RTL Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+.cmsmasters_donation_notice.cmsmasters_donation_notice_success:before {
+	content: '\ef50'; /* Check this rule! */
+}
+
+.cmsmasters_donation_notice.cmsmasters_donation_notice_info:before {
+	content: '\ef4c'; /* Check this rule! */
+}
+
+.header_top_donation_but {
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+.header_donation_but_wrap {
+	margin-right: 30px;
+	margin-left: 0px;
+	float: left;
+}
+
+.cmsmasters_campaign_donated_inner .cmsmasters_stats .cmsmasters_stat_wrap .cmsmasters_stat .cmsmasters_stat_inner {
+	left:-40px;
+}
+.cmsmasters_stats.stats_mode_bars .cmsmasters_stat_wrap .cmsmasters_stat {
+	overflow: visible;
+}
+
+.cmsmasters_campaign_donated .cmsmasters_stats.stats_mode_bars.stats_type_horizontal .cmsmasters_stat_wrap {
+	padding-left: 40px;
+	padding-right: 0;
+}
+
+.cmsmasters_featured_campaign .campaign .cmsmasters_campaign_wrap_img {
+	float: right;
+}
+
+.cmsmasters_featured_campaign .campaign .cmsmasters_campaign_wrap_img .cmsmasters_theme_icon_image:before {
+	content: '\e829'; /* Check this rule! */
+}
+
+.cmsmasters_featured_campaign .campaign .cmsmasters_campaign_donated_percent {
+	float: left;
+}
+
+.cmsmasters_featured_campaign .campaign .cmsmasters_campaign_cont {
+	padding-left: 60px;
+	padding-right: 70px;
+}
+
+.cmsmasters_campaigns .cmsmasters_owl_slider .owl-buttons {
+	left: 0;
+	right: auto;
+}
+
+.cmsmasters_campaigns .campaign .cmsmasters_campaign_inner {
+	text-align: center;
+}
+
+.cmsmasters_campaigns .campaign .cmsmasters_img_wrap .preloader:before {
+	left: 0;
+	right: 0;
+}
+
+.cmsmasters_campaigns .campaign .cmsmasters_img_wrap .preloader:after {
+	left: auto;
+	right: 0;
+}
+
+.cmsmasters_campaigns .campaign .cmsmasters_campaign_content {
+	text-align: center;
+}
+
+.cmsmasters_campaigns .campaign .cmsmasters_stats.stats_mode_bars.stats_type_horizontal .cmsmasters_stat_wrap .cmsmasters_stat_subtitle {
+	text-align: center;
+}
+
+.cmsmasters_campaigns .campaign .cmsmasters_stats.stats_mode_bars.stats_type_horizontal .cmsmasters_stat_wrap .cmsmasters_stat_title_wrap {
+	text-align: center;
+}
+
+.cmsmasters_campaigns .campaign .cmsmasters_stats.stats_mode_bars.stats_type_horizontal .cmsmasters_stat_wrap .cmsmasters_stat_title_wrap .cmsmasters_stat_title {
+	margin-left: 4px;
+	margin-right: 0;
+}
+
+.opened-article > .campaign .campaign_meta_wrap > div {
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.opened-article > .campaign .campaign_meta_wrap > div * {
+	text-align: center;
+}
+
+.opened-article > .campaign .campaign_meta_wrap > div:first-child {
+	border-right-width: 0;
+	border-right-style: solid;
+}
+
+.opened-article > .campaign .campaign_meta_wrap .cmsmasters_stat_title {
+	margin-left: 0;
+	margin-right: 6px;
+}
+
+.opened-article > .campaign .campaign_meta_wrap .cmsmasters_campaign_donate_button > div {
+	text-align: center;
+}
+
+.opened-article > .campaign .cmsmasters_campaign_cont_info > span {
+	margin-left: 25px;
+	margin-right: 0;
+}
+
+.opened-article > .campaign .cmsmasters_campaign_meta_info > a {
+	margin-right: 10px;
+}
+
+.opened-article > .campaign .cmsmasters_campaign_meta_info > a:first-child {
+	margin-right: 0;
+}
+
+.opened-article > .campaign .cmsmasters_likes:not(:last-of-type),
+.opened-article > .campaign .cmsmasters_comments:not(:last-of-type) {
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+.related_posts_tabs_campaign .one_half .rel_post_content .related_posts_campaign_wrap .cmsmasters_campaign_donated .cmsmasters_stats.stats_mode_bars.stats_type_horizontal .cmsmasters_stat_wrap {
+	padding-left: 35px;
+	padding-right: 0;
+}
+
+.related_posts_tabs_campaign .one_half .rel_post_content .related_posts_campaign_wrap .cmsmasters_campaign_donated .cmsmasters_stats.stats_mode_bars.stats_type_horizontal .cmsmasters_stat_wrap .cmsmasters_stat .cmsmasters_stat_inner .cmsmasters_stat_counter_wrap {
+	right: auto;
+	left: -37px;
+}
+
+.cmsmasters_donations:after {
+	content: '.'; /* Check this rule! */
+}
+
+.cmsmasters_donations .donation .cmsmasters_donation_cont {
+	text-align: center;
+}
+
+.cmsmasters_donations .donation .cmsmasters_donation_footer {
+	text-align: center;
+}
+
+.cmsmasters_donations .donation .cmsmasters_donation_footer span:not(:last-of-type) {
+	margin-left: 6px;
+	margin-right: 0;
+}
+
+.donations.opened-article:after {
+	content: '.'; /* Check this rule! */
+}
+
+.donations.opened-article > .donation:after {
+	content: '.'; /* Check this rule! */
+}
+
+.donations.opened-article > .donation .cmsmasters_donation_info_img {
+	padding-left: 50px;
+	padding-right: 0;
+}
+
+.donations.opened-article > .donation .cmsmasters_donation_details_item_title {
+	padding-left: 15px;
+	padding-right: 0;
+	text-align: right;
+}
+
+.donations.opened-article > .donation .cmsmasters_donation_details_item_value {
+	padding-left: 0;
+	padding-right: 15px;
+	text-align: left;
+}
+
+.cmsmasters_single_slider_campaign .cmsmasters_stat_title {
+	margin-left: 6px;
+	margin-right: 0;
+}
+
+.cmsmasters_single_slider_campaign .cmsmasters_stats.stats_mode_bars.stats_type_horizontal .cmsmasters_stat_wrap .cmsmasters_stat_subtitle {
+	text-align: center;
+}
+
+.cmsmasters_single_slider_campaign .cmsmasters_stat_title_wrap {
+	text-align: center;
+}
+
+.donation_confirm:after {
+	content: '.'; /* Check this rule! */
+}
+
+.donation_confirm .donation_confirm_info_title {
+	padding-left: 10px;
+	padding-right: 25px;
+}
+
+.donation_confirm .donation_confirm_info_value {
+	padding-left: 10px;
+	padding-right: 25px;
+}
+
+.page #submit-donation-form .fields.column2,
+.page #submit-donation-form .fields.column3,
+.page #submit-donation-form .fields.column4 {
+	padding-left: 20px;
+}
+
+.page #submit-donation-form .codepeoplecalculatedfield {
+	padding-right: 15px;
+}
+
+#submit-donation-form input[type="checkbox"] + .field_before,
+#submit-donation-form input[type="radio"] + .field_before {
+	padding-left: 0;
+	padding-right: 25px;
+	float: right;
+}
+
+#submit-donation-form input[type="checkbox"],
+#submit-donation-form input[type="radio"] {
+	float: right;
+	left: auto;
+	right: 0;
+}
+
+#submit-donation-form input[type="checkbox"] + .field_before:before,
+#submit-donation-form input[type="radio"] + .field_before:before {
+	left: auto;
+	right: 1px;
+}
+
+#submit-donation-form input[type="checkbox"] + .field_before:after,
+#submit-donation-form input[type="radio"] + .field_before:after {
+	left: auto;
+	right: 5px;
+}
+
+
+/*-------------------------------------------------------------------------*/
+/*	1.	Large Monitor
+/*-------------------------------------------------------------------------*/
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+	.header_donation_but_wrap .header_donation_but .cmsmasters_button {
+		text-align: center;
+	}
+}
+/*-------------------------------------------------------------------------*/
+/*	2.	Tablet Monitor
+/*-------------------------------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+	#page .donations.opened-article > .donation .cmsmasters_donation_info {
+		text-align: center;
+	}
+
+	.cmsmasters_featured_campaign .campaign {
+		text-align: center;
+	}
+
+	.cmsmasters_featured_campaign .campaign .cmsmasters_campaign_wrap_img,
+	  .cmsmasters_featured_campaign .campaign .cmsmasters_campaign_donated_percent {
+		float: none;
+	}
+
+	.cmsmasters_featured_campaign .campaign .cmsmasters_campaign_wrap_img + .cmsmasters_campaign_donated_percent {
+		margin-left: 0;
+		margin-right: 100px;
+	}
+
+	.cmsmasters_featured_campaign .campaign .cmsmasters_campaign_cont {
+		float: none;
+	}
+
+	.cmsmasters_featured_campaign .campaign .cmsmasters_campaign_cont * {
+		text-align: center;
+	}
+}
+/*-------------------------------------------------------------------------*/
+/*	3.	Small Tablet Monitor
+/*-------------------------------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+	#page .header_donation_but_wrap {
+		float: none;
+	}
+
+	#page .header_donation_but_wrap .header_donation_but_wrap_inner .header_donation_but {
+		text-align: center;
+	}
+
+	#page .cmsmasters_featured_campaign .campaign .cmsmasters_campaign_wrap_img + .cmsmasters_campaign_donated_percent {
+		margin-left: 0;
+		margin-right: 60px;
+	}
+
+	#page .opened-article > .campaign .campaign_meta_wrap > div {
+		border-right-width: 0;
+		border-right-style: solid;
+	}
+}
+
+/*-------------------------------------------------------------------------*/
+/*	4.	Phone Monitor
+/*-------------------------------------------------------------------------*/
+@media only screen and (max-width: 540px) {
+	.donations.opened-article > .donation {
+		.cmsmasters_donation_details_item_title {
+			width:65%;
+		}
+		.cmsmasters_donation_details_item_value {
+			width:35%;
+		}
+	}
+}

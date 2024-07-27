@@ -1,0 +1,14 @@
+<!-- 
+cmsmasters_package: CMSMasters Donations
+cmsmasters_version: 1.0.2
+-->
+<wpml-config>
+    <admin-texts>
+		<key name="cmsmasters_donations_currency_symbol" />
+		<key name="cmsmasters_donations_donator_email_template" />
+		<key name="cmsmasters_donations_currency" />
+		<key name="cmsmasters_donations_offline_payment_text" />
+    </admin-texts>
+</wpml-config>
+
+
